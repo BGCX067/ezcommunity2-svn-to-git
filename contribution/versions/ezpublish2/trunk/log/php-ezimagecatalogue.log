@@ -1,0 +1,1189 @@
+Wed Sep  5 15:29:38 CEST 2001 - Creating module ezimagecatalogue, module category php
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-06  br  <br@zev.ez.no>
+
+    * user/imagelist.php: set the template blocks next and prev default to ""
+
+2001-09-06  jb  <jb@zev.ez.no>
+
+    * classes/ezimagecategory.php
+      xmlrpc/categorylist.php:
+    Improved the search for categories to only include those categories which
+    the user has access to.
+
+    * xmlrpc/categorylist.php
+      xmlrpc/image.php:
+    Added support for sending over the weburl of the item and parent
+    in a search.
+
+2001-09-06  christoffer  <ce@zev.ez.no>
+
+    * admin/unassigned.php
+      classes/ezimage.php: fix
+
+    * user/imageedit.php
+      classes/ezimagecategory.php: Fixed a bug
+
+    * user/imagelist.php
+      user/templates/standard/imagelist.tpl: fixed a list bug
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-07  fh  <fh@zev.ez.no>
+
+    * user/imageedit.php
+      user/templates/standard/imageedit.tpl:
+    Fixed a grave re-upload bug. Don't draw end table when there is no need to.
+    Still got ugly drawing bug (because of nested <tr><td> tags.
+
+    * user/imageedit.php:
+    Fixed an output bug where {selected} would be written out instead of an empty string.
+
+    * user/templates/standard/imageedit.tpl: Fixed layout bug
+
+    * user/imageedit.php
+      user/intl/en_GB/imageedit.php.ini
+      user/templates/standard/imageedit.tpl
+      user/templates/standard/imagelist.tpl: Added author edit..
+
+2001-09-07  Christofer Elo  <ce@ez.no>
+
+    * user/imagelist.php
+      classes/ezimagecategory.php: fixed some permission stuff
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-08  fh  <fh@zev.ez.no>
+
+    * user/imageedit.php: Fixed multiple category bug.
+
+2001-09-08  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php:
+    Fixed &quot; problem in categoryTree() function.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-12  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezimagecategory.php: removed debuginfo from function addImage()
+
+    * classes/ezimagecategory.php: removed debuginfo in imageCount().
+
+2001-09-12  Christofer Elo  <ce@ez.no>
+
+    * admin/unassigned.php
+      classes/ezimage.php: Fixed a referance bug
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-13  Christofer Elo  <ce@ez.no>
+
+    * classes/ezimage.php: Added reference
+
+    * classes/ezimage.php: Fixed one more bug
+
+    * classes/ezimage.php: Fixed a SQL bug
+
+    * classes/ezimage.php: Added a random image function
+
+2001-09-13  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/imageedit.tpl: added template blocks.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-14  Christofer Elo  <ce@ez.no>
+
+    * classes/ezimage.php: Added cache
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-16  fh  <fh@zev.ez.no>
+
+    * user/categoryedit.php: Fixed a empty list bug.
+
+    * user/intl/en_GB/categoryedit.php.ini
+      user/intl/en_GB/imageedit.php.ini
+      user/templates/standard/categoryedit.tpl
+      user/templates/standard/imageedit.tpl
+      user/categoryedit.php
+      user/imageedit.php: Added upload permissions in imagecatalogue...
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/image.php:
+    Added RequestSize in returned XMLRPC struct which is the requests image
+    variation size.
+
+2001-09-17  Christofer Elo  <ce@ez.no>
+
+    * classes/ezimagecategory.php:
+    Added a GROUP BY on getImages() because of duplicated images.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * user/customimage.php
+      user/datasupplier.php:
+    Added customimage, scales an image to the requested size.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/categoryedit.php.ini
+      user/intl/fr_FR/imageedit.php.ini
+      user/intl/fr_FR/imagelist.php.ini
+      user/intl/fr_FR/imageview.php.ini
+      admin/intl/fr_FR/imageview.php.ini: updated fr_FR
+
+2001-09-20  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/image.php:
+    Added support for image category definition in both "data" and "storedata"
+    modes.
+
+    * xmlrpc/datasupplier.php: Added unassigned list to supplier.
+
+    * xmlrpc/unassignedlist.php:
+    New list which displays all unassigned images.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezimagecategory.php: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+2001-09-21  Bjoern Reiten  <br@ez.no>
+
+    * sql/informix/ezimagecatalogue.sql
+      sql/mysql/ezimagecatalogue.sql
+      sql/postgresql/ezimagecatalogue.sql: Added SectionID.
+
+    * user/categoryedit.php: removed debug info
+
+    * user/categoryedit.php
+      user/intl/en_GB/categoryedit.php.ini
+      user/intl/no_NO/categoryedit.php.ini
+      user/templates/standard/categoryedit.tpl: added sections.
+
+    * classes/ezimagecategory.php: Added sections
+
+2001-09-21  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/browse.tpl:
+    Fixed nested <form> bug in the template. Didn't work in IE.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-22  Unknown  <master@open.lv>
+
+    * user/imageview.php
+      user/imagelist.php: Some section implementation but very basical
+
+    * classes/ezimagecategory.php: added sectionIDstatic
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-23  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezimagecategory.php: Changed some formating of code.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-24  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/imagelist.tpl:
+    Fixed export of eZ article articles to latex.
+
+2001-09-24  Jan Borsodi  <jb@ez.no>
+
+    * classes/ezimagecategory.php:
+    Added return value to get() function as this function is supposed to have.
+    Changed die() statement to simply print the error message and return as
+    normal.
+
+    * xmlrpc/datasupplier.php: Bugfixes to data, and storedata commands.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-25  fh  <fh@zev.ez.no>
+
+    * user/categoryedit.php
+      user/imageedit.php
+      user/menubox.php: Filemanager: Removed unused stuff
+    Imagecatalogue: Set correct permissions on stuff uploaded/moved into a upload folder..
+    Imagecatalouge moving into upload is still a bit experimental... wondering if it might be better to allow UPLOAD only into a upload folder and
+    no moving... (this sure what make a few things easier...)
+
+2001-09-25  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php:
+    Bugfix: The delete() function of eZImageCategory is not called directly but by
+    using an object.
+
+    * xmlrpc/category.php: New file for handling image categories.
+
+    * xmlrpc/image.php:
+    Bugfix: When an image is stored for the first time the ID is fetched from
+    the object before being used further. This fixes the problem where the
+    permissions would not be set the first time an image was inserted.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-26  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/image.php:
+    Changes to the update system. The update structure now contains an url
+    list of categories in which this object has changed.
+    All path creation code is gathered in a common createPath() function.
+
+    * classes/ezimagecategory.php: Changed delete code from
+    $this->delete( $category->id() );
+    to
+    $category->delete();
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-27  Bjoern Reiten  <br@ez.no>
+
+    * admin/imagelist.php
+      admin/imageview.php
+      user/imagelist.php
+      user/imageview.php: fixed sections imagelist.php and imagelist.php
+
+    * user/categoryedit.php
+      user/intl/en_GB/categoryedit.php.ini
+      user/templates/standard/categoryedit.tpl:
+    show a non editable Section name on user side.
+
+    * admin/categoryedit.php
+      admin/customimage.php
+      admin/datasupplier.php
+      admin/filedownload.php
+      admin/imageedit.php
+      admin/imagelist.php
+      admin/imageview.php
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/imageedit.php.ini
+      admin/intl/en_GB/imagelist.php.ini
+      admin/templates/standard/categoryedit.tpl
+      admin/templates/standard/imageedit.tpl
+      admin/templates/standard/imagelist.tpl
+      user/categoryedit.php
+      user/datasupplier.php
+      user/templates/standard/categoryedit.tpl:
+    added files for admin (copied from admin) and removed sectionid for user.
+    Section id for categories set by user is sectionid from parent category,
+    and if parent is root, we get the SectionID from site.ini.
+
+    We will not be redirected to files under user anymore in
+    /admin/datasupplier.php
+
+2001-09-27  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php:
+    Bugfix: If no previous parent is present (for instance for new categories)
+    the id 0 is used.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-28  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezimagecatalogue.sql: SQL fix.
+
+2001-09-28  Bjoern Reiten  <br@ez.no>
+
+    * admin/datasupplier.php
+      admin/unassigned.php: fixed bugs.
+    * datasupplier: added break after case: unassigned
+    * unassigned.php: moved $imageCount=0 up to under else in "if( $Offset > 0 )
+
+2001-09-28  Baard Farstad  <bf@ez.no>
+
+    * sql/Attic/ezimagecatalogue.sql: SQL updates.
+
+2001-09-28  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezimagecategory.php
+      classes/ezimage.php
+      admin/categoryedit.php:
+    fixed permission bug at line 119 (function was not called with right
+    parameters.
+
+    Removed absolete permission functions in classes.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * user/intl/en_GB/menucategorylist.php.ini
+      user/menucategorylist.php: Added menu categorylist.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-01  Bjoern Reiten  <br@ez.no>
+
+    * user/categoryedit.php: just added some formating.
+
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/browse.php.ini
+      admin/intl/he_IL/imageview.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/unassigned.php.ini
+      user/intl/he_IL/categoryedit.php.ini
+      user/intl/he_IL/imageedit.php.ini
+      user/intl/he_IL/imagelist.php.ini
+      user/intl/he_IL/imageview.php.ini
+      user/intl/he_IL/menubox.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-04  fh  <fh@zev.ez.no>
+
+    * user/categoryedit.php
+      user/imageedit.php: -upload is upload (no move) in imagecatalogue
+    -fixes and cleanups in filemanager
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-05  Baard Farstad  <bf@ez.no>
+
+    * user/menucategorylist.php: Fixed permission list.
+
+2001-10-05  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/en_US/categoryedit.php.ini
+      admin/intl/en_US/imageedit.php.ini
+      admin/intl/en_US/imagelist.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/fileupload.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/imagelist.php.ini: Added language files.
+
+    * admin/imageview.php: fixed AdminTemplateDir
+
+2001-10-05  Baard Farstad  <bf@ez.no>
+
+    * admin/categoryedit.php: Added correct template dir
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-08  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezimage.php:
+    fixed wrong use of eZFile::file_exists() instead of file_exists(). fixes bug.
+
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezimagecatalogue.sql: Added indeces.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-10  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezimagecategory.php:
+    Added the right permission systems to the slideshow.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/informix/ezimagecatalogue.sql
+      sql/mysql/ezimagecatalogue.sql
+      sql/postgresql/ezimagecatalogue.sql:
+    updated sql scheemes, ready for release
+
+2001-10-11  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php
+      xmlrpc/unassignedlist.php:
+    Implemented custom columns on category and unassigned lists.
+
+2001-10-11  Sascha Frinken  <sascha@impetex.de>
+
+    * user/intl/de_MG/categoryedit.php.ini
+      user/intl/de_MG/imageedit.php.ini
+      user/intl/de_MG/imagelist.php.ini
+      user/intl/de_MG/imageview.php.ini
+      user/intl/de_MG/menubox.php.ini
+      user/templates/mygold/imageview.tpl: sf
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-12  Bjoern Reiten  <br@ez.no>
+
+    * admin/unassigned.php:
+    fixed bug when assigning an image to a category. removed offset to array.
+
+2001-10-12  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezimage.php: Fixed a bug
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-16  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/datasupplier.php
+      xmlrpc/image.php:
+    Added support for querying for some general info on an url.
+    Removed position for categories.
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/browse.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/imageedit.php.ini
+      admin/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/categoryedit.php.ini
+      user/intl/de_DE/imageedit.php.ini
+      user/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/imageview.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/slideshow.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/imageedit.php.ini: updated no_NO
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/imageedit.php.ini
+      admin/intl/en_GB/imagelist.php.ini
+      user/intl/en_GB/categoryedit.php.ini
+      user/intl/en_GB/imageedit.php.ini
+      user/intl/en_GB/imagelist.php.ini
+      user/intl/en_GB/slideshow.php.ini: newline
+
+    * admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/imagelist.php.ini
+      admin/intl/no_NO/imageview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/unassigned.php.ini
+      user/intl/no_NO/categoryedit.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/imagelist.php.ini
+      user/intl/no_NO/imageview.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/slideshow.php.ini: updated no_NO
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-26  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php:
+    Update: Reply sent by catalogue updates is fixed to sent correct info.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-27  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php: Swapped columns Description and filename.
+    Returned filename contains only the basename, not the path.
+
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/imagelist.php.ini
+      user/intl/fi_FI/categoryedit.php.ini
+      user/intl/fi_FI/imageedit.php.ini
+      user/intl/fi_FI/imagelist.php.ini
+      user/intl/fi_FI/imageview.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/slideshow.php.ini
+      admin/intl/fi_FI/browse.php.ini
+      admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/imageedit.php.ini
+      admin/intl/fi_FI/imageview.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/unassigned.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/browse.php.ini
+      admin/intl/es_MX/categoryedit.php.ini
+      admin/intl/es_MX/imageedit.php.ini
+      admin/intl/es_MX/imagelist.php.ini
+      admin/intl/es_MX/imageview.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/unassigned.php.ini
+      user/intl/es_MX/categoryedit.php.ini
+      user/intl/es_MX/imageedit.php.ini
+      user/intl/es_MX/imagelist.php.ini
+      user/intl/es_MX/imageview.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/slideshow.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-02  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/datasupplier.php: Updated with regards to permission checking.
+
+2001-11-02  Bjoern Reiten  <br@ez.no>
+
+    * user/imageedit.php: changed categoryItem in permission check to catItem.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/imageedit.php.ini
+      admin/intl/en_GB/imagelist.php.ini
+      user/intl/en_GB/categoryedit.php.ini
+      user/intl/en_GB/imageedit.php.ini
+      user/intl/en_GB/imagelist.php.ini
+      user/intl/en_GB/slideshow.php.ini: en_GB fixxes
+
+2001-11-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/imageedit.php
+      user/imageedit.php: fixed bug with permissions
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/browse.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/imageedit.php.ini
+      admin/intl/de_DE/imagelist.php.ini
+      admin/intl/de_DE/imageview.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/unassigned.php.ini
+      user/intl/de_DE/categoryedit.php.ini
+      user/intl/de_DE/imageedit.php.ini
+      user/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/imageview.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/slideshow.php.ini: de_DE update for 2.2.1
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini: Added translation.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-09  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/categorylist.php
+      xmlrpc/datasupplier.php: HEAD import.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-11  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php: 2.2.1 import.
+
+    * xmlrpc/category.php:
+    Bugfix: Whenever a category in the root is renamed the update info sends
+    correct information back ie the current category list is no longer empty.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-14  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/standard/unassigned.tpl
+      admin/unassigned.php: Added drawnavigator on unasigned images.
+
+    * admin/templates/standard/unassigned.tpl
+      admin/unassigned.php: Added drawnavigator on unassigned links.
+
+    * classes/ezimagecategory.php:
+    Fixed bug when a user with rootaccess try to list images in a category
+    when there is no permissions in a table.
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini:
+    Added translaion on error message.
+
+    * classes/ezimagecategory.php:
+    Fixed bug when using user has root access and there is images in the category,
+    but none in imagepermissions.
+
+2001-11-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/imageedit.php: fixed bug
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * user/intl/no_NO/menucategorylist.php.ini: fixed translation.
+
+    * user/intl/no_NO/categoryedit.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      admin/intl/en_GB/unassigned.php.ini: fixed translations.
+
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/imageview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/unassigned.php.ini
+      user/intl/no_NO/categoryedit.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/imagelist.php.ini
+      user/intl/no_NO/slideshow.php.ini: Language fixes.
+
+    * admin/intl/no_NO/imagelist.php.ini: Fixed cvs crash.
+
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/imagelist.php.ini
+      admin/intl/en_GB/unassigned.php.ini: fixed translations.
+
+2001-11-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/imagelist.php: fixed code according to coding standard
+
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * admin/imageedit.php
+      admin/templates/standard/imageedit.tpl: Fixed bugs in imageedit.
+
+    * admin/imageedit.php
+      admin/templates/standard/imageedit.tpl: Fixed some bugs in imageedit.
+
+    * user/intl/no_NO/menucategorylist.php.ini: Added file.
+
+    * admin/unassigned.php: removed unused blocks.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/categoryedit.php.ini
+      user/intl/fr_FR/imageedit.php.ini
+      user/intl/fr_FR/imagelist.php.ini
+      user/intl/fr_FR/menucategorylist.php.ini
+      user/intl/fr_FR/slideshow.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/browse.php.ini
+      admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/imageedit.php.ini
+      admin/intl/es_AR/imagelist.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/unassigned.php.ini
+      user/intl/es_AR/categoryedit.php.ini
+      user/intl/es_AR/imageedit.php.ini
+      user/intl/es_AR/imagelist.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/menucategorylist.php.ini
+      user/intl/es_AR/slideshow.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/browse.php.ini
+      admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/imageedit.php.ini
+      admin/intl/se_SE/imagelist.php.ini
+      admin/intl/se_SE/imageview.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/unassigned.php.ini
+      user/intl/se_SE/categoryedit.php.ini
+      user/intl/se_SE/imageedit.php.ini
+      user/intl/se_SE/imagelist.php.ini
+      user/intl/se_SE/imageview.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/slideshow.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/browse.php.ini
+      admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/imageedit.php.ini
+      admin/intl/hr_HR/imagelist.php.ini
+      admin/intl/hr_HR/imageview.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/unassigned.php.ini
+      user/intl/hr_HR/categoryedit.php.ini
+      user/intl/hr_HR/imageedit.php.ini
+      user/intl/hr_HR/imagelist.php.ini
+      user/intl/hr_HR/imageview.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/slideshow.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/imagelist.tpl
+      admin/templates/standard/unassigned.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-12-18  Sascha Frinken  <sascha@impetex.de>
+
+    * user/templates/mygold/imageview.tpl: Commitng the mygold cahnges
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/browse.php.ini
+      admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/imageedit.php.ini
+      admin/intl/pt_PT/imagelist.php.ini
+      admin/intl/pt_PT/imageview.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/unassigned.php.ini
+      user/intl/pt_PT/categoryedit.php.ini
+      user/intl/pt_PT/imageedit.php.ini
+      user/intl/pt_PT/imagelist.php.ini
+      user/intl/pt_PT/imageview.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/menucategorylist.php.ini
+      user/intl/pt_PT/slideshow.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-01-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/categoryedit.php: speed improvement
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-01-16  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php
+      xmlrpc/image.php:
+    Added $wwwDir to returned web urls, this means that images will
+    work with virtualhost-less setups.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-01-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/image.php
+      xmlrpc/categorylist.php:
+    Made sure the returned web urls are rewritten for non virtualhost setups.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-02-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/imagelist.php:
+    removed row when user hasn't read permission to the folder
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-02-20  Baard Farstad  <bf@ez.no>
+
+    * user/imagelist.php:
+    Fixed bug where image edit was shown without the correct permissions
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-02-26  Bjoern Reiten  <br@ez.no>
+
+    * admin/categoryedit.php: fixed bug. $folder should be $category.
+
+    * admin/categoryedit.php: fixed bug. $folder should be $category
+
+    * admin/categoryedit.php:
+    fixed bug with getImagesAndCategories function. (had a wrong name)
+
+    * admin/categoryedit.php:
+    fixed bug with getImagesAndCategories function (had a wrong name)
+
+2002-02-26  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezimage.php: coding standard issues
+
+2002-02-26  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezimage.php: Updates design
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-03-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezimagecategory.php
+      user/categoryedit.php
+      user/imagelist.php
+      user/imageview.php
+      user/slideshow.php: fixed several section problems
+    code standard fixes
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezimage.php: Added design for akersmic
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * classes/ezimage.php: Major commit from the online akersmic version.
+
+2002-04-10  bf  <bf@zev.ez.no>
+
+    * classes/ezimage.php: Added hasMap() function.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/imagelist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/categoryedit.php.ini
+      user/intl/no_NO/imageedit.php.ini: updated no_NO for 2.2.4
+
+2002-04-15  jhe  <jhe@zev.ez.no>
+
+    * user/imagelist.php: removed template variable when empty list
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/imageedit.php.ini: epost -> e-post
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-22  jhe  <jhe@zev.ez.no>
+
+    * user/categoryedit.php
+      user/imageedit.php
+      user/imagelist.php
+      classes/ezimage.php: fixed permission bugs
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-25  jb  <jb@zev.ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/datasupplier.php
+      xmlrpc/image.php:
+    Added support for fetching the permissions on images, articles and their
+    categories using XMLRPC.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-26  jb  <jb@zev.ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/categorylist.php
+      xmlrpc/image.php
+      classes/ezimage.php
+      classes/ezimagecategory.php:
+    Added support for sending over the section information for articles, images,
+    article categories and image categories with XMLRPC.
+    Article listings now only displays categories and articles which you can read
+    and write in XMLRPC.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-04-29  fh  <fh@zev.ez.no>
+
+    * user/datasupplier.php: Permission fix
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-05-02  Bjoern Reiten  <br@ez.no>
+
+    * admin/datasupplier.php
+      admin/imagelist.php: fixed bug with imagelist.
+
+    * user/datasupplier.php
+      user/imagelist.php: fixed bug with image list in eZ imagecatalogue.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-05-08  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php
+      xmlrpc/categorylist.php
+      xmlrpc/image.php
+      xmlrpc/unassignedlist.php: Removed DE debug output.
+
+    * xmlrpc/image.php: Removed some debug output.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-05-12  Bjoern Reiten  <br@ez.no>
+
+    * admin/imageedit.php
+      classes/ezimagecategory.php: Fixed access rights on the imagelist.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-05-17  fh  <fh@zev.ez.no>
+
+    * admin/imageedit.php
+      user/imageedit.php:
+    Fixed "read" permission not set when creating new image bug.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-06-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/datasupplier.php: coding standard fixes
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-07-04  Gunnstein Lye  <gl@ez.no>
+
+    * classes/ezimagecategory.php: fix for imageCount() and linked images
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-08-06  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/image.php:
+    Fix for bug 1523: Permission is not set for images attached to article
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-08-15  Gunnstein Lye  <gl@ez.no>
+
+    * classes/ezimage.php: added missing include
+
+    * classes/ezimage.php
+      classes/ezimagecategory.php:
+    Added eZTextTool::fixhtmlentities(), which fixes errors made by the
+    over-enthusiastic htmlspecialchars(). Used in eZArticle and
+    eZImageCatalogue.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-08-27  Jan Borsodi  <jb@ez.no>
+
+    * classes/ezimagecategory.php:
+    - Made sure that permissions are correctly handled when read AND write is required.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2002-11-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/Attic/searchsupplier.php: New file.
+
+    * user/Attic/searchsupplier.php: added image search in ez search
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2003-03-25  Bjoern Reiten  <br@ez.no>
+
+    * admin/imageedit.php
+      classes/ezimagecategory.php:
+    fixed bugs with upload of images for non-administrators.
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2003-06-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/imagelist.php:
+    fixed bug with permission when non logged in users had write access
+
+
+Module : ezimagecatalogue
+Repository path : /home/cvsroot/projects/php/ezimagecatalogue
+Maintainer(s) : br@ez.no
+2003-06-12  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezimagevariation.php
+      classes/ezimagevariationgroup.php:
+    added optimalisation on eZ imagecatalogue.
+
+2003-06-12  Vidar Langseid  <vl@ez.no>
+
+    * sql/mysql/ezimagecatalogue.sql
+      sql/postgresql/ezimagecatalogue.sql:
+    Merged changes done in sql/publish_mysql.sql and sql/publish_postgresql.sql
+    into sql files for each module
+

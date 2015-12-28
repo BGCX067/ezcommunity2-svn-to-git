@@ -1,0 +1,774 @@
+Wed Sep  5 15:29:47 CEST 2001 - Creating module ezlink, module category php
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-06  kaid  <kaid@zev.ez.no>
+
+    * user/templates/standard/onepagelinklist.tpl: fixed missing nVH tags
+
+2001-09-06  br  <br@zev.ez.no>
+
+    * classes/ezlink.php: removed function getlatestlink
+
+    * user/templates/linmag/linkcategorylist.tpl: Fixed link.
+
+2001-09-06  kaid  <kaid@zev.ez.no>
+
+    * user/templates/standard/onepagelinklist.tpl: fixed missing VH-less tags
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * admin/linkcategorylist.php
+      classes/ezlinkcategory.php: Fixed adding links in more than 2 levels.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/groupedit.php.ini
+      admin/intl/fr_FR/grouplist.php.ini
+      admin/intl/fr_FR/linkedit.php.ini
+      admin/intl/fr_FR/linkgrouplist.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/noright.php.ini
+      admin/intl/fr_FR/search.php.ini
+      admin/intl/fr_FR/unacceptedlist.php.ini
+      user/intl/fr_FR/categorylist.php.ini
+      user/intl/fr_FR/linkgrouplist.php.ini
+      user/intl/fr_FR/linklist.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/success.php.ini
+      user/intl/fr_FR/suggestlink.php.ini: updated fr_FR
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-21  Bjoern Reiten  <br@ez.no>
+
+    * user/menubox.php: Just added translation on comment .. =)
+
+    * sql/Attic/ezlink.sql: removed ezlink.sql
+
+    * sql/informix/ezlink.sql
+      sql/mysql/ezlink.sql
+      sql/postgresql/ezlink.sql: Added SectionID for categories.
+
+    * admin/categoryedit.php
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/templates/standard/categoryedit.tpl: added sections.
+
+    * classes/ezlinkcategory.php: Added sections.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-24  Baard Farstad  <bf@ez.no>
+
+    * admin/categoryedit.php
+      classes/ezlinkcategory.php
+      user/linkcategorylist.php: Fixed setting of section ID.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-27  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/standard/linkcategorylist.tpl
+      user/linkcategorylist.php
+      user/menubox.php: Layout
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/intl/tr_TR/menubox.php:
+    $index and $wwwDir go to $GlobalSiteIni->Index and $GlobalSiteIni->WWWDir. Fixes namespace problems.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/groupedit.php.ini
+      admin/intl/he_IL/grouplist.php.ini
+      admin/intl/he_IL/linkedit.php.ini
+      admin/intl/he_IL/linkgrouplist.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/noright.php.ini
+      admin/intl/he_IL/search.php.ini
+      admin/intl/he_IL/unacceptedlist.php.ini
+      user/intl/he_IL/categorylist.php.ini
+      user/intl/he_IL/linkgrouplist.php.ini
+      user/intl/he_IL/linklist.php.ini
+      user/intl/he_IL/search.php.ini
+      user/intl/he_IL/success.php.ini
+      user/intl/he_IL/suggestlink.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-02  Bjoern Reiten  <br@ez.no>
+
+    * admin/categoryedit.php: fixed session bug.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-05  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/standard/linkcategorylist.tpl
+      admin/linkedit.php: fixed bug when deleting a link.
+    when you are deleting a link, you will will come back to the category
+    where you deleted the link.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-10  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/standard/categoryedit.tpl:
+    removed category_id from form url, since it is not in use.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/informix/ezlink.sql
+      sql/mysql/ezlink.sql
+      sql/postgresql/ezlink.sql: updated sql scheemes, ready for release
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezlink.php: small bug fix
+
+    * classes/ezlink.php
+      user/search.php: added searching based on partial words
+
+2001-10-16  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezlink.php: added update in store.
+
+    * sql/informix/ezlink.sql
+      sql/mysql/ezlink.sql
+      sql/postgresql/ezlink.sql: changed KeyWords in eZLink_Link to text.
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/attributeedit.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/categorylist.php.ini
+      admin/intl/de_DE/linkcategorylist.php.ini
+      admin/intl/de_DE/linkedit.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/noright.php.ini
+      admin/intl/de_DE/search.php.ini
+      admin/intl/de_DE/typeedit.php.ini
+      admin/intl/de_DE/typelist.php.ini
+      admin/intl/de_DE/unacceptedlist.php.ini
+      user/intl/de_DE/categorylist.php.ini
+      user/intl/de_DE/linkcategorylist.php.ini
+      user/intl/de_DE/onepagelinklist.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/success.php.ini
+      user/intl/de_DE/suggestlink.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-17  Bjoern Reiten  <br@ez.no>
+
+    * admin/linkedit.php
+      admin/templates/standard/linkedit.tpl: fixed some bugs in linkedit.php.
+
+    * classes/ezlink.php:
+    removed the code which deleted the image in  function deleteImage().
+
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * sql/postgresql/ezlink.sql
+      sql/mysql/ezlink.sql: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/linkedit.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/unacceptedlist.php.ini
+      user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+    * admin/intl/en_GB/linkcategorylist.php.ini
+      admin/intl/en_GB/linkedit.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/search.php.ini
+      admin/intl/en_GB/typeedit.php.ini
+      admin/intl/en_GB/unacceptedlist.php.ini
+      user/intl/en_GB/linkcategorylist.php.ini
+      user/intl/en_GB/onepagelinklist.php.ini
+      user/intl/en_GB/suggestlink.php.ini: newline
+
+    * admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/categorylist.php.ini
+      admin/intl/no_NO/linkcategorylist.php.ini
+      admin/intl/no_NO/linkedit.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/unacceptedlist.php.ini
+      user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/search.php.ini
+      user/intl/no_NO/suggestlink.php.ini: updated no_NO
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-25  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezmeta.php: fixed wrong use of eZFile::fopen()
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/attributeedit.php.ini
+      admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/categorylist.php.ini
+      admin/intl/fi_FI/linkcategorylist.php.ini
+      admin/intl/fi_FI/linkedit.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/search.php.ini
+      admin/intl/fi_FI/typeedit.php.ini
+      admin/intl/fi_FI/typelist.php.ini
+      admin/intl/fi_FI/unacceptedlist.php.ini
+      user/intl/fi_FI/categorylist.php.ini
+      user/intl/fi_FI/linkcategorylist.php.ini
+      user/intl/fi_FI/linklist.php.ini
+      user/intl/fi_FI/onepagelinklist.php.ini
+      user/intl/fi_FI/search.php.ini
+      user/intl/fi_FI/success.php.ini
+      user/intl/fi_FI/suggestlink.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-29  fh  <fh@zev.ez.no>
+
+    * admin/categoryedit.php
+      admin/templates/standard/categoryedit.tpl
+      classes/ezlinkcategory.php: Fixed editing link categories
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/attributeedit.php.ini
+      admin/intl/es_MX/categoryedit.php.ini
+      admin/intl/es_MX/categorylist.php.ini
+      admin/intl/es_MX/linkcategorylist.php.ini
+      admin/intl/es_MX/linkedit.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/search.php.ini
+      admin/intl/es_MX/typeedit.php.ini
+      admin/intl/es_MX/typelist.php.ini
+      admin/intl/es_MX/unacceptedlist.php.ini
+      user/intl/es_MX/categorylist.php.ini
+      user/intl/es_MX/linkcategorylist.php.ini
+      user/intl/es_MX/linklist.php.ini
+      user/intl/es_MX/onepagelinklist.php.ini
+      user/intl/es_MX/search.php.ini
+      user/intl/es_MX/suggestlink.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-10-31  Bjoern Reiten  <br@ez.no>
+
+    * admin/categoryedit.php:
+    set category_id to "" when adding a new category.
+
+    * admin/categoryedit.php
+      admin/templates/standard/categoryedit.tpl:
+    Fixed bug with edit categories.
+
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezmeta.php
+      user/suggestlink.php: fixed bug with suggesting links
+
+    * classes/ezmeta.php
+      user/suggestlink.php: fixed bug with suggestion of links
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-01  Bjoern Reiten  <br@ez.no>
+
+    * user/suggestlink.php: Removed Norwegian text hardcoded in suggestlink.
+
+    * user/suggestlink.php: Removed some norwegian text in code.
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * user/latest.php: Fixed link list.
+
+    * user/latest.php: Fixed old code.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/linkcategorylist.php.ini
+      admin/intl/en_GB/linkedit.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/search.php.ini
+      admin/intl/en_GB/typeedit.php.ini
+      admin/intl/en_GB/unacceptedlist.php.ini
+      user/intl/en_GB/linkcategorylist.php.ini
+      user/intl/en_GB/onepagelinklist.php.ini
+      user/intl/en_GB/suggestlink.php.ini: en_GB fixxes
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/attributeedit.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/categorylist.php.ini
+      admin/intl/de_DE/linkcategorylist.php.ini
+      admin/intl/de_DE/linkedit.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/search.php.ini
+      admin/intl/de_DE/typeedit.php.ini
+      admin/intl/de_DE/typelist.php.ini
+      admin/intl/de_DE/unacceptedlist.php.ini
+      user/intl/de_DE/categorylist.php.ini
+      user/intl/de_DE/linkcategorylist.php.ini
+      user/intl/de_DE/linklist.php.ini
+      user/intl/de_DE/onepagelinklist.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/suggestlink.php.ini: de_DE update for 2.2.1
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-08  Bjoern Reiten  <br@ez.no>
+
+    * admin/categoryedit.php
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/linkcategorylist.php
+      admin/templates/standard/categoryedit.tpl
+      admin/templates/standard/linkcategorylist.tpl
+      classes/ezlinkcategory.php
+      user/intl/en_GB/linklist.php.ini
+      user/intl/no_NO/linklist.php.ini
+      user/latest.php
+      user/success.php
+      user/templates/standard/latest.tpl:
+    Added suport for aboslute placement for categories and links.
+
+    fixed some absolute code and template error message.
+
+2001-11-08  Christoffer Elo  <ce@ez.no>
+
+    * user/intl/en_GB/categorylist.php.ini
+      user/menubox.php
+      user/templates/standard/menubox.tpl: 		Added links to the menubox
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-11  Bjoern Reiten  <br@ez.no>
+
+    * user/suggestlink.php
+      user/templates/standard/suggestlink.tpl:
+    Fixed bug when enter Chancel in Suggest link.
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      user/suggestlink.php
+      user/templates/standard/suggestlink.tpl:
+    Fixed bug when someone press Chancel in Suggest link.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-13  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/linkcategorylist.tpl: Fixed temlate blocks.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/categorylist.php.ini: fixed translation.
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/unacceptedlist.php.ini
+      admin/intl/en_GB/linkedit.php.ini
+      admin/intl/en_GB/search.php.ini
+      admin/intl/en_GB/unacceptedlist.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/linkedit.php.ini
+      admin/intl/no_NO/search.php.ini: fixed translations.
+
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/linkcategorylist.php.ini
+      admin/intl/no_NO/linkedit.php.ini
+      admin/intl/no_NO/linkgrouplist.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/unacceptedlist.php.ini
+      user/intl/no_NO/linkgrouplist.php.ini
+      user/intl/no_NO/search.php.ini: Language fixes.
+
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/search.php.ini
+      user/intl/no_NO/suggestlink.php.ini: fixed translations.
+
+    * user/intl/no_NO/categorylist.php.ini: Added categories.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/categorylist.php.ini
+      user/intl/fr_FR/linkcategorylist.php.ini
+      user/intl/fr_FR/onepagelinklist.php.ini
+      user/intl/fr_FR/suggestlink.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/norights.php
+      admin/search.php:
+    changed new INIFile("site.ini") to INIFile::globalINI()
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-20  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezlink.php:
+    fixed bug when returning the url, removed htmlspecialchars() which
+    bugged with url's with get variables.
+
+    * classes/ezlink.php:
+    removed htmlspecialcars on url function. this makes a problem when you have
+    a url with get variables.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/attributeedit.php.ini
+      admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/categorylist.php.ini
+      admin/intl/es_AR/linkcategorylist.php.ini
+      admin/intl/es_AR/linkedit.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/search.php.ini
+      admin/intl/es_AR/typeedit.php.ini
+      admin/intl/es_AR/typelist.php.ini
+      admin/intl/es_AR/unacceptedlist.php.ini
+      user/intl/es_AR/categorylist.php.ini
+      user/intl/es_AR/linkcategorylist.php.ini
+      user/intl/es_AR/linklist.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/onepagelinklist.php.ini
+      user/intl/es_AR/search.php.ini
+      user/intl/es_AR/success.php.ini
+      user/intl/es_AR/suggestlink.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/attributeedit.php.ini
+      admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/categorylist.php.ini
+      admin/intl/se_SE/linkcategorylist.php.ini
+      admin/intl/se_SE/linkedit.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/noright.php.ini
+      admin/intl/se_SE/search.php.ini
+      admin/intl/se_SE/typeedit.php.ini
+      admin/intl/se_SE/typelist.php.ini
+      admin/intl/se_SE/unacceptedlist.php.ini
+      user/intl/se_SE/categorylist.php.ini
+      user/intl/se_SE/linkcategorylist.php.ini
+      user/intl/se_SE/linklist.php.ini
+      user/intl/se_SE/onepagelinklist.php.ini
+      user/intl/se_SE/search.php.ini
+      user/intl/se_SE/success.php.ini
+      user/intl/se_SE/suggestlink.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/unacceptedlist.php.ini: lang fixes
+
+    * admin/intl/hr_HR/attributeedit.php.ini
+      admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/categorylist.php.ini
+      admin/intl/hr_HR/linkcategorylist.php.ini
+      admin/intl/hr_HR/linkedit.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/noright.php.ini
+      admin/intl/hr_HR/search.php.ini
+      admin/intl/hr_HR/typeedit.php.ini
+      admin/intl/hr_HR/typelist.php.ini
+      admin/intl/hr_HR/unacceptedlist.php.ini
+      user/intl/hr_HR/categorylist.php.ini
+      user/intl/hr_HR/linkcategorylist.php.ini
+      user/intl/hr_HR/linklist.php.ini
+      user/intl/hr_HR/onepagelinklist.php.ini
+      user/intl/hr_HR/search.php.ini
+      user/intl/hr_HR/success.php.ini
+      user/intl/hr_HR/suggestlink.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-12-07  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/vig/latest.tpl
+      user/templates/vig/linkgrouplist.tpl
+      user/templates/vig/menubox.tpl
+      user/templates/vig/searchlist.tpl
+      user/templates/vig/success.tpl
+      user/templates/vig/suggestlink.tpl: removed template files.
+
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/linkcategorylist.tpl
+      admin/templates/standard/linkpage.tpl
+      admin/templates/standard/searchlist.tpl
+      admin/templates/standard/typelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-12-13  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/search.php: fixed search
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/attributeedit.php.ini
+      admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/categorylist.php.ini
+      admin/intl/pt_PT/linkcategorylist.php.ini
+      admin/intl/pt_PT/linkedit.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/typeedit.php.ini
+      admin/intl/pt_PT/typelist.php.ini
+      admin/intl/pt_PT/unacceptedlist.php.ini
+      user/intl/pt_PT/categorylist.php.ini
+      user/intl/pt_PT/linkcategorylist.php.ini
+      user/intl/pt_PT/linklist.php.ini
+      user/intl/pt_PT/onepagelinklist.php.ini
+      user/intl/pt_PT/suggestlink.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-01-02  Bjoern Reiten  <br@ez.no>
+
+    * admin/linkedit.php
+      classes/ezlinkcategory.php:
+    fixed template bugs, and is_numeric type fix.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-01-04  Kai Duebbert  <kai@duebbert.de>
+
+    * user/menubox.php: small fixes
+
+    * user/search.php: tiny fixes
+
+    * user/datasupplier.php: test variables
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-01-11  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezlinkcategory.php: small fix
+
+    * classes/ezlinkcategory.php: small fixes
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-02-12  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezlink.php
+      classes/ezlinkcategory.php: fixed bad sql query.
+
+    * admin/intl/no_NO/categorylist.php.ini
+      admin/linkedit.php: fixed language and attributes in linkedit.
+
+    * admin/linkedit.php:
+    fixed bug when update the page with attribute values.
+
+    * sql/informix/ezlink.sql
+      sql/mysql/ezlink.sql
+      sql/postgresql/ezlink.sql:
+    set the url to be text instead of 100 characters long.
+
+    * sql/informix/ezlink.sql
+      sql/mysql/ezlink.sql
+      sql/postgresql/ezlink.sql:
+    updated url to be text. (can now have more than 100 characters)
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini
+      admin/intl/no_NO/unacceptedlist.php.ini
+      user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/linkcategorylist.php.ini
+      user/intl/no_NO/linklist.php.ini
+      user/intl/no_NO/onepagelinklist.php.ini
+      user/intl/no_NO/search.php.ini
+      user/intl/no_NO/success.php.ini
+      user/intl/no_NO/suggestlink.php.ini
+      admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/categorylist.php.ini
+      admin/intl/no_NO/linkcategorylist.php.ini
+      admin/intl/no_NO/linkedit.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-05-08  Vidar Langseid  <vl@ez.no>
+
+    * admin/unacceptedlist.php
+      user/suggestlink.php: Fixed cross site bug
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2002-07-03  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezlink.php: Added escapeString to some variables
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2003-02-26  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezlink.php: fixed bug: id() was declared twice.
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2003-06-05  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezhit.php: added optimalitation for the eZHit class in eZ link
+
+
+Module : ezlink
+Repository path : /home/cvsroot/projects/php/ezlink
+Maintainer(s) : br@ez.no
+2003-07-10  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezhit.php: fixed bug when you want to get the hit.
+

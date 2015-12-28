@@ -1,0 +1,260 @@
+Wed Sep  5 15:28:45 CEST 2001 - Creating module ezquiz, module category php
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezquiz.sql
+      sql/postgresql/ezquiz.sql: updated sql scheemes, ready for release
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-15  fh  <fh@zev.ez.no>
+
+    * user/quizplay.php: Fix language bug.
+
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * sql/postgresql/ezquiz.sql: Fixed postgres bugs.
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/gameedit.php.ini
+      admin/intl/de_DE/gamelist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/questionedit.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/quiz.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/no_NO/quiz.php.ini
+      admin/intl/no_NO/gameedit.php.ini
+      admin/intl/no_NO/gamelist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/questionedit.php.ini
+      user/intl/no_NO/menubox.php.ini: updated no_NO
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/gameedit.php.ini
+      admin/intl/fi_FI/gamelist.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/questionedit.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/quiz.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/gameedit.php.ini
+      admin/intl/es_MX/gamelist.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/questionedit.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/quiz.php.ini: updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/quizlist.php:
+    fixed bug with $Language variable used before declared
+
+    * user/quizlist.php: fixed small bug
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/gameedit.php.ini
+      admin/intl/de_DE/gamelist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/questionedit.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/quiz.php.ini: de_DE update for 2.2.1
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/gameedit.tpl: added www_dir in link
+
+    * admin/templates/standard/gameedit.tpl: fixed www_dir in link
+
+    * admin/intl/en_GB/gamelist.php.ini: added next and previous strings
+
+    * admin/intl/en_GB/gamelist.php.ini: added next and previous
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-15  Bjoern Reiten  <br@ez.no>
+
+    * user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/quiz.php.ini: Added translation.
+
+    * admin/intl/no_NO/gameedit.php.ini
+      admin/intl/no_NO/gamelist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/questionedit.php.ini: added translation.
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/quiz.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/gameedit.php.ini
+      admin/intl/es_AR/gamelist.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/questionedit.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/quiz.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/gameedit.php.ini
+      admin/intl/se_SE/gamelist.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/questionedit.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/quiz.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/gamelist.php.ini: es_MX update for 2.2.2
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/questionedit.php.ini: lang fixes
+
+    * admin/intl/hr_HR/gameedit.php.ini
+      admin/intl/hr_HR/gamelist.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/questionedit.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/quiz.php.ini: Croatian (hr_HR) for 2.2.2
+
+2001-12-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/menubox.php: fixed errors in coding standard
+
+    * admin/gameedit.php
+      admin/questionedit.php
+      classes/ezquizalternative.php
+      classes/ezquizanswer.php
+      classes/ezquizgame.php
+      classes/ezquizquestion.php
+      classes/ezquizscore.php
+      classes/ezquiztool.php
+      sql/postgresql/ezquiz.sql
+      user/datasupplier.php
+      user/quizplay.php: fixed several bugs, db independency
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/gameedit.tpl
+      admin/templates/standard/gamelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2002-02-12  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/gameedit.php
+      classes/ezquizgame.php:
+    Fixed the date troubles in the store function and the page.
+
+    * classes/ezquizgame.php:
+    Fixed the fill function. The date info was set with the wrong function.
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2002-03-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/gameedit.php
+      classes/ezquizgame.php
+      user/datasupplier.php
+      user/intl/no_NO/quiz.php.ini
+      user/quizmyscores.php
+      user/quizplay.php
+      user/templates/standard/question.tpl: fixed problems with no_NO
+    fixed coding standard errors
+    speed updates
+
+    * sql/mysql/ezquiz.sql: fixed eZQuiz_Game (changed date to int)
+
+
+Module : ezquiz
+Repository path : /home/cvsroot/projects/php/ezquiz
+Maintainer(s) : pkej@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/gamelist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/questionedit.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/quiz.php.ini
+      admin/intl/no_NO/gameedit.php.ini: updated no_NO for 2.2.4
+

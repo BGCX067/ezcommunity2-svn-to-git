@@ -1,0 +1,1423 @@
+Wed Sep  5 15:28:49 CEST 2001 - Creating module ezform, module category php
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-09-06  th  <th@zev.ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      user/templates/standard/formview.tpl: Layout
+
+2001-09-06  br  <br@zev.ez.no>
+
+    * user/intl/no_NO/errors.php.ini
+      user/intl/no_NO/form.php.ini: Added translation.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * admin/intl/no_NO/form.php.ini
+      admin/templates/standard/formrenderer.tpl: Layout
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-09-24  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * classes/ezformrenderer.php:
+    This fixes the problem of missing the element names in front of the form
+    elements.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-01  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * classes/ezformrenderer.php:
+    Added cc of the form to the writer of the form.
+
+    * classes/ezformrenderer.php:
+    Added the URL of the page with the form to the e-mail. Thus, if the same
+    form is used several places the urls will help decide where the form was
+    sent from.
+
+    * classes/ezform.php
+      classes/ezformrenderer.php:
+    A bug in the sendForm() function where the form element names were printed
+    at the top of the e-mail and not in front of the data of each element.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-04  Thomas Hellstroem  <th@ez.no>
+
+    * admin/intl/en_GB/form.php.ini
+      user/intl/en_GB/form.php.ini: Added design
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * classes/ezformrenderer.php: Fixed setvar bug.
+
+2001-10-09  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/no_NO/fixedvalues.php.ini
+      admin/intl/no_NO/form.php.ini: Added norwegian language
+
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * classes/ezformrenderer.php: Removed debug.
+
+2001-10-09  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: Fixed a bug
+
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: FIxed template crash.
+
+2001-10-09  Christoffer Elo  <ce@ez.no>
+
+    * admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/templates/standard/formedit.tpl
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: addded radiobox and checkbox
+
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * classes/ezformrenderer.php: Fixed mail sending with single items.
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: Fixed rendering multiple selects in mail.
+
+    * admin/formedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php:
+    Added multiple select and dropdown rendering.
+
+2001-10-09  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/formedit.tpl: Fixed a html bug
+
+    * admin/formedit.php: Added fixedvalues to dropdown item
+
+    * admin/fixedvalues.php
+      classes/Attic/ezformelementfixedvalues.php
+      classes/ezformelement.php
+      classes/ezformelementfixedvalue.php: fixed a name bug
+
+    * sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql: Fixed SQL schemas
+
+    * admin/datasupplier.php
+      admin/fixedvalues.php
+      admin/formedit.php
+      admin/intl/en_GB/fixedvalues.php.ini
+      admin/intl/en_GB/form.php.ini
+      admin/templates/standard/fixedvalues.tpl
+      admin/templates/standard/formedit.tpl
+      classes/Attic/ezformelementfixedvalues.php
+      classes/ezformelement.php
+      classes/ezformelementtype.php: Added fixed values in form
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-10  Baard Farstad  <bf@ez.no>
+
+    * classes/ezformrenderer.php: Fixed error checking.
+
+2001-10-10  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezform.sql: added sql insertsc
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/Attic/ezform.sql
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql: updated sql scheemes, ready for release
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql: added sql fields
+
+    * classes/ezformelement.php
+      classes/ezformrenderer.php
+      admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/templates/standard/formedit.tpl
+      admin/templates/standard/formrenderer.tpl:
+    Added size and breaking in ez form
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-17  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      user/templates/standard/formview.tpl: Layout
+
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: Fixed rendering of forms in a table.
+
+2001-10-17  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: Layout
+
+2001-10-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/formedit.php:
+    fixed problems with error reporting when creating new forms
+
+    * admin/datasupplier.php
+      admin/formedit.php:
+    fixed bug with error message printed on a new form + fixed several errors in coding stadard
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/form.php.ini
+      user/intl/no_NO/form.php.ini: updated no_NO
+
+    * admin/intl/en_GB/fixedvalues.php.ini
+      admin/intl/en_GB/form.php.ini: newline
+
+2001-10-19  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: FIxed template.
+
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/fixedvalues.php.ini
+      admin/intl/no_NO/form.php.ini
+      user/intl/no_NO/form.php.ini: updated no_NO
+
+2001-10-19  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: Added bg color cwitching.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-24  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/templates/standard/formlist.tpl:
+    Doesn't need an OK button in form list.
+
+    * admin/templates/standard/formlist.tpl:
+    Formlist doesn't need an OK button.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/fixedvalues.php.ini
+      admin/intl/fi_FI/form.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/errors.php.ini
+      user/intl/fi_FI/form.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-30  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * admin/intl/en_GB/menubox.php.ini: fixed module name - to the convinient
+
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/fixedvalues.php.ini
+      admin/intl/es_MX/form.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/errors.php.ini
+      user/intl/es_MX/form.php.ini: updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-10-31  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/form.php.ini: en_GB fix
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-01  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezform.php
+      classes/ezformelement.php: fixed bug with deleting of fixed values
+
+    * classes/ezform.php
+      classes/ezformelement.php: fixed bug with deleting fixed values
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/formview.php
+      user/datasupplier.php
+      classes/ezformrenderer.php
+      admin/templates/standard/formrenderer.tpl:
+    section aware patch - preserve section in forms
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/formedit.tpl: Fixed storing size of lineedit.
+
+    * admin/formedit.php: Fixed setting size of text field.
+
+    * admin/formedit.php
+      admin/templates/standard/formedit.tpl: Fixed setting size of forms.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/fixedvalues.php.ini
+      admin/intl/en_GB/form.php.ini: en_GB fixxes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/fixedvalues.php.ini
+      admin/intl/de_DE/form.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/errors.php.ini
+      user/intl/de_DE/form.php.ini: de_DE update for 2.2.1
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/form.php.ini: Added translation.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/fixedvalues.php.ini: fixed several bugs in no_NO files
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/datasupplier.php
+      user/formview.php: forms not correctly filled will not be emptied
+
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/fixedvalues.php.ini
+      admin/intl/fr_FR/form.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/errors.php.ini
+      user/intl/fr_FR/form.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/fixedvalues.php.ini
+      user/intl/es_AR/errors.php.ini
+      user/intl/es_AR/form.php.ini
+      admin/intl/es_AR/form.php.ini
+      admin/intl/es_AR/menubox.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/fixedvalues.php.ini
+      admin/intl/se_SE/form.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/errors.php.ini
+      user/intl/se_SE/form.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/form.php.ini
+      user/intl/es_MX/form.php.ini: es_MX update for 2.2.2
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-11-28  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: Layout
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/fixedvalues.php.ini
+      admin/intl/hr_HR/form.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/errors.php.ini
+      user/intl/hr_HR/form.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformtable.php: added ezformtable
+
+    * user/intl/en_GB/form.php.ini
+      user/intl/no_NO/form.php.ini
+      admin/formedit.php
+      admin/intl/en_GB/menubox.php.ini
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/datasupplier.php
+      user/formview.php: bugfixes, from 2.2.x branch
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-13  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/formedit.php
+      admin/tableedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/formedit.tpl
+      classes/ezformelement.php
+      classes/ezformtable.php
+      sql/mysql/ezform.sql: moved element list to seperate file
+
+    * admin/datasupplier.php
+      admin/fixedvalues.php
+      admin/formedit.php
+      classes/ezformelementtype.php
+      classes/ezformtable.php: more ezformtable fixes
+
+    * admin/templates/standard/formedit.tpl
+      classes/ezformelementtype.php
+      classes/ezformtable.php
+      sql/mysql/ezform.sql
+      admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/intl/no_NO/form.php.ini: added tables
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/tableedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/tableedit.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      admin/datasupplier.php
+      admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      classes/ezformtable.php: several fixes
+
+2001-12-14  Bjoern Reiten  <br@ez.no>
+
+    * sql/mysql/ezform.sql
+      admin/datasupplier.php
+      admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/formedit.tpl
+      admin/templates/standard/pageedit.tpl
+      admin/templates/standard/pagelist.tpl
+      classes/ezform.php
+      classes/ezformpage.php: added formpage, and moved elements to formpage.
+
+2001-12-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/formedit.php
+      admin/intl/en_GB/table.php.ini
+      admin/tableedit.php
+      admin/templates/standard/tableedit.tpl
+      classes/ezformtable.php: several fixed
+
+    * admin/intl/en_GB/table.php.ini
+      admin/tableedit.php
+      admin/templates/standard/tableedit.tpl
+      classes/ezformtable.php: added table edit
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql: fixed buttons
+
+2001-12-17  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezformpage.php: added updates.
+
+    * classes/ezformpage.php
+      admin/datasupplier.php
+      admin/pageedit.php
+      admin/templates/standard/elementlist.tpl: updated files.
+
+    * admin/pageedit.php: updated pageedit.
+
+2001-12-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/datasupplier.php
+      classes/ezformrenderer.php: redering i ok
+
+2001-12-17  Bjoern Reiten  <br@ez.no>
+
+    * admin/pageedit.php
+      admin/templates/standard/pageedit.tpl: added updates.
+
+2001-12-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      classes/ezformrenderer.php: div fixes
+
+    * admin/pageedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformpage.php
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql: moved a lot from eZForm to eZFormPage
+
+2001-12-17  Bjoern Reiten  <br@ez.no>
+
+    * admin/formedit.php
+      admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      admin/templates/standard/pagelist.tpl
+      classes/ezformpage.php: added updates.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-18  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformpage.php
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      user/formview.php
+      admin/templates/standard/formrenderer.tpl: several fixes
+
+2001-12-18  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/intl/en_GB/form.php.ini
+      admin/numericaledit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql:
+    Made the form sender a free element, not a fixed element\nat the top of the page
+
+    * admin/intl/en_GB/form.php.ini
+      admin/templates/standard/formedit.tpl
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql
+      admin/formedit.php: Added instruction page name into the form.
+
+2001-12-18  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      classes/ezformpage.php: added updates ...
+
+2001-12-18  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: Added correct rendering of text element.
+
+    * classes/ezformelementnumerical.php
+      classes/ezformelementtext.php
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql
+      admin/datasupplier.php
+      admin/intl/en_GB/form.php.ini
+      admin/numericaledit.php
+      admin/pageedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/numericaledit.tpl
+      admin/templates/standard/textedit.tpl
+      admin/textedit.php: Added new elements and their support tables.
+
+    * admin/formedit.php
+      admin/intl/en_GB/form.php.ini:
+     Fixed some more logical errors in error checks.
+
+    * admin/formedit.php: Fixed bugs in storage and retreival of data.
+
+    * admin/formedit.php:
+    Removed Element handling since there are no elements, just pages, in this
+    page.
+
+    * admin/formedit.php:
+    Fixed some reference errors in some setX() functions.
+
+    * admin/templates/standard/formedit.tpl: A small spelling error in a tag.
+
+    * sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql
+      admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/templates/standard/formedit.tpl
+      classes/ezform.php: Added new functions and cleaned up admin.
+
+    * admin/intl/en_GB/form.php.ini
+      admin/pageedit.php
+      admin/tableedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql: Added new elements.
+
+    * admin/intl/en_GB/form.php.ini
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      sql/postgresql/ezform.sql: Added new form elements.
+
+2001-12-18  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/formview.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformpage.php
+      classes/ezformrenderer.php
+      classes/ezformtable.php
+      user/formview.php: jumping works
+
+2001-12-18  Bjoern Reiten  <br@ez.no>
+
+    * admin/fixedvalues.php
+      admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/fixedvalues.tpl
+      admin/templates/standard/pageedit.tpl
+      classes/ezformelement.php: added updates.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-19  Bjoern Reiten  <br@ez.no>
+
+    * admin/pageedit.php: fix.
+
+2001-12-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/pageedit.php
+      admin/tableedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: fixed small bugs
+
+2001-12-19  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/datasupplier.php
+      admin/numericaledit.php
+      admin/pageedit.php
+      admin/tableedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/numericaledit.tpl
+      admin/templates/standard/textedit.tpl
+      admin/textedit.php
+      classes/ezformrenderer.php:
+    Fixed back from numerical edit and text edit.
+
+2001-12-19  Bjoern Reiten  <br@ez.no>
+
+    * admin/pageedit.php
+      classes/ezformpage.php: fixes.
+
+    * admin/intl/en_GB/form.php.ini
+      admin/pageedit.php
+      admin/templates/standard/elementlist.tpl: added fix.
+
+2001-12-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezform.sql: small fixes
+
+2001-12-19  Bjoern Reiten  <br@ez.no>
+
+    * admin/pageedit.php: added fix for fields.
+
+    * admin/pageedit.php
+      classes/ezformelement.php: added updates.
+
+2001-12-19  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/intl/en_GB/form.php.ini: Fixed a string.
+
+    * admin/tableedit.php: Fixed links to numerical and text editing.
+
+2001-12-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/en_GB/form.php.ini
+      admin/intl/en_GB/pageedit.php.ini
+      admin/intl/en_GB/table.php.ini
+      admin/intl/no_NO/form.php.ini
+      admin/intl/no_NO/pageedit.php.ini
+      admin/intl/no_NO/table.php.ini
+      user/formview.php: fixed language
+
+    * admin/formedit.php
+      admin/tableedit.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/tableedit.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/formview.php: jumping is done
+
+2001-12-19  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      classes/ezformelement.php: added updates
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/pageedit.php
+      sql/mysql/ezform.sql: small bugfixes
+
+    * admin/fixedvalues.php
+      admin/pageedit.php: fixed bug with elementtype
+
+    * classes/ezformtable.php: small bug
+
+    * admin/templates/standard/formrenderer.tpl: fixed small bug in heading
+
+    * admin/fixedvalues.php
+      classes/ezformelement.php: fixed bug
+
+    * admin/templates/standard/formrenderer.tpl:
+    removed header in drop-down, radio and checkbox
+
+    * user/formview.php
+      admin/formpreview.php
+      admin/pageedit.php
+      admin/tableedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformelement.php
+      classes/ezformrenderer.php: several bugfixes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformelement.php: merry x-mas
+
+    * admin/pageedit.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/pageedit.tpl: fixed huge bugs, merry x-mas
+
+    * admin/pageedit.php: fixed small bug
+
+2001-12-21  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/en_GB/pageedit.php.ini
+      admin/pageedit.php
+      admin/templates/standard/pageedit.tpl
+      classes/ezformelement.php: added updates ...
+
+2001-12-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php: fixed goto page
+
+    * admin/pageedit.php: fixed small bug
+
+    * admin/intl/en_GB/form.php.ini
+      admin/intl/no_NO/form.php.ini
+      admin/pageedit.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformelementnumerical.php
+      classes/ezformrenderer.php
+      user/formview.php: several fixes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php: fixed "" = 0 in numerical
+
+    * admin/pageedit.php
+      classes/ezformpage.php
+      classes/ezformrenderer.php: fixed bugs
+
+    * admin/intl/no_NO/pageedit.php.ini
+      admin/pageedit.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php: fixed several bugs
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2001-12-23  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php
+      user/formview.php: fixed several bugs
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php
+      classes/ezformelementnumerical.php: fixed small bug
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-03  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/pageedit.php
+      classes/ezformrenderer.php: fixed next page bugs
+
+    * classes/ezformrenderer.php: fixed bug with drop-down
+
+    * admin/pageedit.php: fixed jump
+
+    * classes/ezformelement.php: fixed bug with jumps with radioboxes
+
+    * classes/ezformrenderer.php: fixed bug with checkboxes
+
+    * classes/ezformelement.php
+      classes/ezformelementfixedvalue.php: sorting works fine
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php: fixed w-mail bug
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: fixed bugs
+
+    * user/formview.php: fixed bug when storing
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/exportform.php: fixed bug with new line
+
+    * admin/intl/no_NO/exportformlist.php.ini: added no_NO
+
+    * admin/datasupplier.php
+      admin/exportform.php
+      admin/exportformlist.php
+      admin/intl/en_GB/exportformlist.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/menubox.php
+      admin/templates/standard/exportformlist.tpl
+      classes/ezform.php
+      classes/ezformelement.php: fixed exporting to excel
+
+    * classes/ezformelement.php: fixed sorting
+
+    * sql/mysql/ezform.sql: fixed result type
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/exportform.php
+      classes/ezformelement.php: speed improvement
+
+    * admin/exportform.php: speed improvment
+
+    * admin/exportform.php: fixed bug
+
+    * admin/exportform.php: reports now includes table fileds
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformelement.php: major speed improvement
+
+    * user/datasupplier.php
+      user/formlist.php
+      user/formview.php
+      user/intl/en_GB/formlist.php.ini
+      user/intl/en_GB/results.php.ini
+      user/intl/en_GB/viewresult.php.ini
+      user/intl/no_NO/formlist.php.ini
+      user/intl/no_NO/results.php.ini
+      user/intl/no_NO/viewresult.php.ini
+      user/results.php
+      user/templates/standard/formlist.tpl
+      user/templates/standard/formresults.tpl
+      user/templates/standard/results.tpl
+      user/templates/standard/viewresult.tpl
+      user/viewresult.php
+      admin/formlist.php
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformpage.php
+      classes/ezformrenderer.php: made reporting of forms
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: fixed nicer result
+
+    * admin/formedit.php
+      admin/intl/en_GB/form.php.ini
+      admin/intl/en_GB/pageedit.php.ini
+      admin/intl/no_NO/form.php.ini
+      admin/pageedit.php
+      admin/tableedit.php
+      admin/templates/standard/elementlist.tpl
+      admin/templates/standard/formedit.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      sql/mysql/ezform.sql
+      user/results.php
+      user/templates/standard/results.tpl: several fixes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformelement.php
+      user/intl/en_GB/results.php.ini
+      user/intl/no_NO/results.php.ini
+      user/results.php
+      user/templates/standard/results.tpl: improved searching
+
+    * user/intl/en_GB/viewresult.php.ini
+      user/intl/no_NO/viewresult.php.ini
+      user/templates/standard/viewresult.tpl
+      user/viewresult.php: fixed printable version
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformrenderer.php: removed debug info
+
+    * classes/ezform.php
+      user/formedit.php: fixed delete of results
+
+    * user/results.php
+      user/templates/standard/results.tpl:
+    removed delete button when not logged in
+
+    * user/intl/en_GB/results.php.ini
+      user/intl/no_NO/results.php.ini: added delete
+
+    * user/intl/en_GB/formedit.php.ini
+      user/intl/no_NO/formedit.php.ini
+      user/templates/standard/formedit.tpl
+      user/templates/standard/results.tpl
+      admin/templates/standard/formrenderer.tpl
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/datasupplier.php
+      user/formedit.php
+      user/results.php: added edit of records
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-18  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/datasupplier.php
+      admin/formlist.php
+      admin/formreportlist.php
+      admin/intl/en_GB/formreportlist.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/reportedit.php.ini
+      admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/formreportlist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/reportedit.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/menubox.php
+      admin/reportedit.php
+      admin/reportsetup.php
+      admin/templates/standard/formreportlist.tpl
+      admin/templates/standard/reportedit.tpl
+      admin/templates/standard/reportsetup.tpl
+      classes/ezformreport.php
+      classes/ezformreportelement.php
+      sql/mysql/ezform.sql
+      user/datasupplier.php
+      user/intl/en_GB/reportlist.php.ini
+      user/reportlist.php
+      user/templates/standard/reportlist.tpl: added report features
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformreportelement.php: fixed bug
+
+    * user/intl/no_NO/reportlist.php.ini
+      classes/ezformreportelement.php: trim'ed frequence, addded no_NO
+
+    * admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php: fixed bugs
+
+    * admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php: added sum and average
+
+    * admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/reportsetup.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      user/datasupplier.php
+      user/intl/en_GB/viewreport.php.ini
+      user/intl/no_NO/viewreport.php.ini
+      user/templates/standard/viewreport.tpl
+      user/viewreport.php: added report
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/reportedit.php.ini: fixed Update
+
+    * classes/ezformreportelement.php
+      admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/reportsetup.tpl
+      classes/ezformrenderer.php: added cross tables
+
+    * classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/reportsetup.tpl: made update
+
+    * admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php: added median
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-23  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php: added graphical presentation
+
+    * classes/ezformreportelement.php: fixed bug
+
+    * classes/ezformelementfixedvalue.php
+      classes/ezformreportelement.php: fixed bugs with checkboxes
+
+    * admin/intl/no_NO/reportsetup.php.ini
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      admin/intl/en_GB/reportsetup.php.ini: added "Hide"
+
+    * classes/ezformreportelement.php: fixed bug with cross reference
+
+    * admin/formreportlist.php: fixed bug in listing
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-24  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformreportelement.php: fixed bug with graph
+
+    * classes/ezformelement.php
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      user/intl/en_GB/viewreport.php.ini
+      user/intl/no_NO/viewreport.php.ini
+      user/templates/standard/viewreport.tpl
+      user/viewreport.php: added filtering og reports
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformrenderer.php: removed empty lines when hide
+
+    * classes/ezformreportelement.php:
+    fixed problem with ascii 160 in database
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-25  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/reportoverridetext.php.ini
+      admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportoverridetext.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportoverridetext.php
+      admin/reportsetup.php
+      admin/templates/standard/reportoverridetext.tpl
+      admin/templates/standard/reportsetup.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php: added overriding of text
+
+    * classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/intl/en_GB/results.php.ini
+      user/intl/en_GB/viewreport.php.ini
+      user/intl/no_NO/results.php.ini
+      user/intl/no_NO/viewreport.php.ini
+      user/results.php
+      user/templates/standard/results.tpl
+      user/templates/standard/viewreport.tpl
+      user/viewreport.php: added from-to
+
+    * user/templates/standard/results.tpl
+      user/templates/standard/viewreport.tpl
+      admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      user/intl/en_GB/viewreport.php.ini
+      user/intl/no_NO/viewreport.php.ini
+      user/results.php
+      user/viewreport.php: added starts with in search, added min25median75max
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/en_GB/reportsetup.php.ini
+      admin/intl/no_NO/reportsetup.php.ini
+      admin/reportsetup.php
+      admin/templates/standard/formrenderer.tpl
+      admin/templates/standard/reportsetup.tpl
+      classes/ezformrenderer.php
+      classes/ezformreportelement.php
+      user/formedit.php
+      user/templates/standard/viewreport.tpl
+      user/viewreport.php: added list
+
+    * classes/ezformrenderer.php: removed things...
+
+    * user/viewresult.php: removed bug
+
+    * user/intl/en_GB/viewreport.php.ini
+      user/intl/no_NO/viewreport.php.ini
+      user/templates/standard/viewreport.tpl
+      user/viewreport.php
+      admin/reportsetup.php
+      classes/ezform.php
+      classes/ezformelement.php
+      classes/ezformrenderer.php:
+    fixed bug with overriding of text, added count of results
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-29  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/exportform.php: removed header in export
+
+    * classes/ezformreportelement.php: removed empty from list
+
+    * admin/templates/standard/formrenderer.tpl: fixed birder
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-30  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformreportelement.php: fixed bug
+
+    * classes/ezformreportelement.php: added check
+
+    * classes/ezformreportelement.php: fixed bug with list
+
+    * user/intl/en_GB/results.php.ini
+      user/intl/no_NO/results.php.ini: added starts
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-01-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/exportform.php: fixed bug with tables
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-02-01  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformreportelement.php: fixed bug in list
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-02-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/viewreport.tpl
+      user/viewreport.php: fixed printable url
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-02-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezformreportelement.php: fixed bug
+
+    * classes/ezformreportelement.php: fixed bug in frequency table
+
+    * classes/ezformrenderer.php: fixed bug
+
+    * classes/ezformrenderer.php
+      user/datasupplier.php: fixed clearing of values when editing results
+
+    * classes/ezformreportelement.php
+      admin/templates/standard/formrenderer.tpl
+      classes/ezformelement.php: fixed nuber format
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-02-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl
+      classes/ezformreportelement.php: fixed radioboxes and checkboxes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-03-04  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezform.php
+      classes/ezformrenderer.php
+      admin/formedit.php
+      admin/templates/standard/formedit.tpl: Added GPG support.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/formrenderer.tpl: Added design for akersmic
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * admin/templates/Attic/fixedvalues.tpl
+      admin/templates/Attic/formedit.tpl
+      admin/templates/Attic/formlist.tpl
+      admin/templates/Attic/formpreview.tpl
+      admin/templates/Attic/formrenderer.tpl
+      admin/templates/Attic/formview.tpl
+      user/templates/standard/Attic/formrenderer.tpl:
+    Major commit from the online akersmic version.
+
+    * admin/templates/Attic/fixedvalues.tpl
+      admin/templates/Attic/formedit.tpl
+      admin/templates/Attic/formlist.tpl
+      admin/templates/Attic/formpreview.tpl
+      admin/templates/Attic/formrenderer.tpl
+      admin/templates/Attic/formview.tpl
+      user/templates/standard/Attic/formrenderer.tpl: New file.
+
+    * admin/formedit.php
+      admin/templates/standard/formedit.tpl
+      classes/ezformelement.php
+      classes/ezformrenderer.php
+      user/templates/standard/formview.tpl
+      admin/templates/standard/formrenderer.tpl:
+    Major commit from the online akersmic version.
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/fixedvalues.php.ini
+      admin/intl/no_NO/form.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/form.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/form.php.ini
+      admin/intl/no_NO/form.php.ini: epost -> e-post
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-04-22  christoffer  <ce@zev.ez.no>
+
+    * classes/ezformrenderer.php: Added related products
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2002-07-03  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/reportsetup.php.ini: lang fixes
+
+
+Module : ezform
+Repository path : /home/cvsroot/projects/php/ezform
+Maintainer(s) : pkej@ez.no
+2003-02-28  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezformrenderer.php: fixed bug, added Language to send form.
+

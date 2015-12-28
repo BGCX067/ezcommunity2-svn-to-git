@@ -1,0 +1,121 @@
+eZ trade / eZ publish translation guide
+---------------------------------------
+
+This is an attempt to make a comprehensive explanation of how eZ publish
+translation should be handled. Any questions, suggestions or corrections should
+be directed to translators@lists.ez.no, or to the translation coordinator,
+Gunnstein Lye <gl@ez.no>.
+
+This information can also be found at
+http://developer.ez.no/article/static/73
+
+You don't need to read this if you use eZ linguist for translation, but the
+information is provided for those who are interested. We recommend that you use
+eZ linguist if you can. (There is one exception for this rule: The article edit
+help document, article_articleedit.hlp, can not be translated with eZ linguist.
+At the moment, this must be done manually. You will find this file under
+ezarticle/admin/help/.)
+
+eZ linguist can be found at
+http://developer.ez.no/article/static/216
+
+
+BACKGROUND
+
+Download eZ publish and or eZ trade. you will find a directory structure like:
+
+         ezarticle
+         ezimagecagalogue
+         ezforum
+         etc ...
+
+Each module has two sub directories user and admin with intl catalogues under 
+them. It's in the intl catalogue which the text used on the pages are defined. 
+So you'll have a structure like this:
+
+publish_directory
+\ ezarticle
+  | user
+  | \ intl
+  |   | en_GB
+  |   \ no_NO
+  \ admin
+    \ intl
+      | en_GB
+      \ no_NO
+
+The directories under the 'intl' directories contain the actual translations.
+The naming of the languages is based on the locale conventions. British
+English is en_GB, American English is en_US, German is de_DE, Norwegian
+(bokmaal) is no_NO. You get the picture. Before you begin your translation,
+you need to find the locale name of your language. If in doubt, contact us.
+You'll find more information about the locale conventions here:
+ftp.isi.edu/in-notes/rfc1766.txt and here:
+ftp.isi.edu/in-notes/rfc2277.txt
+
+The primary language of eZ publish is en_GB (British English). You should copy
+from en_GB when you create a new translation. You can safely assume that the
+keys in the en_GB translation are correct. If you find they are not, please
+submit a bug report:
+http://developer.ez.no/bug/report/
+
+All static strings in eZ publish are stored in separate translation files
+called *.php.ini. They consist of a header and key=value pairs, like this:
+[strings]
+head_line=Latest news
+category=Category
+search=Search
+top_level=Top level
+description=Description
+next=Next
+prev=Previous
+
+So, in short, what you need to do is to translate these values. But read on,
+there are a few more details.
+
+
+LOCALE
+
+In classes/locale in your eZ publish distribution are a set of *.ini files,
+one for each translated language. These locale files contain general settings
+for things like time and date display, currency and day/month names. Here is
+an extract from en_GB.ini:
+[RegionalSettings]
+LanguageISO=iso-8859-1
+CurrencySymbol=$
+DecimalSymbol=.
+ThousandsSymbol=,
+FractDigits=2
+PositivePrefixCurrencySymbol=yes
+NegativePrefixCurrencySymbol=yes
+TimeFormat=%H:%i:%s
+ShortTimeFormat=%H:%i
+DateFormat=%E, %F %d, %Y
+ShortDateFormat=%d.%m.%Y
+MondayFirst=yes
+jan=Jan
+feb=Feb
+
+The LanguageISO setting decides which charset to use when rendering text.
+MondayFirst decides whether the week starts on Monday or Sunday. The date and
+time formats contain characters prefixed with % (percentage symbol). The
+following characters are currently supported (more may be implemented later):
+%d - day of the month, 2 digits with leading zeros; i.e. "01" to "31"
+%D - day of the week, textual, 3 letters; i.e. "Fri"
+%E - day of the week, textual, long; i.e. "Friday"
+%F - month, textual, long; i.e. "January"
+%H - hour, 24-hour format; i.e. "00" to "23"
+%i - minutes; i.e. "00" to "59"
+%m - month; i.e. "01" to "12"
+%M - month, textual, 3 letters; i.e. "Jan"
+%s - seconds; i.e. "00" to "59"
+%Y - year, 4 digits; i.e. "1999"
+
+
+THANK YOU!
+
+To all of those who have done a translation and released it to the community:
+Thank you for your work! We at eZ systems want to make eZ publish the best
+content management and e-commerce solution available, and all the translations
+you make are a big plus in the quality score.
+

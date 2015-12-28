@@ -1,0 +1,1496 @@
+Wed Sep  5 15:27:53 CEST 2001 - Creating module ezuser, module category php
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-06  th  <th@zev.ez.no>
+
+    * user/templates/gruk/forgot.tpl
+      user/templates/gruk/loginmain.tpl: Layout
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-07  fh  <fh@zev.ez.no>
+
+    * admin/datasupplier.php
+      admin/templates/standard/grouplist.tpl:
+    Link from group list to userlist now works.
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * admin/intl/no_NO/authorlist.php.ini
+      user/templates/gruk/forgot.tpl
+      user/templates/gruk/missingemailmessage.tpl: Layout
+
+2001-09-07  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/intl/no_NO/Attic/missingmailmessage.php.ini
+      user/intl/no_NO/missingemailmessage.php.ini:
+    Used the wrong name for te file.
+
+    * user/datasupplier.php
+      user/forgot.php
+      user/intl/en_GB/missingemailmessage.php.ini
+      user/intl/no_NO/Attic/missingmailmessage.php.ini
+      user/missingemailmessage.php
+      user/templates/standard/missingemailmessage.tpl:
+    Added check for missing e-mail addresses when people is trying to reclaim
+    an user account.
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/gruk/loginmain.tpl
+      user/templates/gruk/userbox.tpl: Layout
+
+2001-09-07  Baard Farstad  <bf@ez.no>
+
+    * user/userbox.php: Added section id in userbox.
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/useredit.tpl: Layout
+
+2001-09-07  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/id_ID/groupedit.php.ini
+      admin/intl/id_ID/grouplist.php.ini
+      admin/intl/id_ID/login.php.ini
+      admin/intl/id_ID/menubox.php.ini
+      admin/intl/id_ID/passwordchange.php.ini
+      admin/intl/id_ID/sessioninfo.php.ini
+      admin/intl/id_ID/useredit.php.ini
+      admin/intl/id_ID/userlist.php.ini
+      admin/intl/id_ID/welcome.php.ini: updated id_ID
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-10  Bjoern Reiten  <br@ez.no>
+
+    * user/userwithaddress.php: fixed bug
+    * added setGroupDefinition on $user_insert.
+
+2001-09-10  Christofer Elo  <ce@ez.no>
+
+    * user/templates/mygold/userwithaddress.tpl: fic
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php:
+    link in articlelist when article has no text but attributes
+
+2001-09-11  fh  <fh@zev.ez.no>
+
+    * admin/useredit.php
+      classes/ezpermission.php
+      admin/groupedit.php:
+    Fixed huge security bug. Users with group and or person edit but without root access where able to give themselves root.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-12  Christofer Elo  <ce@ez.no>
+
+    * classes/ezuser.php: Fixed a VERY bad secruety bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-13  fh  <fh@zev.ez.no>
+
+    * classes/ezobjectpermission.php:
+    1. Upload functionality added to eZObjectPermission.
+    2. Upload toggles added to imagecatalogue (toggles work) functionality not.
+
+2001-09-13  Baard Farstad  <bf@ez.no>
+
+    * admin/useredit.php: Fixed used editing.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezuser.sql: added missing sql information
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-17  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/userwithaddress.tpl: fixed template
+
+2001-09-17  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/templates/linmag/userwithaddress.tpl: Magnificent changes.
+
+    * user/datasupplier.php:
+    Added test for OverrideOverrideUserWithAddress. Will use another directory
+    if defined.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/forgot.php.ini
+      user/intl/fr_FR/forgotmessage.php.ini
+      user/intl/fr_FR/login.php.ini
+      user/intl/fr_FR/norights.php.ini
+      user/intl/fr_FR/userbox.php.ini
+      user/intl/fr_FR/useredit.php.ini
+      user/intl/fr_FR/userwithaddress.php.ini
+      admin/intl/fr_FR/groupedit.php.ini
+      admin/intl/fr_FR/grouplist.php.ini
+      admin/intl/fr_FR/login.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/passwordchange.php.ini
+      admin/intl/fr_FR/sessioninfo.php.ini
+      admin/intl/fr_FR/settings.php.ini
+      admin/intl/fr_FR/useredit.php.ini
+      admin/intl/fr_FR/userlist.php.ini
+      admin/intl/fr_FR/welcome.php.ini
+      user/intl/fr_FR/addressedit.php.ini: updated fr_FR
+
+2001-09-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezuser.php: fixed getAll() (searching did not work correctly)
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-21  Baard Farstad  <bf@ez.no>
+
+    * classes/ezuser.php: Fixed bug in returning ID/object.
+
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php
+      classes/ezuser.php: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-26  Sascha Frinken  <sascha@impetex.de>
+
+    * user/intl/de_MG/userbox.php.ini
+      user/templates/mygold/loginmain.tpl: Added design
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-27  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql: Added missing SQL tables/fields.
+
+2001-09-27  Kai Duebbert  <kai@duebbert.de>
+
+    * user/templates/mygold/loginmain.tpl: fix missing tags for nVH install.
+
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * classes/ezuser.php: Fixed global user bug.
+
+    * classes/ezobjectpermission.php: Fixed permission bug.
+
+2001-09-27  Sascha Frinken  <sascha@impetex.de>
+
+    * user/intl/de_MG/userbox.php.ini: Added mygold design
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-09-28  Christoffer Elo  <ce@ez.no>
+
+    * sql/ezuser.sql: Added missing permission fields
+
+2001-09-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php: fixed small bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/groupedit.php.ini
+      admin/intl/he_IL/grouplist.php.ini
+      admin/intl/he_IL/login.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/passwordchange.php.ini
+      admin/intl/he_IL/sessioninfo.php.ini
+      admin/intl/he_IL/settings.php.ini
+      admin/intl/he_IL/useredit.php.ini
+      admin/intl/he_IL/userlist.php.ini
+      admin/intl/he_IL/welcome.php.ini
+      user/intl/he_IL/addressedit.php.ini
+      user/intl/he_IL/forgot.php.ini
+      user/intl/he_IL/forgotmessage.php.ini
+      user/intl/he_IL/login.php.ini
+      user/intl/he_IL/norights.php.ini
+      user/intl/he_IL/userbox.php.ini
+      user/intl/he_IL/useredit.php.ini
+      user/intl/he_IL/userwithaddress.php.ini:
+    Added he_IL (Hebrew) translation
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-04  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php
+      user/templates/standard/userwithaddress.tpl: Section id fix.
+
+    * user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php: Fixed remembering section id.
+
+2001-10-04  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezobjectpermission.php: Addded small productlist
+
+2001-10-04  fh  <fh@zev.ez.no>
+
+    * admin/useredit.php: Code commented out by accident works...
+
+    * admin/useredit.php: Additional groups are allowed again
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-05  Baard Farstad  <bf@ez.no>
+
+    * admin/useredit.php: Permission fix.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-06  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezuser.sql: Updated indeces.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * classes/ezuser.php
+      user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php:
+    Fixed not changing id when editing a user address.
+
+2001-10-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezusergroup.php: fixed small sql bug in users()
+
+2001-10-08  fh  <fh@zev.ez.no>
+
+    * user/intl/de_DE/userwithaddress.php.ini: Typos
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/userlist.tpl
+      admin/userlist.php
+      classes/ezuser.php: Fixed showing several users.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-10  Baard Farstad  <bf@ez.no>
+
+    * sql/Attic/ezuser.sql: Removed obsolete file.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-11  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuser.php: Added copy of address on eztrade
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql: updated sql scheemes, ready for release
+
+2001-10-11  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuser.php:
+    If mainaddress id == 0, then return false insted of a empty object.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-15  fh  <fh@zev.ez.no>
+
+    * user/userbox.php:
+    Don't redirect to the "forgot password" screen on login. This leads to
+    strange things...
+
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * sql/postgresql/ezuser.sql: Fixed postgres bugs.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-16  fh  <fh@zev.ez.no>
+
+    * classes/ezmodule.php:
+    eZModule::exists returned ezuser object instead of ezmodule object...Hm...
+
+    * classes/ezmodule.php: Fixed old database crap.
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * classes/ezuser.php: Fixed clearing of cookie.
+
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezobjectpermission.php
+      sql/postgresql/ezuser.sql: Fixed postgres bugs
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/authorlist.php.ini
+      admin/intl/de_DE/groupedit.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/useredit.php.ini
+      user/intl/de_DE/forgot.php.ini
+      user/intl/de_DE/forgotmessage.php.ini
+      user/intl/de_DE/missingemailmessage.php.ini
+      user/intl/de_DE/userwithaddress.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+    * sql/mysql/ezuser.sql: Added a tabler
+
+    * user/userwithaddress.php: Fixed a redirect
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/addressedit.php.ini
+      user/intl/no_NO/forgot.php.ini
+      user/intl/no_NO/forgotmessage.php.ini
+      user/intl/no_NO/useredit.php.ini
+      user/intl/no_NO/userwithaddress.php.ini: updated no_NO
+
+    * admin/intl/en_GB/groupedit.php.ini
+      admin/intl/en_GB/userlist.php.ini
+      admin/intl/en_GB/welcome.php.ini: newline
+
+    * user/intl/no_NO/userbox.php.ini
+      user/intl/no_NO/useredit.php.ini
+      user/intl/no_NO/userwithaddress.php.ini
+      admin/intl/no_NO/authorlist.php.ini
+      admin/intl/no_NO/grouplist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/welcome.php.ini
+      user/intl/no_NO/addressedit.php.ini
+      user/intl/no_NO/forgot.php.ini
+      user/intl/no_NO/forgotmessage.php.ini: updated no_NO
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-24  Christoffer Elo  <ce@ez.no>
+
+    * user/userwithaddress.php: Fixed a delete address bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-25  Sascha Frinken  <sascha@impetex.de>
+
+    * user/intl/de_MG/userwithaddress.php.ini
+      user/templates/mygold/userwithaddress.tpl: Added design and language
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-26  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/titlelist.php.ini
+      admin/intl/en_GB/useredit.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/useredit.php.ini
+      admin/templates/standard/titlelist.tpl
+      admin/templates/standard/useredit.tpl
+      classes/eztitle.php
+      classes/ezuser.php
+      sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql
+      user/intl/en_GB/userwithaddress.php.ini
+      user/intl/no_NO/userwithaddress.php.ini
+      user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php
+      admin/datasupplier.php
+      admin/menubox.php
+      admin/titlelist.php
+      admin/useredit.php: Added titles in user edit.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/authorlist.php.ini
+      admin/intl/fi_FI/groupedit.php.ini
+      admin/intl/fi_FI/grouplist.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/passwordchange.php.ini
+      admin/intl/fi_FI/sessioninfo.php.ini
+      admin/intl/fi_FI/settings.php.ini
+      admin/intl/fi_FI/useredit.php.ini
+      admin/intl/fi_FI/userlist.php.ini
+      admin/intl/fi_FI/welcome.php.ini
+      user/intl/fi_FI/addressedit.php.ini
+      user/intl/fi_FI/forgot.php.ini
+      user/intl/fi_FI/forgotmessage.php.ini
+      user/intl/fi_FI/login.php.ini
+      user/intl/fi_FI/missingemailmessage.php.ini
+      user/intl/fi_FI/norights.php.ini
+      user/intl/fi_FI/userbox.php.ini
+      user/intl/fi_FI/useredit.php.ini
+      user/intl/fi_FI/userwithaddress.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-29  Baard Farstad  <bf@ez.no>
+
+    * admin/useredit.php
+      classes/ezuser.php: Added title edit.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/authorlist.php.ini
+      admin/intl/es_MX/groupedit.php.ini
+      admin/intl/es_MX/grouplist.php.ini
+      admin/intl/es_MX/login.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/sessioninfo.php.ini
+      admin/intl/es_MX/settings.php.ini
+      admin/intl/es_MX/useredit.php.ini
+      admin/intl/es_MX/userlist.php.ini
+      admin/intl/es_MX/welcome.php.ini
+      user/intl/es_MX/forgot.php.ini
+      user/intl/es_MX/forgotmessage.php.ini
+      user/intl/es_MX/missingemailmessage.php.ini
+      user/intl/es_MX/norights.php.ini
+      user/intl/es_MX/userbox.php.ini
+      user/intl/es_MX/useredit.php.ini
+      user/intl/es_MX/userwithaddress.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-01  Christoffer Elo  <ce@ez.no>
+
+    * user/userwithaddress.php: Fixed a bug in quantity with wishlists
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/groupedit.php.ini
+      admin/intl/en_GB/userlist.php.ini
+      admin/intl/en_GB/welcome.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/useredit.php.ini: en_GB fixxes
+
+2001-11-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/authorlist.php
+      admin/userlist.php:
+    fixed bug with bglight/bgdark in authorlist, fixed coding standard errors
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/authorlist.php.ini
+      admin/intl/de_DE/groupedit.php.ini
+      admin/intl/de_DE/grouplist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/useredit.php.ini
+      admin/intl/de_DE/userlist.php.ini
+      admin/intl/de_DE/welcome.php.ini
+      user/intl/de_DE/forgot.php.ini
+      user/intl/de_DE/forgotmessage.php.ini
+      user/intl/de_DE/missingemailmessage.php.ini
+      user/intl/de_DE/norights.php.ini
+      user/intl/de_DE/userbox.php.ini
+      user/intl/de_DE/useredit.php.ini
+      user/intl/de_DE/userwithaddress.php.ini: de_DE update for 2.2.1
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * admin/welcome.php: Removed debug.
+
+    * admin/templates/standard/welcome.tpl
+      admin/welcome.php: Fixed prefix on external links.
+
+    * admin/templates/standard/welcome.tpl: Fixed link.
+
+    * admin/templates/standard/welcome.tpl
+      admin/welcome.php: Fixed prefix on external link in system check.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-12  Sascha Frinken  <sascha@impetex.de>
+
+    * user/templates/mygold/loginmain.tpl: Added desgin fixes
+
+2001-11-12  Christoffer Elo  <ce@ez.no>
+
+    * user/userwithaddress.php:
+    Fixed a bug when someone tries to delete a adderss
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-14  Chris Mason  <chris@net.ai>
+
+    * user/userbox.php: Change logout redirect to $RedirectURL
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini: Language fix.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuseradditional.php
+      admin/additionallist.php
+      admin/datasupplier.php
+      admin/intl/en_GB/additionallist.php.ini
+      admin/menubox.php
+      admin/templates/standard/additionallist.tpl: Added additional fields
+
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/missingemailmessage.php.ini
+      user/intl/fr_FR/userwithaddress.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-19  Christoffer Elo  <ce@ez.no>
+
+    * user/templates/mygold/userwithaddress.tpl: Added the autologin checkbox
+
+2001-11-19  Baard Farstad  <bf@ez.no>
+
+    * admin/welcome.php: Fixed convert.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-20  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuseradditional.php
+      user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php: Added radiobuttons to user
+
+    * admin/templates/standard/additionallist.tpl
+      admin/templates/standard/fixedvalues.tpl
+      classes/ezuseradditional.php
+      user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php
+      admin/additionallist.php
+      admin/datasupplier.php
+      admin/fixedvalues.php: Added radioboxes with fixed values
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-21  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuser.php: Fixed bugs
+
+    * admin/intl/en_GB/fixedvalues.php.ini: Added a lanugage file
+
+    * admin/additionallist.php
+      admin/fixedvalues.php
+      admin/intl/en_GB/additionallist.php.ini
+      admin/templates/standard/additionallist.tpl
+      admin/templates/standard/fixedvalues.tpl
+      classes/ezuseradditional.php
+      user/templates/standard/userwithaddress.tpl
+      user/userwithaddress.php: Fix
+
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/authorlist.php.ini
+      admin/intl/es_AR/groupedit.php.ini
+      admin/intl/es_AR/grouplist.php.ini
+      admin/intl/es_AR/login.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/passwordchange.php.ini
+      admin/intl/es_AR/sessioninfo.php.ini
+      admin/intl/es_AR/settings.php.ini
+      admin/intl/es_AR/useredit.php.ini
+      admin/intl/es_AR/userlist.php.ini
+      admin/intl/es_AR/welcome.php.ini
+      user/intl/es_AR/addressedit.php.ini
+      user/intl/es_AR/forgot.php.ini
+      user/intl/es_AR/forgotmessage.php.ini
+      user/intl/es_AR/login.php.ini
+      user/intl/es_AR/missingemailmessage.php.ini
+      user/intl/es_AR/norights.php.ini
+      user/intl/es_AR/userbox.php.ini
+      user/intl/es_AR/useredit.php.ini
+      user/intl/es_AR/userwithaddress.php.ini: updated es_AR for 2.2.2
+
+2001-11-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php
+      classes/ezuser.php: speed improvement and coding standard fixes
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/authorlist.php.ini
+      admin/intl/se_SE/groupedit.php.ini
+      admin/intl/se_SE/grouplist.php.ini
+      admin/intl/se_SE/login.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/passwordchange.php.ini
+      admin/intl/se_SE/sessioninfo.php.ini
+      admin/intl/se_SE/settings.php.ini
+      admin/intl/se_SE/useredit.php.ini
+      admin/intl/se_SE/userlist.php.ini
+      admin/intl/se_SE/welcome.php.ini
+      user/intl/se_SE/addressedit.php.ini
+      user/intl/se_SE/forgot.php.ini
+      user/intl/se_SE/forgotmessage.php.ini
+      user/intl/se_SE/login.php.ini
+      user/intl/se_SE/missingemailmessage.php.ini
+      user/intl/se_SE/norights.php.ini
+      user/intl/se_SE/userbox.php.ini
+      user/intl/se_SE/useredit.php.ini
+      user/intl/se_SE/userwithaddress.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/useredit.php.ini: es_MX update for 2.2.2
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-02  Kai Duebbert  <kai@duebbert.de>
+
+    * user/userbox.php: small fixes to uninitialized variables.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-04  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezuser.php: removed debuginfo from removeAddress()
+
+2001-12-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/en_GB/expireduserlist.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/useredit.php.ini
+      admin/intl/no_NO/additionallist.php.ini
+      admin/intl/no_NO/expireduserlist.php.ini
+      admin/intl/no_NO/fixedvalues.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/titlelist.php.ini
+      admin/intl/no_NO/useredit.php.ini
+      admin/login.php
+      admin/templates/standard/expireduserlist.tpl
+      admin/templates/standard/useredit.tpl
+      admin/useredit.php
+      classes/ezuser.php
+      user/login.php
+      admin/datasupplier.php
+      admin/expireduserlist.php: added expiry date for users
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-05  Bjoern Reiten  <br@ez.no>
+
+    * user/userwithaddress.php:
+    Fixed bugs with users which have more than one address.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/login.php.ini
+      user/intl/en_GB/forgot.php.ini
+      user/intl/en_GB/userwithaddress.php.ini: lang fixes
+
+    * admin/intl/hr_HR/authorlist.php.ini
+      admin/intl/hr_HR/groupedit.php.ini
+      admin/intl/hr_HR/grouplist.php.ini
+      admin/intl/hr_HR/login.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/passwordchange.php.ini
+      admin/intl/hr_HR/sessioninfo.php.ini
+      admin/intl/hr_HR/settings.php.ini
+      admin/intl/hr_HR/useredit.php.ini
+      admin/intl/hr_HR/userlist.php.ini
+      admin/intl/hr_HR/welcome.php.ini
+      user/intl/hr_HR/addressedit.php.ini
+      user/intl/hr_HR/forgot.php.ini
+      user/intl/hr_HR/forgotmessage.php.ini
+      user/intl/hr_HR/login.php.ini
+      user/intl/hr_HR/missingemailmessage.php.ini
+      user/intl/hr_HR/norights.php.ini
+      user/intl/hr_HR/userbox.php.ini
+      user/intl/hr_HR/useredit.php.ini
+      user/intl/hr_HR/userwithaddress.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-07  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezusergroup.php: fixed sql for postgresql.
+
+    * classes/ezusergroup.php: Fixed sql for postgresql.
+
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/grouplist.tpl
+      admin/templates/standard/userlist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-10  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/useredit.tpl
+      admin/useredit.php
+      user/userwithaddress.php: Added additional fields to the admin interface
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-18  Sascha Frinken  <sascha@impetex.de>
+
+    * admin/intl/de_MG/menubox.php.ini
+      admin/intl/de_MG/sessioninfo.php.ini
+      admin/menubox.php
+      user/intl/de_MG/forgot.php.ini
+      user/intl/de_MG/forgotmessage.php.ini
+      user/templates/mygold/userwithaddress.tpl
+      user/templates/standard/missingemailmessage.tpl
+      user/userwithaddress.php: Commitng the mygold cahnges
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/authorlist.php.ini
+      admin/intl/pt_PT/groupedit.php.ini
+      admin/intl/pt_PT/grouplist.php.ini
+      admin/intl/pt_PT/login.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/passwordchange.php.ini
+      admin/intl/pt_PT/sessioninfo.php.ini
+      admin/intl/pt_PT/settings.php.ini
+      admin/intl/pt_PT/useredit.php.ini
+      admin/intl/pt_PT/userlist.php.ini
+      admin/intl/pt_PT/welcome.php.ini
+      user/intl/pt_PT/addressedit.php.ini
+      user/intl/pt_PT/forgot.php.ini
+      user/intl/pt_PT/forgotmessage.php.ini
+      user/intl/pt_PT/login.php.ini
+      user/intl/pt_PT/missingemailmessage.php.ini
+      user/intl/pt_PT/norights.php.ini
+      user/intl/pt_PT/userbox.php.ini
+      user/intl/pt_PT/useredit.php.ini
+      user/intl/pt_PT/userwithaddress.php.ini:
+    pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-04  Kai Duebbert  <kai@duebbert.de>
+
+    * user/intl/de_DE/userwithaddress.php.ini: ugly mispelling
+
+    * user/userbox.php: initialization of variables.
+
+    * user/userbox.php: uninitialized variable
+
+2002-01-04  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/welcome.tpl
+      admin/welcome.php: Removed obsolete libxml checking.
+
+2002-01-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php: faster removePermissions
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-07  Baard Farstad  <bf@ez.no>
+
+    * classes/ezobjectpermission.php: Fixed object permission check error.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-13  Kai Duebbert  <kai@duebbert.de>
+
+    * user/userwithaddress.php:
+    made compatible for use of image buttons ($OK_x)
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-17  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezauthor.php: hm
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-23  Baard Farstad  <bf@ez.no>
+
+    * user/userwithaddress.php: Fixed new user creation.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-24  Baard Farstad  <bf@ez.no>
+
+    * user/login.php: Fixed redirects.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-29  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuser.php
+      user/login.php
+      user/userwithaddress.php: Fixed a main address bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * user/userwithaddress.php:
+    Added bulkmail list to user edit
+
+2002-01-30  Baard Farstad  <bf@ez.no>
+
+    * user/userwithaddress.php:
+    Fixed user registration problem with multiple addresses.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-01-31  Christoffer Elo  <ce@ez.no>
+
+    * user/userwithaddress.php: Fixed a return bug
+
+2002-01-31  Baard Farstad  <bf@ez.no>
+
+    * user/login.php: Removed debug.
+
+2002-01-31  ceaker  <ceaker@zev.ez.no>
+
+    * user/login.php: *** empty log message ***
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-02-01  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezuser.php
+      user/userwithaddress.php: Fixed a bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-02-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php: fixed problem with permissions
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-02-08  Baard Farstad  <bf@ez.no>
+
+    * classes/ezuser.php: Fixed group string function.
+
+    * classes/ezobjectpermission.php
+      classes/ezuser.php: Fixed security problem.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-02-13  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezobjectpermission.php: fixed bug with some permission problems
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-02-27  Baard Farstad  <bf@ez.no>
+
+    * user/forgot.php: Fixed wrong URL in nvh setup.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-03-04  Christoffer Elo  <ce@ez.no>
+
+    * admin/groupedit.php
+      admin/intl/en_GB/menubox.php.ini:
+    Added translation for the <title> field
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * user/login.php: Added design for akersmic
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-03-18  br  <br@zev.ez.no>
+
+    * user/forgot.php: fixed bug with confirmation page.
+
+    * user/forgot.php:
+    fixed bug when user follows the link to get a new password.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-03-25  jhe  <jhe@zev.ez.no>
+
+    * classes/ezuser.php: coding standard fixes
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-03-27  jhe  <jhe@zev.ez.no>
+
+    * user/intl/no_NO/userwithaddress.php.ini: fixa engelsk orddeling
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-04  br  <br@zev.ez.no>
+
+    * admin/useredit.php: removed default additional groups.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * classes/ezuser.php
+      user/login.php: Major commit from the online akersmic version.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/addressedit.php.ini
+      user/intl/no_NO/forgot.php.ini
+      user/intl/no_NO/forgotmessage.php.ini
+      user/intl/no_NO/missingemailmessage.php.ini
+      user/intl/no_NO/useredit.php.ini
+      user/intl/no_NO/userwithaddress.php.ini
+      admin/intl/no_NO/authorlist.php.ini
+      admin/intl/no_NO/groupedit.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/sessioninfo.php.ini
+      admin/intl/no_NO/settings.php.ini
+      admin/intl/no_NO/useredit.php.ini
+      admin/intl/no_NO/userlist.php.ini
+      admin/intl/no_NO/welcome.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/forgot.php.ini
+      user/intl/no_NO/forgotmessage.php.ini
+      user/intl/no_NO/missingemailmessage.php.ini
+      user/intl/no_NO/useredit.php.ini
+      user/intl/no_NO/userwithaddress.php.ini
+      admin/intl/no_NO/useredit.php.ini: epost -> e-post
+
+2002-04-16  christoffer  <ce@zev.ez.no>
+
+    * user/intl/de_MG/missingemailmessage.php.ini
+      user/templates/mygold/forgotmessage.tpl
+      user/templates/mygold/missingemailmessage.tpl
+      admin/intl/de_MG/authorlist.php.ini
+      admin/intl/de_MG/settings.php.ini: Added files
+
+    * user/templates/standard/missingemailmessage.tpl
+      user/templates/standard/userwithaddress.tpl
+      user/intl/fi_FI/addressedit.php.ini
+      user/intl/fi_FI/forgot.php.ini
+      user/intl/fi_FI/forgotmessage.php.ini
+      user/intl/fi_FI/login.php.ini
+      user/intl/fi_FI/norights.php.ini
+      user/intl/fi_FI/userbox.php.ini
+      user/intl/fi_FI/useredit.php.ini
+      user/intl/fi_FI/userwithaddress.php.ini
+      user/intl/fr_FR/userwithaddress.php.ini
+      user/intl/no_NO/addressedit.php.ini
+      user/intl/no_NO/forgot.php.ini
+      user/intl/no_NO/forgotmessage.php.ini
+      user/intl/no_NO/missingemailmessage.php.ini
+      user/intl/no_NO/userbox.php.ini
+      user/intl/no_NO/useredit.php.ini
+      user/intl/no_NO/userwithaddress.php.ini
+      user/templates/mygold/loginmain.tpl
+      user/templates/mygold/userwithaddress.tpl
+      user/intl/es_MX/forgot.php.ini
+      user/intl/es_MX/forgotmessage.php.ini
+      user/intl/es_MX/norights.php.ini
+      user/intl/es_MX/userbox.php.ini
+      user/intl/es_MX/useredit.php.ini
+      user/intl/es_MX/userwithaddress.php.ini
+      user/intl/en_GB/forgot.php.ini
+      user/intl/en_GB/userwithaddress.php.ini
+      user/intl/es_AR/addressedit.php.ini
+      user/intl/es_AR/forgot.php.ini
+      user/intl/es_AR/forgotmessage.php.ini
+      user/intl/es_AR/login.php.ini
+      user/intl/es_AR/norights.php.ini
+      user/intl/es_AR/userbox.php.ini
+      user/intl/es_AR/useredit.php.ini
+      user/intl/es_AR/userwithaddress.php.ini
+      user/intl/de_DE/forgot.php.ini
+      user/intl/de_DE/forgotmessage.php.ini
+      user/intl/de_DE/missingemailmessage.php.ini
+      user/intl/de_DE/norights.php.ini
+      user/intl/de_DE/userbox.php.ini
+      user/intl/de_DE/useredit.php.ini
+      user/intl/de_DE/userwithaddress.php.ini
+      user/intl/de_MG/forgot.php.ini
+      user/intl/de_MG/forgotmessage.php.ini
+      user/intl/de_MG/userwithaddress.php.ini
+      user/login.php
+      user/userbox.php
+      user/userwithaddress.php
+      classes/ezforgot.php
+      classes/ezuser.php
+      classes/ezusergroup.php
+      sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql
+      user/forgot.php
+      admin/intl/fi_FI/groupedit.php.ini
+      admin/intl/fi_FI/grouplist.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/passwordchange.php.ini
+      admin/intl/fi_FI/sessioninfo.php.ini
+      admin/intl/fi_FI/settings.php.ini
+      admin/intl/fi_FI/useredit.php.ini
+      admin/intl/fi_FI/userlist.php.ini
+      admin/intl/fi_FI/welcome.php.ini
+      admin/intl/no_NO/authorlist.php.ini
+      admin/intl/no_NO/groupedit.php.ini
+      admin/intl/no_NO/grouplist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/sessioninfo.php.ini
+      admin/intl/no_NO/settings.php.ini
+      admin/intl/no_NO/useredit.php.ini
+      admin/intl/no_NO/userlist.php.ini
+      admin/intl/no_NO/welcome.php.ini
+      admin/templates/standard/useredit.tpl
+      admin/templates/standard/welcome.tpl
+      admin/intl/en_GB/login.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/useredit.php.ini
+      admin/intl/en_GB/userlist.php.ini
+      admin/intl/en_GB/welcome.php.ini
+      admin/intl/es_AR/groupedit.php.ini
+      admin/intl/es_AR/grouplist.php.ini
+      admin/intl/es_AR/login.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/passwordchange.php.ini
+      admin/intl/es_AR/sessioninfo.php.ini
+      admin/intl/es_AR/settings.php.ini
+      admin/intl/es_AR/useredit.php.ini
+      admin/intl/es_AR/userlist.php.ini
+      admin/intl/es_AR/welcome.php.ini
+      admin/intl/es_MX/groupedit.php.ini
+      admin/intl/es_MX/grouplist.php.ini
+      admin/intl/es_MX/login.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/sessioninfo.php.ini
+      admin/intl/es_MX/useredit.php.ini
+      admin/intl/es_MX/userlist.php.ini
+      admin/intl/es_MX/welcome.php.ini
+      admin/intl/de_MG/menubox.php.ini
+      admin/intl/de_MG/sessioninfo.php.ini
+      admin/intl/en_GB/groupedit.php.ini
+      admin/authorlist.php
+      admin/datasupplier.php
+      admin/intl/de_DE/authorlist.php.ini
+      admin/intl/de_DE/groupedit.php.ini
+      admin/intl/de_DE/grouplist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/useredit.php.ini
+      admin/intl/de_DE/userlist.php.ini
+      admin/intl/de_DE/welcome.php.ini
+      admin/login.php
+      admin/menubox.php
+      admin/useredit.php
+      admin/userlist.php
+      admin/welcome.php: Major commit for the mygold project
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-23  bf  <bf@zev.ez.no>
+
+    * classes/ezobjectpermission.php:
+    Fixed permission bug with category definition
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-04-24  bf  <bf@zev.ez.no>
+
+    * admin/intl/de_AT/Attic/menubox.php.ini:
+    Added translation for extended search.
+
+    * admin/intl/de_AT/Attic/menubox.php.ini: New file.
+
+    * admin/intl/de_AT/Attic/extsearch.php.ini:
+    Added translation for extended search.
+
+    * admin/intl/de_AT/Attic/extsearch.php.ini: New file.
+
+    * admin/intl/no_NO/Attic/extsearch.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/templates/standard/Attic/extsearch.tpl
+      classes/ezuser.php: Added extended user search.
+
+    * admin/intl/no_NO/Attic/extsearch.php.ini
+      admin/templates/standard/Attic/extsearch.tpl: New file.
+
+    * admin/Attic/extsearch.php
+      admin/datasupplier.php
+      admin/intl/en_GB/Attic/extsearch.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/menubox.php
+      admin/userlist.php: Added extended user search.
+
+    * admin/Attic/extsearch.php
+      admin/intl/en_GB/Attic/extsearch.php.ini: New file.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-05-08  Vidar Langseid  <vl@ez.no>
+
+    * user/addressedit.php
+      user/login.php
+      user/norights.php
+      user/userbox.php
+      user/useredit.php
+      user/userwithaddress.php:
+    Fixed cross site bugs caused by the ?RedirectURL feature
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-05-15  Baard Farstad  <bf@ez.no>
+
+    * admin/groupedit.php
+      classes/ezmodule.php:
+    Group edit now only shows permissions from enabled modules.
+
+2002-05-15  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/Attic/tac.php
+      user/intl/en_GB/Attic/tac.php.ini
+      user/intl/en_GB/Attic/tac_no_text.tpl
+      user/intl/en_GB/Attic/tac_text.tpl
+      user/templates/standard/Attic/tac.tpl:
+    Adding first (final?) verions of the terms of service click through.
+
+    * user/Attic/tac.php
+      user/intl/en_GB/Attic/tac.php.ini
+      user/intl/en_GB/Attic/tac_no_text.tpl
+      user/intl/en_GB/Attic/tac_text.tpl
+      user/templates/standard/Attic/tac.tpl: New file.
+
+    * user/datasupplier.php:
+    Adding first (final?) verions of the terms of service click through.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-05-16  Christoffer Elo  <ce@ez.no>
+
+    * user/forgot.php: Fixed a bug
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-05-17  fh  <fh@zev.ez.no>
+
+    * user/forgot.php: Fixed eudora bug
+
+    * user/forgot.php: Removed critical debug exit()
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-05-22  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/userbox.php
+      classes/ezuser.php
+      sql/postgresql/ezuser.sql
+      user/login.php:
+    Added functionality which counts the number of logins a user performs.
+    It is also possible to redirect the user to any page at the n-th login.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-06-19  Christoffer Elo  <ce@ez.no>
+
+    * user/intl/en_GB/forgotmessage.php.ini
+      user/templates/standard/forgotmessage.tpl:
+    Added better userlogic to the forgot password page
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-07-03  Bjoern Reiten  <br@ez.no>
+
+    * user/userwithaddress.php:
+    fix, do not add the user to the anonymous group when the user
+    already exist.
+
+2002-07-03  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/Attic/extsearch.php.ini: lang fixes
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-07-08  Baard Farstad  <bf@ez.no>
+
+    * admin/sessioninfo.php
+      user/userwithaddress.php:
+    Fixed correct display of session idle time when > 24 h.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-07-09  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/sessioninfo.php.ini
+      admin/sessioninfo.php
+      admin/templates/standard/sessioninfo.tpl
+      classes/ezuser.php: Added user id to session list.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-07-14  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/userlist.php: fixed sorting of user list in admin area
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2002-08-15  Gunnstein Lye  <gl@ez.no>
+
+    * classes/ezauthor.php: added missing include
+
+    * classes/ezauthor.php:
+    Added eZTextTool::fixhtmlentities(), which fixes errors made by the
+    over-enthusiastic htmlspecialchars(). Used in eZArticle and
+    eZImageCatalogue.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2003-04-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezuser.php: speed improvement for 2.2.8
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2003-05-16  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezforgot.php
+      user/forgot.php: Fixed sequrity bug with hash values.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2003-05-19  Bjoern Reiten  <br@ez.no>
+
+    * user/forgot.php: fixed bug with generating of body.
+
+
+Module : ezuser
+Repository path : /home/cvsroot/projects/php/ezuser
+Maintainer(s) : bf@ez.no
+2003-06-12  Vidar Langseid  <vl@ez.no>
+
+    * sql/mysql/ezuser.sql
+      sql/postgresql/ezuser.sql:
+    Merged changes done in sql/publish_mysql.sql and sql/publish_postgresql.sql
+    into sql files for each module
+

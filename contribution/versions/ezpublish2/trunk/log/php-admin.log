@@ -1,0 +1,375 @@
+Wed Sep  5 15:28:06 CEST 2001 - Creating module admin, module category php
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * intl/fr_FR/error.ini
+      intl/fr_FR/help_header.php.ini: updated fr_FR
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * intl/no_NO/header.php.ini: Translation.
+
+    * intl/no_NO/header.php.ini
+      templates/ezpublish/header.tpl
+      header.php
+      intl/en_GB/header.php.ini: Added display of eZ publish version.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * footer.php
+      loginfooter.php
+      print_footer.php:
+    $index and $wwwDir go to $GlobalSiteIni->Index and $GlobalSiteIni->WWWDir. Fixes namespace problems.
+
+    * templates/ezpublish/loginheader.tpl: fixed title to english
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * intl/he_IL/error.ini
+      intl/he_IL/header.php.ini
+      intl/he_IL/help_header.php.ini
+      intl/he_IL/print_header.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-09  Thomas Hellstroem  <th@ez.no>
+
+    * images/button-cart-ro.gif
+      images/button-cart.gif
+      images/button-folder-ro.gif
+      images/button-folder.gif: New buttons
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-12  Sascha Frinken  <sascha@impetex.de>
+
+    * templates/ezpublish/header.tpl
+      header.php
+      intl/de_MG/header.php.ini: Added mygold design
+
+2001-10-12  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * loginheader.php: version on login screen
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * templates/ezpublish/header.tpl
+      templates/ezpublish/loginheader.tpl:
+    changed publish.ez.no to developer.ez.no
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * intl/de_DE/error.ini
+      intl/de_DE/header.php.ini
+      intl/de_DE/help_header.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-17  Pavel Bogdanov  <virt@epasaule.lv>
+
+    * header.php
+      templates/ezpublish/header.tpl: Language charset switch in admin
+
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * help_footer.php: Updated tag documentation.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-18  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * header.php
+      intl/en_GB/header.php.ini: ip address of admin
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * intl/no_NO/error.ini: updated no_NO
+
+    * intl/en_GB/header.php.ini: newline
+
+    * intl/no_NO/header.php.ini: updated no_NO
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-26  Thomas Hellstroem  <th@ez.no>
+
+    * templates/ezpublish/separator.tpl: Fixed gap in design
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * intl/fi_FI/error.ini
+      intl/fi_FI/header.php.ini
+      intl/fi_FI/help_header.php.ini
+      intl/fi_FI/print_header.php.ini: updated fi_FI for 2.2 final
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-10-30  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * header.php: Section patch
+
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * intl/es_MX/error.ini
+      intl/es_MX/header.php.ini
+      intl/es_MX/help_header.php.ini: updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * intl/en_GB/header.php.ini: en_GB fixxes
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-06  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * intl/en_GB/header.php.ini: ip address
+
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * intl/de_DE/error.ini
+      intl/de_DE/header.php.ini: de_DE update for 2.2.1
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * intl/no_NO/header.php.ini: Language fixes.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * intl/fr_FR/header.php.ini: updated fr_FR for 2.2 final
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * intl/es_AR/error.ini
+      intl/es_AR/header.php.ini: updated es_AR for 2.2.2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * intl/se_SE/error.ini
+      intl/se_SE/header.php.ini
+      intl/se_SE/help_header.php.ini
+      intl/se_SE/print_header.php.ini: se_SE swedish 2.2.1
+
+    * intl/es_MX/header.php.ini: es_MX update for 2.2.2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * intl/hr_HR/error.ini
+      intl/hr_HR/header.php.ini
+      intl/hr_HR/help_header.php.ini
+      intl/hr_HR/print_header.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * intl/pt_PT/error.ini
+      intl/pt_PT/header.php.ini
+      intl/pt_PT/help_header.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-01-11  Kai Duebbert  <kai@duebbert.de>
+
+    * templates/ezpublish/header.tpl
+      templates/ezpublish/loginheader.tpl
+      templates/ezpublish/print_header.tpl: fixed missing www_dir
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-02-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * print_footer.php: fixed bug in template directory
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-02-19  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * header.php: autoswitch languages in administrator edit
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-02-22  Bjoern Reiten  <br@ez.no>
+
+    * templates/ezpublish/print_header.tpl:
+    changed header info (norwegian to english translation)
+
+    * templates/ezpublish/print_header.tpl:
+    There was a norwegian translation on title in header.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-02-27  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * templates/ezpublish/header.tpl: ip address of admin
+
+2002-02-27  Baard Farstad  <bf@ez.no>
+
+    * templates/ezpublish/separator.tpl: Fixed link for nvh setup.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-03-04  Christoffer Elo  <ce@ez.no>
+
+    * templates/ezpublish/header.tpl
+      templates/ezpublish/loginheader.tpl
+      templates/ezpublish/print_header.tpl
+      intl/en_GB/header.php.ini
+      intl/en_GB/print_header.php.ini
+      intl/no_NO/header.php.ini
+      intl/no_NO/print_header.php.ini
+      loginheader.php: Added translation for the <title> field
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-03-27  jhe  <jhe@zev.ez.no>
+
+    * intl/no_NO/header.php.ini: fixa engelsk orddeling
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * intl/no_NO/header.php.ini
+      intl/no_NO/print_header.php.ini: updated no_NO for 2.2.4
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-04-23  jhe  <jhe@zev.ez.no>
+
+    * header.php: fixed typo
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-04-24  jb  <jb@zev.ez.no>
+
+    * header.php:
+    Fixed language settings in admin interface to keep the session variable
+    allthough a section will override the language.
+    Also made sure that the HTTP header Content-type has the appropriate charset.
+    NB: The current section code is hardcoded to test against url parameter 2 to
+    be archive, this should be changed someday.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-04-26  jb  <jb@zev.ez.no>
+
+    * header.php:
+    Added article edit and image category to section charset override.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2002-07-24  Baard Farstad  <bf@ez.no>
+
+    * header.php: Fixed bug when editing unassigned images.
+
+
+Module : admin
+Repository path : /home/cvsroot/projects/php/admin
+Maintainer(s) : bf@ez.no
+2003-04-10  Bjoern Reiten  <br@ez.no>
+
+    * header.php: fixed wrong url to help page.
+

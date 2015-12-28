@@ -1,0 +1,816 @@
+Wed Sep  5 15:29:26 CEST 2001 - Creating module ezfilemanager, module category php
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-06  th  <th@zev.ez.no>
+
+    * user/templates/standard/filelist.tpl
+      user/intl/no_NO/filelist.php.ini: Layout
+
+2001-09-06  jhe  <jhe@zev.ez.no>
+
+    * user/datasupplier.php
+      user/filelist.php
+      user/intl/en_GB/filelist.php.ini
+      user/templates/standard/filelist.tpl
+      classes/ezvirtualfolder.php: added next/previous buttons in filelist
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini: Layout
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezvirtualfile.php
+      user/search.php: search is working correctly
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-12  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/filelist.tpl: Layout
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-13  fh  <fh@zev.ez.no>
+
+    * user/fileupload.php: Code cleanup
+
+    * user/fileupload.php: Obey upload permission
+
+    * user/intl/en_GB/folderedit.php.ini
+      user/templates/standard/folderedit.tpl
+      user/folderedit.php:
+    1. Upload functionality added to eZObjectPermission.
+    2. Upload toggles added to imagecatalogue (toggles work) functionality not.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-16  fh  <fh@zev.ez.no>
+
+    * user/folderedit.php: Fix
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-17  fh  <fh@zev.ez.no>
+
+    * classes/ezvirtualfile.php
+      classes/ezvirtualfolder.php
+      user/filelist.php
+      user/fileupload.php
+      user/folderedit.php:
+    1. Change ownership and set right permissions when adding to upload folder
+    2. Recursivly change permissions and ownership on files being moved into an upload
+    folder.
+    3. Permissions fixes.
+
+2001-09-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/folderedit.php: fixed small bug
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/filelist.php.ini
+      user/intl/fr_FR/fileupload.php.ini
+      user/intl/fr_FR/fileview.php.ini
+      user/intl/fr_FR/folderedit.php.ini
+      user/intl/fr_FR/search.php.ini: updated fr_FR
+
+2001-09-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/folderedit.php.ini:
+    fixed no_NO translation for eZcalendar, eZcontact, eZfilemanager and eZforum
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezvirtualfile.php
+      user/filelist.php
+      user/templates/standard/filelist.tpl: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+2001-09-21  Christofer Elo  <ce@ez.no>
+
+    * classes/ezvirtualfolder.php
+      user/folderedit.php
+      user/templates/standard/folderedit.tpl: Added section id
+
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/filelist.php.ini
+      user/intl/no_NO/folderedit.php.ini
+      user/templates/standard/fileupload.tpl: more internationalization
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-22  Unknown  <master@open.lv>
+
+    * user/filelist.php
+      user/fileview.php: sections was patched for admin interface
+
+    * user/filelist.php
+      user/fileview.php: sections in file manager
+
+    * classes/ezvirtualfolder.php: small bug fixed in getsectiondIDstatic
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-24  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php
+      user/folderedit.php: small code standard fix
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-25  fh  <fh@zev.ez.no>
+
+    * user/fileupload.php: Filemanager: Removed unused stuff
+    Imagecatalogue: Set correct permissions on stuff uploaded/moved into a upload folder..
+    Imagecatalouge moving into upload is still a bit experimental... wondering if it might be better to allow UPLOAD only into a upload folder and
+    no moving... (this sure what make a few things easier...)
+
+    * user/menubox.php: Show write menu in menubox when upload allowed
+
+2001-09-25  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/en_GB/fileview.php.ini
+      user/intl/no_NO/fileview.php.ini
+      user/templates/standard/fileview.tpl: added search field in fileview
+
+    * user/intl/en_GB/search.php.ini
+      user/intl/no_NO/search.php.ini
+      user/templates/standard/search.tpl
+      classes/ezvirtualfile.php
+      user/search.php: fixed search in filemanager
+
+    * sql/mysql/ezfilemanager.sql
+      sql/postgresql/ezfilemanager.sql: updated sql schemas
+
+    * admin/cron.php
+      classes/ezvirtualfile.php
+      classes/ezvirtualfolder.php: small speed fixes
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/unassigned.php
+      user/fileupload.php: small bugfixes and code standardization
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-28  Christoffer Elo  <ce@ez.no>
+
+    * user/folderedit.php
+      sql/mysql/ezfilemanager.sql
+      sql/postgresql/ezfilemanager.sql: added fix
+
+2001-09-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/fileview.tpl: searching uses get instead of post
+
+    * classes/ezvirtualfile.php
+      user/filelist.php
+      user/search.php
+      user/templates/standard/filelist.tpl
+      user/templates/standard/search.tpl: fixed bugs in searching
+
+    * user/filelist.php
+      user/fileupload.php:
+    fixed bug for setting permissions when uploading files
+
+    * user/intl/no_NO/folderedit.php.ini
+      user/filedownload.php
+      user/filelist.php
+      user/fileupload.php
+      user/folderedit.php
+      user/intl/en_GB/folderedit.php.ini: bug in editing of folders
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * user/templates/standard/filelist.tpl
+      user/templates/standard/search.tpl: fixed missing nVH tags
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * user/intl/en_GB/menufolderlist.php.ini
+      user/menufolderlist.php: Added menu folder list script.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/filelist.php.ini
+      user/intl/he_IL/fileupload.php.ini
+      user/intl/he_IL/fileview.php.ini
+      user/intl/he_IL/folderedit.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/search.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-02  Bjoern Reiten  <br@ez.no>
+
+    * user/folderedit.php
+      user/filelist.php
+      user/fileupload.php: Fixed permission bugs.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-03  fh  <fh@zev.ez.no>
+
+    * user/folderedit.php: Bugfix for editing top level folders
+
+    * user/fileupload.php
+      user/folderedit.php
+      user/intl/en_GB/fileupload.php.ini
+      user/intl/en_GB/folderedit.php.ini
+      user/templates/standard/fileupload.tpl
+      user/templates/standard/folderedit.tpl:
+    1. Fixed visual folder edit bug..
+    2. Upload is now true upload only unless you have write access.
+    3. Removed a couple of bugs..
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-04  Christoffer Elo  <ce@ez.no>
+
+    * user/filelist.php: fix
+
+    * user/filelist.php
+      user/menufolderlist.php: Addded small productlist
+
+2001-10-04  fh  <fh@zev.ez.no>
+
+    * user/folderedit.php: -upload is upload (no move) in imagecatalogue
+    -fixes and cleanups in filemanager
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-09  fh  <fh@zev.ez.no>
+
+    * sql/informix/ezfilemanager.sql: SQL fixes..
+
+    * user/fileupload.php
+      user/folderedit.php
+      user/templates/standard/folderedit.tpl:
+    Bugfixes... Module should be ready for release.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/postgresql/ezfilemanager.sql
+      sql/mysql/ezfilemanager.sql: updated sql scheemas, ready for release
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezvirtualfile.php: fixed bug when user is not logged in
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/browse.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/unassigned.php.ini
+      user/intl/de_DE/filelist.php.ini
+      user/intl/de_DE/fileupload.php.ini
+      user/intl/de_DE/fileview.php.ini
+      user/intl/de_DE/folderedit.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * admin/cron.php
+      classes/ezvirtualfile.php: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/no_NO/fileupload.php.ini
+      user/intl/no_NO/folderedit.php.ini: updated no_NO
+
+    * admin/intl/en_GB/browse.php.ini
+      user/intl/en_GB/fileupload.php.ini
+      user/intl/en_GB/folderedit.php.ini
+      user/intl/en_GB/search.php.ini: newline
+
+    * user/intl/no_NO/filelist.php.ini
+      user/intl/no_NO/fileupload.php.ini
+      user/intl/no_NO/folderedit.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-27  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/browse.php.ini: Added translation.
+
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/browse.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/unassigned.php.ini
+      user/intl/fi_FI/filelist.php.ini
+      user/intl/fi_FI/fileupload.php.ini
+      user/intl/fi_FI/fileview.php.ini
+      user/intl/fi_FI/folderedit.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/search.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-29  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/search.php.ini: removed norwegian word
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/browse.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/unassigned.php.ini
+      user/intl/es_MX/filelist.php.ini
+      user/intl/es_MX/fileupload.php.ini
+      user/intl/es_MX/fileview.php.ini
+      user/intl/es_MX/folderedit.php.ini
+      user/intl/es_MX/search.php.ini: updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-10-31  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/search.php.ini: en_GB fix
+
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: fixed $user variable to avoid mixups
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-01  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: fixed $user variable to avoid confusion
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/browse.php.ini
+      user/intl/en_GB/fileupload.php.ini
+      user/intl/en_GB/folderedit.php.ini: en_GB fixxes
+
+2001-11-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php: fixed download problem with ie on mac
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-06  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/browse.php.ini: Added translation.
+
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/unassigned.php.ini
+      user/intl/de_DE/filelist.php.ini
+      user/intl/de_DE/fileupload.php.ini
+      user/intl/de_DE/fileview.php.ini
+      user/intl/de_DE/folderedit.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/search.php.ini
+      admin/intl/de_DE/browse.php.ini
+      admin/intl/de_DE/menubox.php.ini: de_DE update for 2.2.1
+
+2001-11-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php: added extension if omitted
+
+    * user/fileupload.php: appends extension if omitted
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/Attic/menufolderlist.php.ini: New file.
+
+    * admin/intl/en_GB/browse.php.ini
+      admin/intl/no_NO/browse.php.ini
+      user/intl/no_NO/Attic/menufolderlist.php.ini
+      user/intl/no_NO/filelist.php.ini
+      user/intl/no_NO/fileupload.php.ini
+      user/intl/no_NO/folderedit.php.ini
+      user/intl/no_NO/search.php.ini: updatet no_NO
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-14  Christoffer Elo  <ce@ez.no>
+
+    * user/filedownload.php: fix
+
+2001-11-14  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/filelist.tpl: fixed parent category block.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-15  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezvirtualfile.php: Merged a fix from head branch
+
+    * classes/ezvirtualfile.php: Fixed a bug:
+     when updating a file, the old file is beeing deleted.
+
+2001-11-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php:
+    new files now inherit permission from parent by default
+
+    * user/fileupload.php: files now default inherits permission from parent
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/browse.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/unassigned.php.ini
+      user/intl/fr_FR/filelist.php.ini
+      user/intl/fr_FR/fileupload.php.ini
+      user/intl/fr_FR/fileview.php.ini
+      user/intl/fr_FR/folderedit.php.ini
+      user/intl/fr_FR/menufolderlist.php.ini
+      user/intl/fr_FR/search.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/browse.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/unassigned.php.ini
+      user/intl/es_AR/filelist.php.ini
+      user/intl/es_AR/fileupload.php.ini
+      user/intl/es_AR/fileview.php.ini
+      user/intl/es_AR/folderedit.php.ini
+      user/intl/es_AR/menufolderlist.php.ini
+      user/intl/es_AR/search.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/browse.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/unassigned.php.ini
+      user/intl/se_SE/filelist.php.ini
+      user/intl/se_SE/fileupload.php.ini
+      user/intl/se_SE/fileview.php.ini
+      user/intl/se_SE/folderedit.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/search.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/browse.php.ini: es_MX update for 2.2.2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-11-23  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filedownload.php
+      user/filelist.php
+      user/fileupload.php:
+    added site.ini setting if we should download with originalfilename or name as filename
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-05  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/folderedit.tpl: Fixed template.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/browse.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/unassigned.php.ini
+      user/intl/hr_HR/filelist.php.ini
+      user/intl/hr_HR/fileupload.php.ini
+      user/intl/hr_HR/fileview.php.ini
+      user/intl/hr_HR/folderedit.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/search.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/unassigned.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filelist.php: fixed problem with default section
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filedownload.php: fixed bug when opening documents
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/browse.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/unassigned.php.ini
+      user/intl/pt_PT/filelist.php.ini
+      user/intl/pt_PT/fileupload.php.ini
+      user/intl/pt_PT/fileview.php.ini
+      user/intl/pt_PT/folderedit.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/menufolderlist.php.ini
+      user/intl/pt_PT/search.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-01-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php
+      user/folderedit.php: small speed fixed and code standard compliance
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * user/filelist.php: Fixes
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-02-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/folderedit.php
+      classes/ezvirtualfolder.php: fixed problem with permissions
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-02-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filelist.php:
+    not printing row for folders where the user doesn't have permission
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-02-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filelist.php: fixed buttons in root directory
+
+    * user/fileview.php: added folder_name variable in fileview
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-03-04  Baard Farstad  <bf@ez.no>
+
+    * user/filelist.php: Added template variables.
+
+    * user/filelist.php
+      user/fileupload.php:
+    When user uploads a file to a upload only folder userid is now kept.
+
+2002-03-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileupload.php: code standard fixes
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-03-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/filelist.php: removed unused code
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-03-25  jhe  <jhe@zev.ez.no>
+
+    * user/filedownload.php:
+    fixed problem with binary files on windows servers
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/fileupload.php.ini
+      user/intl/no_NO/folderedit.php.ini
+      admin/intl/no_NO/browse.php.ini: updated no_NO for 2.2.4
+
+2002-04-15  jhe  <jhe@zev.ez.no>
+
+    * user/filelist.php: removed template variable when empty list
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-04-22  jhe  <jhe@zev.ez.no>
+
+    * user/fileupload.php
+      user/fileview.php
+      classes/ezvirtualfile.php: heavy permission fixes
+
+    * user/fileupload.php: removed &nbsp when removing error messages
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-04-30  br  <br@zev.ez.no>
+
+    * user/fileview.php: fixed templatebug with fileview.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2002-09-02  Baard Farstad  <bf@ez.no>
+
+    * user/Attic/menufilelist.php
+      user/templates/standard/Attic/menufilelist.tpl:
+    Added menufilelist for filemanager.
+
+    * user/Attic/menufilelist.php
+      user/templates/standard/Attic/menufilelist.tpl: New file.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2003-02-24  Bjoern Reiten  <br@ez.no>
+
+    * user/filedownload.php: uncommented filepermissions.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2003-03-25  Bjoern Reiten  <br@ez.no>
+
+    * user/folderedit.php: removed debug.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2003-04-11  Bjoern Reiten  <br@ez.no>
+
+    * user/filedownload.php: fixed suffix in eZ filemanager.
+
+
+Module : ezfilemanager
+Repository path : /home/cvsroot/projects/php/ezfilemanager
+Maintainer(s) : jhe@ez.no
+2003-06-05  Bjoern Reiten  <br@ez.no>
+
+    * user/search.php:
+    fixed security bug with variable check in search in eZ filemanager.
+

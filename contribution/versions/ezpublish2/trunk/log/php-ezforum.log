@@ -1,0 +1,1294 @@
+Wed Sep  5 15:29:32 CEST 2001 - Creating module ezforum, module category php
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-06  th  <th@zev.ez.no>
+
+    * user/intl/en_GB/messagelist.php.ini
+      user/intl/no_NO/messagelist.php.ini
+      user/templates/standard/messagelist.tpl: Layout
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-07  fh  <fh@zev.ez.no>
+
+    * classes/ezforum.php:
+    Search works again. Added missing $query->setPartialCompare( true ); SHAME on the person who changed it (not in the logs,
+    change probably to use eZQuery) without testing it afterwords.
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/gruk/messagesimplelist.tpl
+      user/templates/gruk/userlogin.tpl
+      user/templates/gruk/categorylist.tpl
+      user/templates/gruk/categorymenu.tpl
+      user/templates/gruk/forumlist.tpl
+      user/templates/gruk/latestmessages.tpl
+      user/templates/gruk/mailreply.tpl
+      user/templates/gruk/menubox.tpl
+      user/templates/gruk/message.tpl
+      user/templates/gruk/messagebody.tpl
+      user/templates/gruk/messagedelete.tpl
+      user/templates/gruk/messageedit.tpl
+      user/templates/gruk/messageerror.tpl
+      user/templates/gruk/messageform.tpl
+      user/templates/gruk/messagehiddenform.tpl
+      user/templates/gruk/messagelist.tpl
+      user/templates/gruk/messagepath.tpl
+      user/templates/gruk/messagepost.tpl
+      user/templates/gruk/messageposted.tpl
+      user/templates/gruk/messagepreview.tpl
+      user/templates/gruk/messagereply.tpl
+      user/templates/gruk/search.tpl: Layout
+
+2001-09-07  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/id_ID/messageedit.php.ini
+      user/intl/id_ID/messagepost.php.ini
+      user/intl/id_ID/messagereply.php.ini
+      user/intl/id_ID/messagesimpleedit.php.ini
+      user/intl/id_ID/messagesimplereply.php.ini: added id_ID
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/search.php: fixed strange code
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-11  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/message.tpl
+      user/templates/linmag/messageform.tpl
+      user/templates/linmag/messagelist.tpl: Layout
+
+2001-09-11  Bjoern Reiten  <br@ez.no>
+
+    * user/intl/no_NO/messagelist.php.ini: translation for show.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-13  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/nl_NL/message.php.ini: updated nl_NL
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php: latest messages now contains replies
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php
+      user/messagelist.php: fixed bug when counting messages
+
+    * user/templates/standard/message.tpl: fixed bug once more :P
+
+    * user/templates/standard/message.tpl:
+    fixed indenting in message thread in message view
+
+    * user/templates/standard/message.tpl
+      user/message.php:
+    fixed bug printing author for anonynous users in message thread in message view
+
+    * user/templates/standard/messagelist.tpl:
+    fixed bug when showing indenting on replies
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/categoryedit.php.ini
+      admin/intl/fr_FR/categorylist.php.ini
+      admin/intl/fr_FR/forumedit.php.ini
+      admin/intl/fr_FR/forumlist.php.ini
+      admin/intl/fr_FR/mailreject.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/message.php.ini
+      admin/intl/fr_FR/messageedit.php.ini
+      admin/intl/fr_FR/messagelist.php.ini
+      admin/intl/fr_FR/noright.php.ini
+      admin/intl/fr_FR/search.php.ini
+      admin/intl/fr_FR/unapprovedlist.php.ini
+      user/intl/fr_FR/categorylist.php.ini
+      user/intl/fr_FR/forumlist.php.ini
+      user/intl/fr_FR/mailreply.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/message.php.ini
+      user/intl/fr_FR/messagelist.php.ini
+      user/intl/fr_FR/messagesimplelist.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/userlogin.php.ini: updated fr_FR
+
+2001-09-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php
+      user/forumlist.php
+      user/latestmessages.php
+      user/messagelist.php
+      user/messagesimplelist.php
+      user/search.php: fixed serious bug with searching
+
+    * admin/intl/no_NO/forumedit.php.ini
+      user/intl/no_NO/Attic/forumsimplelist.php.ini
+      user/intl/no_NO/Attic/messagelistflat.php.ini
+      user/intl/no_NO/Attic/messagereply.php.ini:
+    fixed no_NO translation for eZcalendar, eZcontact, eZfilemanager and eZforum
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagereply.php
+      admin/unapprovededit.php
+      classes/ezforummessage.php
+      user/message.php
+      user/messageedit.php
+      user/messageform.php: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+2001-09-21  Baard Farstad  <bf@ez.no>
+
+    * classes/ezforumcategory.php
+      user/forumlist.php
+      user/message.php
+      user/messagelist.php: Added section support in eZ forum.
+
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/categorylist.php
+      admin/unapprovededit.php
+      classes/ezforumcategory.php: fixed bug
+
+    * admin/categoryedit.php
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/templates/standard/categoryedit.tpl
+      classes/ezforumcategory.php
+      sql/mysql/ezforum.sql: added section in categories
+
+    * classes/ezforummessage.php
+      user/datasupplier.php
+      user/intl/en_GB/message.php.ini
+      user/intl/no_NO/message.php.ini
+      user/message.php
+      user/messageedit.php
+      user/messagesimplelist.php
+      user/templates/standard/message.tpl: more internationalization
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-24  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/forumedit.php
+      admin/forumlist.php
+      admin/messageedit.php
+      admin/unapprovededit.php
+      classes/ezforumcategory.php
+      user/categorylist.php: fixed small bugs with <?php code
+
+    * admin/message.php
+      admin/messagelist.php: fixed bug with <> tags in forum message
+
+    * admin/datasupplier.php
+      admin/forumedit.php
+      admin/message.php
+      admin/messageedit.php
+      admin/messagelist.php
+      admin/search.php
+      classes/ezforumcategory.php
+      classes/ezforummessage.php
+      user/forumlist.php
+      user/message.php
+      user/messagebody.php
+      user/messageedit.php
+      user/messageform.php
+      user/messagepath.php
+      user/messagepermissions.php
+      user/messagereply.php
+      user/messagesearch.php
+      user/userlogin.php:
+    fixed problems with special characters, html-content and php-content
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-25  Baard Farstad  <bf@ez.no>
+
+    * classes/ezforum.php
+      user/search.php: Added fulltext search in forum.
+
+    * classes/ezforummessage.php: Added fulltext word indexing on forum.
+
+2001-09-25  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php
+      user/intl/no_NO/search.php.ini
+      user/search.php
+      user/templates/standard/search.tpl: fixed searching in forum
+
+    * sql/mysql/ezforum.sql
+      sql/postgresql/ezforum.sql: updated sql schemas
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-26  Thomas Hellstroem  <th@ez.no>
+
+    * user/intl/en_GB/messagelist.php.ini
+      user/messagelist.php: Layout
+
+2001-09-26  Christofer Elo  <ce@ez.no>
+
+    * user/messagelist.php: fizx
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * user/search.php: FIxed count bug.
+
+    * sql/mysql/ezforum.sql: SQL fix.
+
+2001-09-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php: fixed small bugs
+
+    * admin/forumedit.php
+      admin/messageedit.php
+      admin/search.php: small code fixes
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/latestmessages.php:
+    fixed template bug if we have no messages in any forums
+
+    * classes/ezforum.php
+      user/templates/standard/message.tpl
+      user/templates/standard/messagelist.tpl
+      user/templates/standard/search.tpl: small fixes in search
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * user/intl/en_GB/menuforumlist.php.ini
+      user/menuforumlist.php: Menu forum list.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-01  Bjoern Reiten  <br@ez.no>
+
+    * user/searchsupplier.php: fixed search.
+
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/categoryedit.php.ini
+      admin/intl/he_IL/categorylist.php.ini
+      admin/intl/he_IL/forumedit.php.ini
+      admin/intl/he_IL/forumlist.php.ini
+      admin/intl/he_IL/mailreject.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/message.php.ini
+      admin/intl/he_IL/messageedit.php.ini
+      admin/intl/he_IL/messagelist.php.ini
+      admin/intl/he_IL/noright.php.ini
+      admin/intl/he_IL/search.php.ini
+      admin/intl/he_IL/unapprovedlist.php.ini
+      user/intl/he_IL/categorylist.php.ini
+      user/intl/he_IL/forumlist.php.ini
+      user/intl/he_IL/mailreply.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/message.php.ini
+      user/intl/he_IL/messagelist.php.ini
+      user/intl/he_IL/messagesimplelist.php.ini
+      user/intl/he_IL/search.php.ini
+      user/intl/he_IL/userlogin.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-04  Baard Farstad  <bf@ez.no>
+
+    * user/messagelist.php: Fixed bug with overwriting the currentuser.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezforum.sql: Fixed sql-
+
+2001-10-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/message.php
+      user/messagelist.php
+      user/messagereply.php: fixed security bug (user variable)
+
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezforum.sql: Added indeces.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php
+      user/searchsupplier.php: fixed new standard for searching
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagelistflat.php
+      user/search.php
+      admin/editmessage.php
+      admin/forumedit.php
+      admin/message.php
+      admin/messageedit.php
+      admin/messagelist.php
+      admin/search.php
+      admin/unapprovededit.php
+      admin/unapprovedlist.php: fixed security bug with $user
+
+2001-10-10  Baard Farstad  <bf@ez.no>
+
+    * user/message.php: Fixed spelling error.
+
+    * user/searchsupplier.php: Count fix.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/message.php
+      admin/messageedit.php
+      admin/messagelist.php
+      classes/ezforum.php: fixed several bugs in edmin
+
+    * sql/Attic/ezforum.sql
+      sql/informix/ezforum.sql
+      user/forumlist.php
+      user/messagepermissions.php: updated sql scheemes, ready for release
+
+2001-10-11  Christoffer Elo  <ce@ez.no>
+
+    * user/messagelist.php: fixed a bug
+
+    * user/messagelist.php: fix
+
+    * user/intl/en_GB/messagelist.php.ini
+      user/messagelist.php
+      user/templates/standard/messagelist.tpl: Added no access
+
+    * user/messagelist.php: Fixed a bug
+
+    * user/intl/en_GB/noaccess.php.ini
+      user/messagelist.php
+      user/templates/standard/noaccess.tpl: Added no access page.
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezforum.sql
+      sql/postgresql/ezforum.sql: updated sql scheemas, ready for release
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php
+      user/messageedit.php: fixed bug with slashs
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-15  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/mailreply.php.ini: changed space to &nbsp;
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezforummessage.php: Added meta for products
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/search.php.ini
+      user/intl/de_DE/latestmessages.php.ini
+      user/intl/de_DE/message.php.ini
+      user/intl/de_DE/messagelist.php.ini
+      user/intl/de_DE/search.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/unapprovedlist.php.ini
+      user/intl/no_NO/messagelist.php.ini
+      admin/intl/no_NO/categorylist.php.ini
+      admin/intl/no_NO/forumlist.php.ini
+      admin/intl/no_NO/message.php.ini
+      admin/intl/no_NO/messagelist.php.ini
+      user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/forumlist.php.ini
+      user/intl/no_NO/mailreply.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/message.php.ini
+      user/intl/no_NO/messagesimplelist.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+    * admin/intl/en_GB/messagelist.php.ini
+      admin/intl/en_GB/unapprovedlist.php.ini
+      user/intl/en_GB/messagelist.php.ini
+      user/intl/en_GB/noaccess.php.ini: newline
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/categorylist.php.ini
+      admin/intl/no_NO/forumedit.php.ini
+      admin/intl/no_NO/forumlist.php.ini
+      admin/intl/no_NO/message.php.ini
+      admin/intl/no_NO/messagelist.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/unapprovedlist.php.ini
+      user/intl/no_NO/categorylist.php.ini
+      user/intl/no_NO/forumlist.php.ini
+      user/intl/no_NO/mailreply.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/message.php.ini
+      user/intl/no_NO/messagelist.php.ini
+      user/intl/no_NO/messagesimplelist.php.ini
+      user/intl/no_NO/noaccess.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/datasupplier.php: fixed small bug with including of template
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/categorylist.php.ini
+      admin/intl/fi_FI/forumedit.php.ini
+      admin/intl/fi_FI/forumlist.php.ini
+      admin/intl/fi_FI/mailreject.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/message.php.ini
+      admin/intl/fi_FI/messageedit.php.ini
+      admin/intl/fi_FI/messagelist.php.ini
+      admin/intl/fi_FI/noright.php.ini
+      admin/intl/fi_FI/search.php.ini
+      admin/intl/fi_FI/unapprovedlist.php.ini
+      user/intl/fi_FI/categorylist.php.ini
+      user/intl/fi_FI/forumlist.php.ini
+      user/intl/fi_FI/latestmessages.php.ini
+      user/intl/fi_FI/mailreply.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/message.php.ini
+      user/intl/fi_FI/messagelist.php.ini
+      user/intl/fi_FI/messagesimplelist.php.ini
+      user/intl/fi_FI/noaccess.php.ini
+      user/intl/fi_FI/search.php.ini
+      user/intl/fi_FI/userlogin.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-30  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messageedit.php
+      user/messageform.php: fixed bug with admin url
+
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/categoryedit.php.ini
+      admin/intl/es_MX/categorylist.php.ini
+      admin/intl/es_MX/forumlist.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/message.php.ini
+      admin/intl/es_MX/messagelist.php.ini
+      admin/intl/es_MX/noright.php.ini
+      admin/intl/es_MX/search.php.ini
+      admin/intl/es_MX/unapprovedlist.php.ini
+      user/intl/es_MX/categorylist.php.ini
+      user/intl/es_MX/forumlist.php.ini
+      user/intl/es_MX/latestmessages.php.ini
+      user/intl/es_MX/mailreply.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/message.php.ini
+      user/intl/es_MX/messagelist.php.ini
+      user/intl/es_MX/messagesimplelist.php.ini
+      user/intl/es_MX/noaccess.php.ini
+      user/intl/es_MX/search.php.ini
+      user/intl/es_MX/userlogin.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/menubox.php: fixed ini pointer
+
+    * user/messageedit.php: fixed wrong link in moderator e-mail
+
+    * user/messageedit.php: fixed wrong link in e-mail
+
+    * classes/ezforummessage.php
+      user/messageedit.php
+      user/messageform.php: fixed bug with $user object
+
+    * classes/ezforummessage.php
+      user/messageedit.php
+      user/messageform.php: fixed bug with user object
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * user/menubox.php: Fixed crash.
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/menubox.php: ini error
+
+2001-11-01  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messageedit.php
+      user/messageform.php
+      user/templates/standard/mailreply.tpl: fixed bug with moderator e-mail
+
+    * user/menubox.php
+      user/messageedit.php
+      user/messageform.php
+      user/templates/standard/mailreply.tpl:
+    fixed small bug with moderator e-mails
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * user/menubox.php: Fixed INI file variable.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/unapprovededit.php: fixed bug with rejection of forum messages
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/messagelist.php.ini
+      admin/intl/en_GB/unapprovedlist.php.ini
+      user/intl/en_GB/messagelist.php.ini
+      user/intl/en_GB/noaccess.php.ini: en_GB fixxes
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/forumedit.php.ini
+      admin/intl/de_DE/messagelist.php.ini
+      admin/intl/de_DE/search.php.ini
+      admin/intl/de_DE/unapprovedlist.php.ini
+      user/intl/de_DE/forumlist.php.ini
+      user/intl/de_DE/latestmessages.php.ini
+      user/intl/de_DE/mailreply.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/message.php.ini
+      user/intl/de_DE/messagelist.php.ini
+      user/intl/de_DE/noaccess.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/userlogin.php.ini: de_DE update for 2.2.1
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/Attic/menuforumlist.php.ini: New file.
+
+    * admin/intl/no_NO/forumedit.php.ini
+      admin/intl/no_NO/messagelist.php.ini
+      admin/intl/no_NO/search.php.ini
+      admin/intl/no_NO/unapprovedlist.php.ini
+      user/intl/no_NO/Attic/menuforumlist.php.ini
+      user/intl/no_NO/messagelist.php.ini
+      user/intl/no_NO/noaccess.php.ini: updatet no_NO
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/message.tpl: fixed <form> tag|
+
+2001-11-14  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/message.tpl
+      user/templates/linmag/messagelist.tpl: fixed template blocks.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagelist.php
+      user/templates/standard/message.tpl
+      user/templates/standard/messagelist.tpl: fixed problem in header
+
+    * user/messagereply.php:
+    fixed problem with link in e-mail for moderated forums
+
+    * user/messagereply.php: fixed bug in e-mail if forum is moderated
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/latestmessages.php.ini
+      user/intl/fr_FR/menuforumlist.php.ini
+      user/intl/fr_FR/message.php.ini
+      user/intl/fr_FR/messagelist.php.ini
+      user/intl/fr_FR/noaccess.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagelist.php
+      user/templates/standard/messagelist.tpl:
+    fixed problem with header in forums attached to polls and atricles
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/categorylist.php.ini
+      admin/intl/es_AR/forumedit.php.ini
+      admin/intl/es_AR/forumlist.php.ini
+      admin/intl/es_AR/mailreject.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/message.php.ini
+      admin/intl/es_AR/messageedit.php.ini
+      admin/intl/es_AR/messagelist.php.ini
+      admin/intl/es_AR/search.php.ini
+      admin/intl/es_AR/unapprovedlist.php.ini
+      user/intl/es_AR/categorylist.php.ini
+      user/intl/es_AR/forumlist.php.ini
+      user/intl/es_AR/latestmessages.php.ini
+      user/intl/es_AR/mailreply.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/menuforumlist.php.ini
+      user/intl/es_AR/message.php.ini
+      user/intl/es_AR/messagelist.php.ini
+      user/intl/es_AR/messagesimplelist.php.ini
+      user/intl/es_AR/noaccess.php.ini
+      user/intl/es_AR/search.php.ini
+      user/intl/es_AR/userlogin.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/categorylist.php.ini
+      admin/intl/se_SE/forumedit.php.ini
+      admin/intl/se_SE/forumlist.php.ini
+      admin/intl/se_SE/mailreject.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/message.php.ini
+      admin/intl/se_SE/messageedit.php.ini
+      admin/intl/se_SE/messagelist.php.ini
+      admin/intl/se_SE/noright.php.ini
+      admin/intl/se_SE/search.php.ini
+      admin/intl/se_SE/unapprovedlist.php.ini
+      user/intl/se_SE/categorylist.php.ini
+      user/intl/se_SE/forumlist.php.ini
+      user/intl/se_SE/latestmessages.php.ini
+      user/intl/se_SE/mailreply.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/message.php.ini
+      user/intl/se_SE/messagelist.php.ini
+      user/intl/se_SE/messagesimplelist.php.ini
+      user/intl/se_SE/noaccess.php.ini
+      user/intl/se_SE/search.php.ini
+      user/intl/se_SE/userlogin.php.ini: se_SE swedish 2.2.1
+
+    * user/intl/es_MX/userlogin.php.ini: es_MX update for 2.2.2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-26  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagepath.php: fixed small bug in coding syntax
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-11-29  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php: fixed htmlspecialchars bug
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/categorylist.php.ini
+      admin/intl/hr_HR/forumedit.php.ini
+      admin/intl/hr_HR/forumlist.php.ini
+      admin/intl/hr_HR/mailreject.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/message.php.ini
+      admin/intl/hr_HR/messageedit.php.ini
+      admin/intl/hr_HR/messagelist.php.ini
+      admin/intl/hr_HR/noright.php.ini
+      admin/intl/hr_HR/search.php.ini
+      admin/intl/hr_HR/unapprovedlist.php.ini
+      user/intl/hr_HR/categorylist.php.ini
+      user/intl/hr_HR/forumlist.php.ini
+      user/intl/hr_HR/latestmessages.php.ini
+      user/intl/hr_HR/mailreply.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/message.php.ini
+      user/intl/hr_HR/messagelist.php.ini
+      user/intl/hr_HR/messagesimplelist.php.ini
+      user/intl/hr_HR/noaccess.php.ini
+      user/intl/hr_HR/search.php.ini
+      user/intl/hr_HR/userlogin.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-07  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/vig/categorylist.tpl
+      user/templates/vig/categorymenu.tpl
+      user/templates/vig/forumlist.tpl
+      user/templates/vig/mailreply.tpl
+      user/templates/vig/menubox.tpl
+      user/templates/vig/message.tpl
+      user/templates/vig/messagebody.tpl
+      user/templates/vig/messagedelete.tpl
+      user/templates/vig/messageedit.tpl
+      user/templates/vig/messageerror.tpl
+      user/templates/vig/messageform.tpl
+      user/templates/vig/messagehiddenform.tpl
+      user/templates/vig/messagelist.tpl
+      user/templates/vig/messagepath.tpl
+      user/templates/vig/messagepost.tpl
+      user/templates/vig/messageposted.tpl
+      user/templates/vig/messagepreview.tpl
+      user/templates/vig/messagereply.tpl
+      user/templates/vig/messagesimplelist.tpl
+      user/templates/vig/search.tpl
+      user/templates/vig/userlogin.tpl: removed templatefiles
+
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/categorylist.tpl
+      admin/templates/standard/forumlist.tpl
+      admin/templates/standard/messagelist.tpl
+      admin/templates/standard/search.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messageedit.php
+      user/messagereply.php: fixed problems with escaping text in e-mail
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-11  Bjoern Reiten  <br@ez.no>
+
+    * user/messageedit.php:
+    added referer to reply messages, and return to referer url at the end.
+
+    * user/messageedit.php:
+    Added referer url for replay messages, and redirect to the referer url
+    at the end.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-12  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/standard/messagesimplelist.tpl:
+    added referer to hidden variable.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-20  Baard Farstad  <bf@ez.no>
+
+    * user/messagereply.php: Fixed correct reply address.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/messageedit.php.ini
+      admin/intl/pt_PT/search.php.ini
+      user/intl/pt_PT/categorylist.php.ini
+      user/intl/pt_PT/forumlist.php.ini
+      user/intl/pt_PT/latestmessages.php.ini
+      user/intl/pt_PT/menuforumlist.php.ini
+      user/intl/pt_PT/message.php.ini
+      user/intl/pt_PT/messagelist.php.ini
+      user/intl/pt_PT/noaccess.php.ini
+      user/intl/pt_PT/userlogin.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-03  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezforummessage.php:
+    return UserID for lastmessages(). shouldn't break anything.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-04  Kai Duebbert  <kai@duebbert.de>
+
+    * user/search.php:
+    $NewMessageLimit wasn't defined. (I wish people would turn on all error reporting when programming.</rant>)
+
+    * user/search.php:
+    Use $SearchText if $QueryString is not defined... stay compatible
+
+    * user/datasupplier.php: small fix
+
+2002-01-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php
+      user/messagelist.php: fixed bug when counting replies
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messageedit.php: fixed problem with cr in start/stop of a message
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-24  Baard Farstad  <bf@ez.no>
+
+    * user/messageedit.php
+      user/messagesimplelist.php
+      user/userlogin.php: Fixed messages appended to products.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * user/latestmessages.php: Fixes
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-01-31  Baard Farstad  <bf@ez.no>
+
+    * admin/unapprovedlist.php: Fixed approval.
+
+    * user/messagesimplelist.php: Fixed design.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-01  Thomas Hellstroem  <th@ez.no>
+
+    * user/intl/no_NO/messagesimplelist.php.ini: Layout
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php:
+    deleting from word list when deleting messages
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforummessage.php
+      user/message.php
+      user/messagebody.php
+      user/messageedit.php
+      user/messageform.php
+      user/messagereply.php
+      user/messagesimplelist.php: fixed bug with html in forum messages
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezforum.sql: Added indeces.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/messagebody.tpl
+      user/templates/standard/messageform.tpl
+      user/templates/standard/messagereply.tpl:
+    fixed small bug with <br> at start of message
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-15  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezforummessage.php
+      user/messageedit.php: Added fixes
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-22  Baard Farstad  <bf@ez.no>
+
+    * user/latestmessages.php:
+    Added code for showing user names and time of postings.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-25  ceaker  <ceaker@zev.ez.no>
+
+    * user/messagesimplelist.php: *** empty log message ***
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-02-26  Christoffer Elo  <ce@ez.no>
+
+    * user/messagesimplelist.php: Updates design
+
+2002-02-26  Baard Farstad  <bf@ez.no>
+
+    * user/latestmessages.php: Added limit in forum list.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-03-01  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezforum.php
+      user/datasupplier.php
+      user/messageedit.php
+      user/messagepermissions.php:
+    Fixed some relations problems with eZ trade:wq
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * user/messagesimplelist.php
+      user/userlogin.php: Added design for akersmic
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-05  bf  <bf@zev.ez.no>
+
+    * user/message.php:
+    Added functionality for more flexible layout. Contributed by a user.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-09  jhe  <jhe@zev.ez.no>
+
+    * user/templates/standard/messagelist.tpl
+      user/message.php: fixed bad white spaces and incorrect html code
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * classes/ezforum.php
+      classes/ezforummessage.php
+      user/datasupplier.php
+      user/messageedit.php
+      user/messagepermissions.php
+      user/messagesimplelist.php:
+    Major commit from the online akersmic version.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/forumedit.php.ini
+      admin/intl/no_NO/mailreject.php.ini
+      admin/intl/no_NO/message.php.ini
+      admin/intl/no_NO/messageedit.php.ini
+      user/intl/no_NO/mailreply.php.ini
+      user/intl/no_NO/message.php.ini
+      user/intl/no_NO/noaccess.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-16  jhe  <jhe@zev.ez.no>
+
+    * user/messageform.php: fields keep values even when error
+
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/mailreply.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/messageedit.php.ini: epost -> e-post
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-04-24  jhe  <jhe@zev.ez.no>
+
+    * user/messageedit.php
+      user/messageform.php:
+    posting time is not shown when message is temporary
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-05-02  Baard Farstad  <bf@ez.no>
+
+    * user/search.php: Fixed security bug.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-05-03  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezforum.php: fixed permission bug
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-05-08  Vidar Langseid  <vl@ez.no>
+
+    * user/message.php
+      user/messageform.php
+      user/messagesimplelist.php
+      user/userlogin.php:
+    Fixed cross site bugs caused by the ?RedirectURL feature
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-05-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messageedit.php
+      user/messageform.php
+      user/messagelist.php
+      user/templates/standard/messageform.tpl: fixed stupid bugs
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-05-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/messagebody.php
+      user/messageform.php: fixed bug with posting time and author name
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2002-10-02  Baard Farstad  <bf@ez.no>
+
+    * classes/ezforum.php
+      admin/search.php: Fixed problem with search in forum admin interface.
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2003-06-05  Bjoern Reiten  <br@ez.no>
+
+    * user/messagebody.php:
+    fixed security bug with message body (variable check)
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2003-06-17  Vidar Langseid  <vl@ez.no>
+
+    * user/messagesimplelist.php:
+    Fixed so that template variable {user} is set to something meaningful
+    in messagesimplelist (usercomment to articles) even though poster is
+    not logged in
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2003-08-25  Vidar Langseid  <vl@ez.no>
+
+    * admin/unapprovededit.php
+      user/messagereply.php:
+    - Fixed bug. In moderated forums, notifications are now sendt when message is approved (not when
+      message is submitted)
+
+
+Module : ezforum
+Repository path : /home/cvsroot/projects/php/ezforum
+Maintainer(s) : jhe@ez.no
+2004-07-08  Bjoern Reiten  <br@ez.no>
+
+    * user/messagebody.php:
+    - Fixed bug with newlines when posting a new message in forum.
+

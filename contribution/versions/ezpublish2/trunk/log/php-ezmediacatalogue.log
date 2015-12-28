@@ -1,0 +1,396 @@
+Wed Sep  5 15:28:38 CEST 2001 - Creating module ezmediacatalogue, module category php
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-09-08  Christofer Elo  <ce@ez.no>
+
+    * sql/postgresql/ezmediacatalogue.sql
+      sql/mysql/ezmediacatalogue.sql: added a table
+
+2001-09-08  fh  <fh@zev.ez.no>
+
+    * admin/intl/en_GB/mediaedit.php.ini
+      admin/mediaedit.php
+      admin/templates/standard/mediaedit.tpl:
+    Add possibility to enter new creator
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-09-14  nca_intelhosting3  <bf@ez.no>
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/mediaview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini: Fix on norwegian translation.
+
+    * admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/mediaview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini: Translated to norwegian.
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-09-27  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezmediacatalogue.sql
+      sql/postgresql/ezmediacatalogue.sql: Added missing SQL tables/fields.
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezmediacatalogue.sql
+      sql/postgresql/ezmediacatalogue.sql:
+    updated sql scheemes, ready for release
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * catalogue/dummy.cache: added catalogue directory with dummy.cache file
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezmedia.php: Fixed a bug
+
+    * admin/categoryedit.php
+      admin/templates/standard/medialist.tpl: Fixed postgres bugs
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-18  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezmediaattribute.php: Added referances
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/mediaedit.php.ini: updated no_NO
+
+    * admin/intl/en_GB/browse.php.ini
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/mediaedit.php.ini
+      admin/intl/en_GB/medialist.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/typeedit.php.ini: newline
+
+    * admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/mediaview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini: updated no_NO
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/attributeedit.php.ini
+      admin/intl/fi_FI/browse.php.ini
+      admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/mediaedit.php.ini
+      admin/intl/fi_FI/medialist.php.ini
+      admin/intl/fi_FI/mediaview.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/typeedit.php.ini
+      admin/intl/fi_FI/typelist.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/attributeedit.php.ini
+      admin/intl/es_MX/browse.php.ini
+      admin/intl/es_MX/categoryedit.php.ini
+      admin/intl/es_MX/mediaedit.php.ini
+      admin/intl/es_MX/medialist.php.ini
+      admin/intl/es_MX/mediaview.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/typeedit.php.ini
+      admin/intl/es_MX/typelist.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-01  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/browse.tpl: Fixed iconas
+
+    * sql/mysql/ezmediacatalogue.sql
+      sql/postgresql/ezmediacatalogue.sql: Fixed some media bugs
+
+    * admin/mediaview.php: Fix
+
+    * admin/mediaview.php
+      classes/ezmedia.php: Added fix
+
+    * admin/mediaedit.php
+      classes/ezmedia.php
+      classes/ezmediaattribute.php
+      classes/ezmediacategory.php
+      classes/ezmediatype.php: Added fixes
+
+    * classes/ezmediacategory.php
+      classes/ezmediatype.php
+      classes/ezmedia.php
+      classes/ezmediaattribute.php
+      admin/categoryedit.php
+      admin/datasupplier.php
+      admin/medialist.php
+      admin/mediaview.php: Fix
+
+    * classes/ezmedia.php
+      admin/categoryedit.php
+      admin/datasupplier.php
+      admin/mediaedit.php
+      admin/medialist.php
+      admin/mediaview.php: Fixed some bugs in the media upload
+
+    * admin/categoryedit.php
+      admin/datasupplier.php
+      admin/medialist.php
+      admin/mediaview.php
+      admin/templates/standard/medialist.tpl
+      classes/ezmedia.php
+      classes/ezmediaattribute.php
+      classes/ezmediacategory.php
+      classes/ezmediatype.php: Fixed bugs in media catalogue
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-02  Christoffer Elo  <ce@ez.no>
+
+    * admin/mediaedit.php: Removed some debugs
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/browse.php.ini
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/mediaedit.php.ini
+      admin/intl/en_GB/medialist.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/typeedit.php.ini: en_GB fixxes
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/attributeedit.php.ini
+      admin/intl/de_DE/browse.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/mediaedit.php.ini
+      admin/intl/de_DE/medialist.php.ini
+      admin/intl/de_DE/mediaview.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/typeedit.php.ini
+      admin/intl/de_DE/typelist.php.ini: de_DE update for 2.2.1
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-07  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/medialist.tpl: Fixed a template  error
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini: fixed several bugs in no_NO files
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-12  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/browse.tpl: Fixed a tempalte bug
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-15  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/no_NO/typeedit.php.ini: Updated norwegian language
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/attributeedit.php.ini
+      admin/intl/es_AR/browse.php.ini
+      admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/mediaedit.php.ini
+      admin/intl/es_AR/medialist.php.ini
+      admin/intl/es_AR/mediaview.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/typeedit.php.ini
+      admin/intl/es_AR/typelist.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/attributeedit.php.ini
+      admin/intl/se_SE/browse.php.ini
+      admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/mediaedit.php.ini
+      admin/intl/se_SE/medialist.php.ini
+      admin/intl/se_SE/mediaview.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/typeedit.php.ini
+      admin/intl/se_SE/typelist.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/attributeedit.php.ini
+      admin/intl/hr_HR/browse.php.ini
+      admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/mediaedit.php.ini
+      admin/intl/hr_HR/medialist.php.ini
+      admin/intl/hr_HR/mediaview.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/typeedit.php.ini
+      admin/intl/hr_HR/typelist.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/medialist.tpl
+      admin/templates/standard/typelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/attributeedit.php.ini
+      admin/intl/pt_PT/browse.php.ini
+      admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/mediaedit.php.ini
+      admin/intl/pt_PT/medialist.php.ini
+      admin/intl/pt_PT/mediaview.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/typeedit.php.ini
+      admin/intl/pt_PT/typelist.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2002-02-28  Christoffer Elo  <ce@ez.no>
+
+    * admin/mediaedit.php
+      classes/ezmedia.php: Fixed a upload bug.
+
+2002-02-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezmedia.php: coding standard fixes
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/attributeedit.php.ini
+      admin/intl/no_NO/browse.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/mediaview.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/mediaedit.php.ini: epost -> e-post
+
+
+Module : ezmediacatalogue
+Repository path : /home/cvsroot/projects/php/ezmediacatalogue
+Maintainer(s) : ce@ez.no
+2003-06-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/mediaedit.php: fixed coding standard
+

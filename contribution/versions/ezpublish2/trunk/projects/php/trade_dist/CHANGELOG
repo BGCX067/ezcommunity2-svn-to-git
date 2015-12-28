@@ -1,0 +1,69 @@
+eZ trade changelog:
+-------------------
+
+Changes from version 1.0.5
+--------------------------
+* Optimized communication with the database, it's now faster and uses less memory
+* Added Indonesian translation
+* Added showing of hours, minutes and seconds idle on session info
+
+Changes from version 1.0.4
+--------------------------
+* Added image previews in hot deals list.
+* Speedup by 20-50%, due to more efficient ini file reading.
+* Added increasment of product count in basket/wishlist when adding a product with the same options.
+* Fixed deleting of products from the wishlist.
+* Fixed broken product search.
+* Fixed the article search.
+* Fixed the product search, does not output {next} and {prev}
+
+Changes from version 1.0.3
+--------------------------
+* Added French, German, Spanish and Czech translation
+* Added possibility to set session timeout to infinity (0)
+* Added clickable images in articlepreview in admin
+* Fixed a session timeout bug
+* Fixed max one "RE:" in reply of messages in forum.
+* Fixed so that the forum code runs under the latest version of PHP
+* Fixed bug in image view, referer page was not properly set
+* Fixed so that users can change their password
+* Fixed so that admin can read forum messages.
+* Fixed some minor forum bugs.
+
+Changes from version 1.0.2
+--------------------------
+* Added discussion on articles / news
+* Added session timeout on user groups
+* Added session info, currently loggen in users
+* Added possibility to manually logout users
+* Fixed wishlist
+* Removed debug output from product view template.
+* Lots of bug fixes
+* Template cleanup
+
+Changes from version 1.0.1
+--------------------------
+* Added multiple assignments of products.
+* Added hot deals on products.
+* Added clickable thumbnail images on product view.
+* Added assignment of articles to multiple categories.
+* Added showing of customers email address in Order edit.
+* Added showing of number of users registered
+* Added searchable products.
+* Added searchable articles.
+* Added welcome message.
+* Removed Javascript from the cart.
+* Removed broken image on product preview if no image exists.
+* Fixed some issues with cache coherence
+* Fixed preview of product options.
+* Fixed external link on products.
+* Fixed deleting of cached printed version, when an article is updated.
+* Fixed internationalization of Order list and Order edit.
+* Various language updates.
+
+Changes from version 1.0
+------------------------
+* Added printable version of the articles
+* Fixed an calculation error in the mails sendt on order confirmation.
+* Fixed editing of user addresses and checking if the user has an address
+  before sending an order.

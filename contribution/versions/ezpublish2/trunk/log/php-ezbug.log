@@ -1,0 +1,696 @@
+Wed Sep  5 15:30:36 CEST 2001 - Creating module ezbug, module category php
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-07  fh  <fh@zev.ez.no>
+
+    * admin/bugedit.php:
+    Fixed anyoing bug that caused screenshots with empty captions to be unviewable
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/bugedit.php.ini
+      admin/intl/fr_FR/buglist.php.ini
+      admin/intl/fr_FR/bugpreview.php.ini
+      admin/intl/fr_FR/categorylist.php.ini
+      admin/intl/fr_FR/mailgotbug.php.ini
+      admin/intl/fr_FR/mailreply.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/moduleedit.php.ini
+      admin/intl/fr_FR/modulelist.php.ini
+      admin/intl/fr_FR/prioritylist.php.ini
+      admin/intl/fr_FR/search.php.ini
+      admin/intl/fr_FR/statuslist.php.ini
+      admin/intl/fr_FR/unhandledbugs.php.ini
+      user/intl/fr_FR/buglist.php.ini
+      user/intl/fr_FR/bugreport.php.ini
+      user/intl/fr_FR/bugview.php.ini
+      user/intl/fr_FR/fileedit.php.ini
+      user/intl/fr_FR/imageedit.php.ini
+      user/intl/fr_FR/mailnewbug.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/unhandledbugs.php.ini: updated fr_FR
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-27  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezbug.sql
+      sql/postgresql/ezbug.sql: Added missing SQL tables/fields.
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-28  Vidar Langseid  <vl@ez.no>
+
+    * sql/mysql/ezbug.sql
+      sql/postgresql/ezbug.sql:
+    Removed auto_increment statement from eZBug_ModulePermission
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/bugedit.php
+      user/bugreport.php
+      user/bugview.php:
+    $index and $wwwDir go to $GlobalSiteIni->Index and $GlobalSiteIni->WWWDir. Fixes namespace problems.
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * user/intl/en_GB/menumodulelist.php.ini
+      user/menumodulelist.php: New menu module list.
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/bugedit.php.ini
+      admin/intl/he_IL/buglist.php.ini
+      admin/intl/he_IL/bugpreview.php.ini
+      admin/intl/he_IL/categorylist.php.ini
+      admin/intl/he_IL/mailgotbug.php.ini
+      admin/intl/he_IL/mailreply.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/moduleedit.php.ini
+      admin/intl/he_IL/modulelist.php.ini
+      admin/intl/he_IL/prioritylist.php.ini
+      admin/intl/he_IL/search.php.ini
+      admin/intl/he_IL/statuslist.php.ini
+      admin/intl/he_IL/unhandledbugs.php.ini
+      user/intl/he_IL/buglist.php.ini
+      user/intl/he_IL/bugreport.php.ini
+      user/intl/he_IL/bugview.php.ini
+      user/intl/he_IL/fileedit.php.ini
+      user/intl/he_IL/imageedit.php.ini
+      user/intl/he_IL/mailnewbug.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/reportsuccess.php.ini
+      user/intl/he_IL/search.php.ini
+      user/intl/he_IL/unhandledbugs.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-08  fh  <fh@zev.ez.no>
+
+    * classes/ezbugmodule.php
+      user/unhandledbugs.php:
+    Fixed bool->int bug. ('false' and 'true' don't exist anymore.
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-10  fh  <fh@zev.ez.no>
+
+    * admin/bugedit.php
+      classes/ezbugmodule.php
+      user/buglist.php:
+    Fixed 'true' and != error... Also don't send url's to users that contain
+    admin URL
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-11  fh  <fh@zev.ez.no>
+
+    * user/templates/standard/buglist.tpl: Standard template bugfix
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/Attic/ezbug.sql
+      sql/postgresql/ezbug.sql: updated sql scheemes, ready for release
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-14  fh  <fh@zev.ez.no>
+
+    * admin/bugedit.php:
+    Fixed bug that caused malfunction when assigning a bug that didn't have a user as a bug reporter.
+
+    * admin/bugedit.php: Fixed stupid bug that called empty function.
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-15  fh  <fh@zev.ez.no>
+
+    * sql/mysql/ezbug.sql
+      sql/postgresql/ezbug.sql: Fixed typo's in sql files
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/bugedit.php
+      user/menubox.php: fixed bug and several fixes for coding standard
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/bugedit.php.ini
+      admin/intl/de_DE/confirmationmail.php.ini
+      admin/intl/de_DE/mailgotbug.php.ini
+      user/intl/de_DE/buglist.php.ini
+      user/intl/de_DE/bugreport.php.ini
+      user/intl/de_DE/bugview.php.ini
+      user/intl/de_DE/reportsuccess.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/confirmationmail.php.ini
+      user/intl/no_NO/bugreport.php.ini: updated no_NO
+
+    * admin/intl/en_GB/bugedit.php.ini
+      admin/intl/en_GB/mailgotbug.php.ini
+      admin/intl/en_GB/mailreply.php.ini
+      admin/intl/en_GB/modulelist.php.ini
+      user/intl/en_GB/buglist.php.ini
+      user/intl/en_GB/bugreport.php.ini
+      user/intl/en_GB/bugview.php.ini
+      user/intl/en_GB/fileedit.php.ini
+      user/intl/en_GB/mailnewbug.php.ini
+      user/intl/en_GB/menubox.php.ini
+      user/intl/en_GB/reportsuccess.php.ini
+      user/intl/en_GB/search.php.ini: newline
+
+    * admin/intl/no_NO/bugedit.php.ini
+      admin/intl/no_NO/confirmationmail.php.ini
+      admin/intl/no_NO/mailgotbug.php.ini
+      admin/intl/no_NO/mailreply.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/moduleedit.php.ini
+      admin/intl/no_NO/modulelist.php.ini
+      admin/intl/no_NO/search.php.ini
+      user/intl/no_NO/bugreport.php.ini
+      user/intl/no_NO/bugview.php.ini
+      user/intl/no_NO/fileedit.php.ini
+      user/intl/no_NO/mailnewbug.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/reportsuccess.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/bugedit.php.ini
+      admin/intl/fi_FI/buglist.php.ini
+      admin/intl/fi_FI/bugpreview.php.ini
+      admin/intl/fi_FI/categorylist.php.ini
+      admin/intl/fi_FI/confirmationmail.php.ini
+      admin/intl/fi_FI/mailgotbug.php.ini
+      admin/intl/fi_FI/mailreply.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/moduleedit.php.ini
+      admin/intl/fi_FI/modulelist.php.ini
+      admin/intl/fi_FI/prioritylist.php.ini
+      admin/intl/fi_FI/search.php.ini
+      admin/intl/fi_FI/statuslist.php.ini
+      admin/intl/fi_FI/unhandledbugs.php.ini
+      user/intl/fi_FI/buglist.php.ini
+      user/intl/fi_FI/bugreport.php.ini
+      user/intl/fi_FI/bugview.php.ini
+      user/intl/fi_FI/fileedit.php.ini
+      user/intl/fi_FI/mailnewbug.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/reportsuccess.php.ini
+      user/intl/fi_FI/search.php.ini
+      user/intl/fi_FI/unhandledbugs.php.ini: updated fi_FI for 2.2 final
+
+2001-10-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php
+      admin/intl/en_GB/confirmationmail.php.ini
+      admin/templates/standard/confirmationmail.tpl
+      classes/ezbugsupport.php: added table for support
+    improved support-cron in ezbug
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-29  fh  <fh@zev.ez.no>
+
+    * admin/templates/standard/bugedit.tpl:
+    Don't allow editing of patches in allready reported bugs. (only delete or
+    add allowed)
+
+    * admin/bugedit.php
+      admin/moduleedit.php: Removed old,oooold (7 months) Elo bugs:
+    -Now saves owner permissions at creation of modules
+    -Save all owner groups (not only the first)
+    -List users of all module owner groups in bug assignment.
+
+2001-10-29  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/supportedit.php.ini
+      admin/intl/en_GB/supportlist.php.ini
+      admin/templates/standard/supportedit.tpl
+      admin/templates/standard/supportlist.tpl
+      classes/ezbugsupport.php
+      admin/datasupplier.php
+      admin/menubox.php
+      admin/supportdelete.php
+      admin/supportedit.php
+      admin/supportlist.php: fixed admin interface for support list in bug
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/bugedit.php.ini
+      admin/intl/es_MX/categorylist.php.ini
+      admin/intl/es_MX/confirmationmail.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/bugreport.php.ini
+      user/intl/es_MX/bugview.php.ini
+      user/intl/es_MX/imageedit.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/search.php.ini
+      user/intl/es_MX/unhandledbugs.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: fixed small bug in cron job
+
+    * admin/intl/en_GB/confirmationmail.php.ini
+      admin/intl/en_GB/supportlist.php.ini
+      admin/supportedit.php
+      admin/templates/standard/supportlist.tpl
+      admin/bugedit.php
+      admin/cron.php
+      admin/datasupplier.php: fixed support cronjob
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-01  Vidar Langseid  <vl@ez.no>
+
+    * classes/ezbugcategory.php:
+    Fixed a bug which occured when changing categoryname
+    User got sql error even thought no error occured
+
+    * classes/ezbugcategory.php:
+    Fixed bug when changeing Category name. Use got sql error even thought
+    everything was doing just fine
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/bugedit.php.ini
+      admin/intl/en_GB/mailgotbug.php.ini
+      admin/intl/en_GB/mailreply.php.ini
+      admin/intl/en_GB/modulelist.php.ini
+      user/intl/en_GB/buglist.php.ini
+      user/intl/en_GB/bugreport.php.ini
+      user/intl/en_GB/bugview.php.ini
+      user/intl/en_GB/fileedit.php.ini
+      user/intl/en_GB/mailnewbug.php.ini
+      user/intl/en_GB/menubox.php.ini
+      user/intl/en_GB/reportsuccess.php.ini
+      user/intl/en_GB/search.php.ini
+      admin/intl/en_GB/supportlist.php.ini: en_GB fixxes
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/bugedit.php.ini
+      admin/intl/de_DE/confirmationmail.php.ini
+      admin/intl/de_DE/mailgotbug.php.ini
+      admin/intl/de_DE/mailreply.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/modulelist.php.ini
+      user/intl/de_DE/buglist.php.ini
+      user/intl/de_DE/bugreport.php.ini
+      user/intl/de_DE/bugview.php.ini
+      user/intl/de_DE/fileedit.php.ini
+      user/intl/de_DE/mailnewbug.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/reportsuccess.php.ini
+      user/intl/de_DE/search.php.ini: de_DE update for 2.2.1
+
+2001-11-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/bugedit.php
+      admin/cron.php
+      admin/datasupplier.php
+      admin/intl/en_GB/confirmationmail.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/supportcategoryedit.php.ini
+      admin/intl/en_GB/supportcategorylist.php.ini
+      admin/menubox.php
+      admin/supportcategorydelete.php
+      admin/supportcategoryedit.php
+      admin/supportcategorylist.php
+      admin/supportlist.php
+      admin/templates/standard/supportcategoryedit.tpl
+      admin/templates/standard/supportcategorylist.tpl
+      classes/ezbugsupport.php
+      classes/ezbugsupportcategory.php: much improved support system
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/datasupplier.php: added cron job
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/Attic/menumodulelist.php.ini: New file.
+
+    * admin/intl/no_NO/bugedit.php.ini
+      admin/intl/no_NO/confirmationmail.php.ini
+      admin/intl/no_NO/mailgotbug.php.ini
+      admin/intl/no_NO/mailreply.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/moduleedit.php.ini
+      admin/intl/no_NO/modulelist.php.ini
+      admin/intl/no_NO/search.php.ini
+      user/intl/no_NO/Attic/menumodulelist.php.ini
+      user/intl/no_NO/bugreport.php.ini
+      user/intl/no_NO/bugview.php.ini
+      user/intl/no_NO/fileedit.php.ini
+      user/intl/no_NO/mailnewbug.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/reportsuccess.php.ini
+      user/intl/no_NO/search.php.ini: fixed no_NO translation
+
+    * admin/intl/en_GB/supportcategoryedit.php.ini
+      admin/supportcategoryedit.php
+      admin/templates/standard/supportcategoryedit.tpl:
+    removed verify password field in support category edit
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: added parameter in constructor for choosing caching
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/confirmationmail.php.ini
+      user/intl/fr_FR/buglist.php.ini
+      user/intl/fr_FR/bugreport.php.ini
+      user/intl/fr_FR/bugview.php.ini
+      user/intl/fr_FR/fileedit.php.ini
+      user/intl/fr_FR/imageedit.php.ini
+      user/intl/fr_FR/mailnewbug.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/menumodulelist.php.ini
+      user/intl/fr_FR/reportsuccess.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/unhandledbugs.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/search.php
+      admin/statuslist.php
+      user/fileedit.php
+      user/imageedit.php
+      user/reportsuccess.php
+      user/search.php
+      admin/buglist.php
+      admin/categorylist.php
+      admin/moduleedit.php
+      admin/modulelist.php
+      admin/prioritylist.php:
+    changed new INIFile("site.ini") to INIFile::globalINI()
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/bugedit.php.ini
+      admin/intl/es_AR/buglist.php.ini
+      admin/intl/es_AR/bugpreview.php.ini
+      admin/intl/es_AR/categorylist.php.ini
+      admin/intl/es_AR/confirmationmail.php.ini
+      admin/intl/es_AR/mailgotbug.php.ini
+      admin/intl/es_AR/mailreply.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/moduleedit.php.ini
+      admin/intl/es_AR/modulelist.php.ini
+      admin/intl/es_AR/prioritylist.php.ini
+      admin/intl/es_AR/statuslist.php.ini
+      admin/intl/es_AR/unhandledbugs.php.ini
+      user/intl/es_AR/buglist.php.ini
+      user/intl/es_AR/bugreport.php.ini
+      user/intl/es_AR/bugview.php.ini
+      user/intl/es_AR/fileedit.php.ini
+      user/intl/es_AR/imageedit.php.ini
+      user/intl/es_AR/mailnewbug.php.ini
+      user/intl/es_AR/menumodulelist.php.ini
+      user/intl/es_AR/unhandledbugs.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/se_SE/unhandledbugs.php.ini
+      admin/intl/se_SE/bugedit.php.ini
+      admin/intl/se_SE/buglist.php.ini
+      admin/intl/se_SE/bugpreview.php.ini
+      admin/intl/se_SE/categorylist.php.ini
+      admin/intl/se_SE/confirmationmail.php.ini
+      admin/intl/se_SE/mailgotbug.php.ini
+      admin/intl/se_SE/mailreply.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/moduleedit.php.ini
+      admin/intl/se_SE/modulelist.php.ini
+      admin/intl/se_SE/prioritylist.php.ini
+      admin/intl/se_SE/search.php.ini
+      admin/intl/se_SE/statuslist.php.ini
+      admin/intl/se_SE/unhandledbugs.php.ini
+      user/intl/se_SE/buglist.php.ini
+      user/intl/se_SE/bugreport.php.ini
+      user/intl/se_SE/bugview.php.ini
+      user/intl/se_SE/fileedit.php.ini
+      user/intl/se_SE/imageedit.php.ini
+      user/intl/se_SE/mailnewbug.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/reportsuccess.php.ini
+      user/intl/se_SE/search.php.ini: se_SE swedish 2.2.1
+
+    * user/intl/es_MX/bugreport.php.ini: es_MX update for 2.2.2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-12-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php
+      admin/intl/en_GB/confirmationmail.php.ini
+      admin/intl/en_GB/supportcategoryedit.php.ini
+      admin/supportcategoryedit.php
+      admin/templates/standard/supportcategoryedit.tpl
+      classes/ezbugsupport.php
+      classes/ezbugsupportcategory.php: updated support script
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/bugedit.php.ini
+      admin/intl/hr_HR/buglist.php.ini
+      admin/intl/hr_HR/bugpreview.php.ini
+      admin/intl/hr_HR/categorylist.php.ini
+      admin/intl/hr_HR/confirmationmail.php.ini
+      admin/intl/hr_HR/mailgotbug.php.ini
+      admin/intl/hr_HR/mailreply.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/moduleedit.php.ini
+      admin/intl/hr_HR/modulelist.php.ini
+      admin/intl/hr_HR/prioritylist.php.ini
+      admin/intl/hr_HR/search.php.ini
+      admin/intl/hr_HR/statuslist.php.ini
+      admin/intl/hr_HR/unhandledbugs.php.ini
+      user/intl/hr_HR/buglist.php.ini
+      user/intl/hr_HR/bugreport.php.ini
+      user/intl/hr_HR/bugview.php.ini
+      user/intl/hr_HR/fileedit.php.ini
+      user/intl/hr_HR/imageedit.php.ini
+      user/intl/hr_HR/mailnewbug.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/reportsuccess.php.ini
+      user/intl/hr_HR/search.php.ini
+      user/intl/hr_HR/unhandledbugs.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/buglist.tpl
+      admin/templates/standard/modulelist.tpl
+      admin/templates/standard/search.tpl
+      admin/templates/standard/unhandledbugs.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-12-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: fix in ini file handling
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/bugedit.php.ini
+      admin/intl/pt_PT/buglist.php.ini
+      admin/intl/pt_PT/bugpreview.php.ini
+      admin/intl/pt_PT/categorylist.php.ini
+      admin/intl/pt_PT/confirmationmail.php.ini
+      admin/intl/pt_PT/mailgotbug.php.ini
+      admin/intl/pt_PT/mailreply.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/moduleedit.php.ini
+      admin/intl/pt_PT/modulelist.php.ini
+      admin/intl/pt_PT/prioritylist.php.ini
+      admin/intl/pt_PT/search.php.ini
+      admin/intl/pt_PT/statuslist.php.ini
+      admin/intl/pt_PT/unhandledbugs.php.ini
+      user/intl/pt_PT/buglist.php.ini
+      user/intl/pt_PT/bugreport.php.ini
+      user/intl/pt_PT/bugview.php.ini
+      user/intl/pt_PT/fileedit.php.ini
+      user/intl/pt_PT/imageedit.php.ini
+      user/intl/pt_PT/mailnewbug.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/menumodulelist.php.ini
+      user/intl/pt_PT/reportsuccess.php.ini
+      user/intl/pt_PT/search.php.ini
+      user/intl/pt_PT/unhandledbugs.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : vl@ez.no
+2002-02-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/bugedit.php
+      user/bugreport.php: fixed bug when redirecting using nVH
+
+    * admin/moduleedit.php: fixed problem with redirection on nVH
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : jhe@ez.no
+2002-02-18  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/cron.php: fixed bug with shitty subjects
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : jhe@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/bugedit.php.ini
+      admin/intl/no_NO/buglist.php.ini
+      admin/intl/no_NO/confirmationmail.php.ini
+      admin/intl/no_NO/mailgotbug.php.ini
+      admin/intl/no_NO/mailreply.php.ini
+      admin/intl/no_NO/moduleedit.php.ini
+      admin/intl/no_NO/modulelist.php.ini
+      user/intl/no_NO/buglist.php.ini
+      user/intl/no_NO/bugreport.php.ini
+      user/intl/no_NO/bugview.php.ini
+      user/intl/no_NO/reportsuccess.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezbug
+Repository path : /home/cvsroot/projects/php/ezbug
+Maintainer(s) : jhe@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/confirmationmail.php.ini
+      user/intl/no_NO/bugreport.php.ini: epost -> e-post
+

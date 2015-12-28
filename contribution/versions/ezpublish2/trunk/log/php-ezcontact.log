@@ -1,0 +1,900 @@
+Wed Sep  5 15:29:10 CEST 2001 - Creating module ezcontact, module category php
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-07  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/id_ID/personedit.php.ini: added id_ID
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/consultationedit.php:
+    link in articlelist when article has no text but attributes
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/consultationdetaillist.tpl: small bugfixes
+
+    * admin/consultationedit.php
+      admin/personedit.php
+      user/datasupplier.php:
+    fixed bug when adding new companies and deleting consultations
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-13  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/consultationview.php
+      classes/ezconsultation.php:
+    small bug when viewing other persons consultations
+
+    * user/consultationlist.php
+      admin/consultationlist.php
+      classes/ezconsultation.php:
+    added setting to make consultations visible for everyone
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: small bug fix when adding new companies
+
+    * admin/buy.php
+      admin/folder.php: buttons in contact list
+
+    * classes/ezconsultation.php
+      user/datasupplier.php
+      admin/consultationedit.php
+      admin/consultationview.php
+      admin/datasupplier.php
+      admin/intl/en_GB/consultationedit.php.ini
+      admin/personedit.php
+      admin/personlist.php
+      admin/templates/standard/companytypelist.tpl
+      admin/templates/standard/consultationview.tpl
+      admin/templates/standard/personlist.tpl
+      admin/companytypelist.php:
+    added buttons for buy and file folder in contact lists
+    several bugfixes in calendar
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php
+      admin/personview.php
+      classes/ezcompany.php
+      classes/ezperson.php: fixed bug in sales list in person view
+    when adding new person user is redirected to person view
+
+    * user/personsearch.php
+      user/templates/standard/companysearch.tpl
+      user/templates/standard/personsearch.tpl
+      admin/templates/standard/companytypelist.tpl
+      admin/templates/standard/companyview.tpl
+      admin/templates/standard/personlist.tpl
+      admin/templates/standard/personview.tpl
+      admin/templates/standard/typelist.tpl
+      user/companysearch.php: now using get for searching instead of post
+
+    * admin/templates/standard/companytypelist.tpl
+      user/templates/standard/consultation.tpl
+      admin/folder.php:
+    fixed permission problem when linking contact and filemanager
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personview.php
+      admin/templates/standard/consultationdetaillist.tpl: small bugfixes
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/companyedit.php.ini
+      admin/intl/fr_FR/companystats.php.ini
+      admin/intl/fr_FR/companytype.php.ini
+      admin/intl/fr_FR/companyview.php.ini
+      admin/intl/fr_FR/consultationdetaillist.php.ini
+      admin/intl/fr_FR/consultationedit.php.ini
+      admin/intl/fr_FR/consultationlist.php.ini
+      admin/intl/fr_FR/consultationmail.ini
+      admin/intl/fr_FR/consultationtype.php.ini
+      admin/intl/fr_FR/error.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/nopermission.php.ini
+      admin/intl/fr_FR/personedit.php.ini
+      admin/intl/fr_FR/personview.php.ini
+      admin/intl/fr_FR/projecttype.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/urlsupplier.php.ini: updated fr_FR
+
+2001-09-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/seanex/companytypeedit.tpl
+      admin/templates/seanex/companytypelist.tpl
+      admin/templates/standard/companytypeedit.tpl
+      admin/templates/standard/companytypelist.tpl
+      user/companysearch.php
+      user/intl/en_GB/companysearch.php.ini
+      user/intl/en_GB/personsearch.php.ini
+      user/intl/en_GB/search.php.ini
+      user/personsearch.php
+      user/templates/standard/companysearch.tpl
+      user/templates/standard/personsearch.tpl
+      admin/companytypeedit.php
+      admin/companytypelist.php
+      admin/intl/cn_CN/companytype.php.ini
+      admin/intl/de_DE/companytype.php.ini
+      admin/intl/en_GB/companytype.php.ini
+      admin/intl/en_US/companytype.php.ini
+      admin/intl/es_AR/companytype.php.ini
+      admin/intl/es_MX/companytype.php.ini
+      admin/intl/fi_FI/companytype.php.ini
+      admin/intl/fr_FR/companytype.php.ini
+      admin/intl/it_IT/companytype.php.ini
+      admin/intl/no_NO/companytype.php.ini
+      admin/intl/zh_TW/companytype.php.ini
+      admin/templates/arkaden/companytypeedit.tpl
+      admin/templates/arkaden/companytypelist.tpl:
+    removed commands from intl files
+
+    * admin/personedit.php
+      user/consultationlist.php
+      user/intl/no_NO/menubox.php.ini: fixed small bugs
+
+    * admin/intl/no_NO/personview.php.ini
+      user/intl/en_GB/companysearch.php.ini
+      user/intl/en_GB/personsearch.php.ini
+      user/intl/en_GB/search.php.ini
+      admin/intl/en_GB/personedit.php.ini
+      admin/intl/no_NO/Attic/personlist.php.ini
+      admin/intl/no_NO/companytype.php.ini
+      admin/intl/no_NO/companyview.php.ini
+      admin/intl/no_NO/consultationedit.php.ini
+      admin/intl/no_NO/personedit.php.ini:
+    fixed no_NO translation for eZcalendar, eZcontact, eZfilemanager and eZforum
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/consultationview.php: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+    * user/intl/no_NO/companysearch.php.ini
+      user/intl/no_NO/personsearch.php.ini
+      user/intl/no_NO/search.php.ini: more internationalization
+
+    * admin/intl/fr_FR/companytype.php.ini: removed decapricated intl lines
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-09-25  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/folder.php: small speed improvment
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/urlsupplier.php.ini
+      admin/intl/he_IL/companyedit.php.ini
+      admin/intl/he_IL/companystats.php.ini
+      admin/intl/he_IL/companytype.php.ini
+      admin/intl/he_IL/companyview.php.ini
+      admin/intl/he_IL/consultationdetaillist.php.ini
+      admin/intl/he_IL/consultationedit.php.ini
+      admin/intl/he_IL/consultationlist.php.ini
+      admin/intl/he_IL/consultationmail.ini
+      admin/intl/he_IL/consultationtype.php.ini
+      admin/intl/he_IL/error.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/nopermission.php.ini
+      admin/intl/he_IL/personedit.php.ini
+      admin/intl/he_IL/personview.php.ini
+      admin/intl/he_IL/projecttype.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/consultationview.php
+      admin/personedit.php
+      classes/ezcompany.php
+      classes/ezperson.php
+      sql/mysql/ezcontact.sql
+      admin/companytypeedit.php: several bugfixes
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezcompany.php
+      classes/ezperson.php: fixed search for online address and phone no
+
+2001-10-09  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/companytypelist.tpl
+      admin/templates/standard/personlist.tpl: Added new buttongfx
+
+2001-10-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/searchsupplier.php: fixed global search for contact
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezcompany.php
+      classes/ezperson.php
+      sql/mysql/ezcontact.sql
+      sql/postgresql/ezcontact.sql
+      user/menubox.php: fixed searching for online addresses and phones
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/Attic/ezcontact.sql: updated sql scheemes, ready for release
+
+    * admin/personedit.php
+      classes/ezcompany.php
+      user/companysearch.php: fixed logo and image for companies
+
+    * sql/mysql/ezcontact.sql
+      sql/postgresql/ezcontact.sql: updated sql scheemas, ready for release
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/datasupplier.php
+      admin/folder.php
+      admin/personedit.php
+      user/datasupplier.php: small bugfixes
+
+    * admin/intl/en_GB/companyview.php.ini
+      admin/intl/en_GB/personview.php.ini
+      admin/intl/no_NO/companyview.php.ini
+      admin/intl/no_NO/personview.php.ini
+      admin/personedit.php
+      admin/personview.php
+      admin/templates/standard/companyview.tpl
+      admin/templates/standard/personview.tpl
+      classes/ezperson.php: small bugfixes
+    send mail button in contact view
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/companyedit.php.ini
+      admin/intl/de_DE/companytype.php.ini
+      admin/intl/de_DE/companyview.php.ini
+      admin/intl/de_DE/consultationdetaillist.php.ini
+      admin/intl/de_DE/consultationedit.php.ini
+      admin/intl/de_DE/consultationlist.php.ini
+      admin/intl/de_DE/consultationmail.ini
+      admin/intl/de_DE/personedit.php.ini
+      admin/intl/de_DE/personview.php.ini
+      user/intl/de_DE/companysearch.php.ini
+      user/intl/de_DE/personsearch.php.ini
+      user/intl/de_DE/search.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezcontact.sql: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/no_NO/companysearch.php.ini
+      user/intl/no_NO/personsearch.php.ini
+      admin/intl/no_NO/personedit.php.ini: updated no_NO
+
+    * admin/intl/en_GB/personedit.php.ini: removed duplicate keys
+
+    * admin/intl/en_GB/consultationmail.ini: added newline
+
+    * admin/intl/en_GB/companytype.php.ini
+      admin/intl/en_GB/consultationdetaillist.php.ini
+      admin/intl/en_GB/menubox.php.ini: newline
+
+    * admin/intl/no_NO/companytype.php.ini
+      admin/intl/no_NO/consultationdetaillist.php.ini
+      admin/intl/no_NO/consultationlist.php.ini
+      admin/intl/no_NO/consultationmail.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/personedit.php.ini
+      admin/intl/no_NO/personview.php.ini
+      user/intl/no_NO/companysearch.php.ini
+      user/intl/no_NO/personsearch.php.ini
+      user/intl/no_NO/search.php.ini: updated no_NO
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-23  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezperson.php
+      classes/ezcompany.php: fixed several bugs
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-24  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezconsultation.php: fixed small bug
+
+    * classes/ezconsultation.php: fixed bug
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: small bugfix when deleting addresses
+
+    * admin/personedit.php: fixed bug with deleting of addresses
+
+2001-10-27  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/companyedit.tpl
+      admin/templates/standard/companyview.tpl
+      admin/templates/standard/consultationview.tpl
+      admin/templates/standard/personlist.tpl: Layout
+
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/companyedit.php.ini
+      admin/intl/fi_FI/companystats.php.ini
+      admin/intl/fi_FI/companytype.php.ini
+      admin/intl/fi_FI/companyview.php.ini
+      admin/intl/fi_FI/consultationdetaillist.php.ini
+      admin/intl/fi_FI/consultationedit.php.ini
+      admin/intl/fi_FI/consultationlist.php.ini
+      admin/intl/fi_FI/consultationmail.ini
+      admin/intl/fi_FI/consultationtype.php.ini
+      admin/intl/fi_FI/error.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/nopermission.php.ini
+      admin/intl/fi_FI/personedit.php.ini
+      admin/intl/fi_FI/personview.php.ini
+      admin/intl/fi_FI/projecttype.php.ini
+      user/intl/fi_FI/companysearch.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/personsearch.php.ini
+      user/intl/fi_FI/search.php.ini
+      user/intl/fi_FI/urlsupplier.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-30  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: fixed bug with double addresses and so on
+
+    * admin/personedit.php: fixed bug with double addresses and phone numbers
+
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/companyedit.php.ini
+      admin/intl/es_MX/companystats.php.ini
+      admin/intl/es_MX/companytype.php.ini
+      admin/intl/es_MX/companyview.php.ini
+      admin/intl/es_MX/consultationdetaillist.php.ini
+      admin/intl/es_MX/consultationedit.php.ini
+      admin/intl/es_MX/consultationlist.php.ini
+      admin/intl/es_MX/consultationtype.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/nopermission.php.ini
+      admin/intl/es_MX/personedit.php.ini
+      admin/intl/es_MX/personview.php.ini
+      admin/intl/es_MX/projecttype.php.ini
+      user/intl/es_MX/companysearch.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/personsearch.php.ini
+      user/intl/es_MX/search.php.ini
+      user/intl/es_MX/urlsupplier.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-10-31  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/companystats.php
+      admin/companytypeedit.php
+      admin/companytypelist.php
+      admin/companyview.php
+      admin/consultationedit.php
+      admin/consultationlist.php
+      admin/consultationview.php
+      admin/personlist.php
+      admin/persontypeedit.php
+      admin/personview.php
+      user/consultationlist.php: fixed ini pointer
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-01  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/personlist.tpl
+      user/consultationlist.php
+      admin/companystats.php
+      admin/companytypeedit.php
+      admin/companytypelist.php
+      admin/companyview.php
+      admin/datasupplier.php
+      admin/personlist.php
+      admin/persontypeedit.php
+      admin/personview.php
+      classes/ezconsultation.php
+      admin/consultationedit.php
+      admin/consultationlist.php
+      admin/consultationview.php: fixed various bugs
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/companytype.php.ini
+      admin/intl/en_GB/consultationdetaillist.php.ini
+      admin/intl/en_GB/consultationmail.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/personedit.php.ini: en_GB fixxes
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/companytype.php.ini
+      admin/intl/de_DE/companyview.php.ini
+      admin/intl/de_DE/consultationdetaillist.php.ini
+      admin/intl/de_DE/consultationedit.php.ini
+      admin/intl/de_DE/consultationlist.php.ini
+      admin/intl/de_DE/consultationmail.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/personedit.php.ini
+      admin/intl/de_DE/personview.php.ini
+      user/intl/de_DE/companysearch.php.ini
+      user/intl/de_DE/personsearch.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/urlsupplier.php.ini: de_DE update for 2.2.1
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/companysearch.php.ini
+      user/intl/no_NO/personsearch.php.ini
+      user/intl/no_NO/search.php.ini
+      admin/intl/no_NO/companytype.php.ini
+      admin/intl/no_NO/consultationdetaillist.php.ini
+      admin/intl/no_NO/consultationlist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/personedit.php.ini
+      admin/intl/no_NO/personview.php.ini: updatet no_NO
+
+    * admin/templates/standard/companyview.tpl
+      admin/templates/standard/personview.tpl: fixed headlines
+
+    * admin/companyview.php
+      admin/consultationlist.php
+      admin/personview.php
+      classes/ezconsultation.php
+      user/consultationlist.php:
+    added support for related consultations (one companys consultations include every related users consultations)
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/companytype.php.ini
+      user/intl/fr_FR/companysearch.php.ini
+      user/intl/fr_FR/personsearch.php.ini
+      user/intl/fr_FR/search.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/es_AR/companysearch.php.ini
+      user/intl/es_AR/personsearch.php.ini
+      user/intl/es_AR/search.php.ini
+      admin/intl/es_AR/companyedit.php.ini
+      admin/intl/es_AR/companystats.php.ini
+      admin/intl/es_AR/companytype.php.ini
+      admin/intl/es_AR/companyview.php.ini
+      admin/intl/es_AR/consultationdetaillist.php.ini
+      admin/intl/es_AR/consultationedit.php.ini
+      admin/intl/es_AR/consultationlist.php.ini
+      admin/intl/es_AR/consultationtype.php.ini
+      admin/intl/es_AR/error.php.ini
+      admin/intl/es_AR/nopermission.php.ini
+      admin/intl/es_AR/personedit.php.ini
+      admin/intl/es_AR/personview.php.ini
+      admin/intl/es_AR/projecttype.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/companyedit.php.ini
+      admin/intl/se_SE/companystats.php.ini
+      admin/intl/se_SE/companytype.php.ini
+      admin/intl/se_SE/companyview.php.ini
+      admin/intl/se_SE/consultationdetaillist.php.ini
+      admin/intl/se_SE/consultationedit.php.ini
+      admin/intl/se_SE/consultationlist.php.ini
+      admin/intl/se_SE/consultationmail.ini
+      admin/intl/se_SE/consultationtype.php.ini
+      admin/intl/se_SE/error.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/nopermission.php.ini
+      admin/intl/se_SE/personedit.php.ini
+      admin/intl/se_SE/personview.php.ini
+      admin/intl/se_SE/projecttype.php.ini
+      user/intl/se_SE/companysearch.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/personsearch.php.ini
+      user/intl/se_SE/search.php.ini
+      user/intl/se_SE/urlsupplier.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/personedit.php.ini: es_MX update for 2.2.2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-23  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/consultationedit.php
+      admin/consultationlist.php
+      admin/consultationview.php: fixed bug with getting ini file
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-11-30  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/consultationedit.php
+      admin/consultationlist.php: fixed wrong use of $ini initialization
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/companyedit.php.ini
+      admin/intl/hr_HR/companystats.php.ini
+      admin/intl/hr_HR/companytype.php.ini
+      admin/intl/hr_HR/companyview.php.ini
+      admin/intl/hr_HR/consultationdetaillist.php.ini
+      admin/intl/hr_HR/consultationedit.php.ini
+      admin/intl/hr_HR/consultationlist.php.ini
+      admin/intl/hr_HR/consultationmail.ini
+      admin/intl/hr_HR/consultationtype.php.ini
+      admin/intl/hr_HR/error.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/nopermission.php.ini
+      admin/intl/hr_HR/personedit.php.ini
+      admin/intl/hr_HR/personview.php.ini
+      admin/intl/hr_HR/projecttype.php.ini
+      user/intl/hr_HR/companysearch.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/personsearch.php.ini
+      user/intl/hr_HR/search.php.ini
+      user/intl/hr_HR/urlsupplier.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/arkaden/companylist.tpl
+      admin/templates/arkaden/companytypelist.tpl
+      admin/templates/seanex/companylist.tpl
+      admin/templates/seanex/companytypelist.tpl
+      admin/templates/seanex/personlist.tpl
+      admin/templates/standard/companytypelist.tpl
+      admin/templates/standard/companyview.tpl
+      admin/templates/standard/consultationdetaillist.tpl
+      admin/templates/standard/consultationlist.tpl
+      admin/templates/standard/personlist.tpl
+      admin/templates/standard/personview.tpl
+      admin/templates/standard/typelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-12-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezcontact.sql
+      sql/postgresql/ezcontact.sql
+      admin/personedit.php
+      admin/personlist.php
+      admin/personview.php
+      admin/templates/standard/personedit.tpl
+      admin/templates/standard/personlist.tpl
+      admin/templates/standard/personview.tpl
+      classes/ezperson.php: added image for persons
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/companyedit.php.ini
+      admin/intl/pt_PT/companystats.php.ini
+      admin/intl/pt_PT/companytype.php.ini
+      admin/intl/pt_PT/companyview.php.ini
+      admin/intl/pt_PT/consultationdetaillist.php.ini
+      admin/intl/pt_PT/consultationedit.php.ini
+      admin/intl/pt_PT/consultationlist.php.ini
+      admin/intl/pt_PT/consultationmail.ini
+      admin/intl/pt_PT/consultationtype.php.ini
+      admin/intl/pt_PT/error.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/nopermission.php.ini
+      admin/intl/pt_PT/personedit.php.ini
+      admin/intl/pt_PT/personview.php.ini
+      admin/intl/pt_PT/projecttype.php.ini
+      user/intl/pt_PT/companysearch.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/personsearch.php.ini
+      user/intl/pt_PT/search.php.ini
+      user/intl/pt_PT/urlsupplier.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-01-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php:
+    fixed bug with category Id collecting company id when adding new company in an category
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-02-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: fixed bug when deleting after a search
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-02-26  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: fixed bug with adding and removing addresses
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * user/intl/no_NO/companysearch.php.ini
+      user/intl/no_NO/personsearch.php.ini
+      user/intl/no_NO/search.php.ini
+      admin/intl/no_NO/companyedit.php.ini
+      admin/intl/no_NO/companytype.php.ini
+      admin/intl/no_NO/companyview.php.ini
+      admin/intl/no_NO/consultationedit.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/personedit.php.ini
+      admin/intl/no_NO/personview.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/companyedit.php.ini
+      admin/intl/no_NO/companytype.php.ini
+      admin/intl/no_NO/companyview.php.ini
+      admin/intl/no_NO/consultationedit.php.ini
+      admin/intl/no_NO/personedit.php.ini
+      admin/intl/no_NO/personview.php.ini: epost -> e-post
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-05-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezcompany.php
+      classes/ezprojecttype.php
+      sql/postgresql/ezcontact.sql: expiry time, warning time
+
+    * admin/templates/standard/Attic/projecttypeedit.tpl: New file.
+
+    * admin/intl/en_GB/projecttype.php.ini
+      admin/projecttypeedit.php
+      admin/templates/standard/Attic/projecttypeedit.tpl:
+    expiry time, warning time
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-05-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/postgresql/ezcontact.sql: improving eZ contact for OneWorld
+
+    * admin/Attic/cron.php: New file.
+
+    * admin/Attic/cron.php
+      admin/consultationlist.php
+      admin/consultationview.php
+      admin/personedit.php
+      admin/templates/standard/consultationdetaillist.tpl
+      admin/templates/standard/consultationview.tpl
+      classes/ezcompany.php
+      classes/ezconsultation.php: improving eZ contact for OneWorld
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-05-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templates/standard/companyview.tpl
+      admin/templates/standard/consultationdetaillist.tpl
+      admin/templates/standard/consultationlist.tpl
+      admin/templates/standard/consultationview.tpl
+      admin/templates/standard/personedit.tpl
+      admin/templates/standard/personlist.tpl
+      admin/templates/standard/personview.tpl
+      admin/templates/standard/typelist.tpl
+      classes/ezcompany.php
+      classes/ezconsultation.php
+      sql/postgresql/ezcontact.sql
+      user/consultationlist.php
+      admin/companystats.php
+      admin/companytypeedit.php
+      admin/companytypelist.php
+      admin/companyview.php
+      admin/consultationedit.php
+      admin/consultationlist.php
+      admin/consultationview.php
+      admin/datasupplier.php
+      admin/intl/en_GB/projecttype.php.ini
+      admin/personedit.php
+      admin/personlist.php
+      admin/persontypeedit.php
+      admin/personview.php
+      admin/projecttypeedit.php
+      admin/templates/standard/companyedit.tpl
+      admin/templates/standard/companytypelist.tpl: removed bug....
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-11-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personlist.php
+      admin/templates/standard/personlist.tpl: removed more image stuff
+
+    * admin/personlist.php: removed image for persons
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2002-11-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personview.php: fixed setvar bug
+
+    * admin/personview.php
+      admin/personedit.php
+      admin/personlist.php: removed image
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2003-04-10  Bjoern Reiten  <br@ez.no>
+
+    * user/companysearch.php
+      user/personsearch.php: fixed security bug with java script in search.
+
+
+Module : ezcontact
+Repository path : /home/cvsroot/projects/php/ezcontact
+Maintainer(s) : jhe@ez.no
+2003-06-03  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/personedit.php: fixed bug with addresses
+

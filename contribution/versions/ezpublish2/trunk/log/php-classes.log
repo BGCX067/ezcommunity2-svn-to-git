@@ -1,0 +1,858 @@
+Wed Sep  5 15:28:00 CEST 2001 - Creating module classes, module category php
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-04  Baard Farstad  <bf@ez.no>
+
+    * ezquery.php: Added Stop Word check.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-04  Baard Farstad  <bf@ez.no>
+
+    * ezquery.php: Added Stop Word check.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-10  Christofer Elo  <ce@ez.no>
+
+    * INIFile.php: fic
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-13  Bjoern Reiten  <br@ez.no>
+
+    * ezlist.php: added support for larger than 1000 items.
+
+2001-09-13  Gunnstein Lye  <gl@ez.no>
+
+    * locale/nl_NL.ini: updated nl_NL
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-14  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * ezlocale.php:
+    Added &nbsp; in the ezcurrency section of format(). This is due to the fact
+    that one doesn't want breaks for the currency, if it can be omitted.
+
+2001-09-14  Bjoern Reiten  <br@ez.no>
+
+    * ezlist.php: fix.
+
+    * ezlist.php: fixed so numbers always start at 1 when at the end.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-15  Baard Farstad  <bf@ez.no>
+
+    * eztemplate.php: Added support for user defined variables.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php
+      eztemplate.php:
+    Fixed Section support with Language and template override in eZ article.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/linklist.php.ini
+      admin/intl/fr_FR/linkselect.php.ini
+      locale/fr_FR.ini: updated fr_FR
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-22  Unknown  <master@open.lv>
+
+    * locale/lv_LV.ini
+      locale/ru_RU.ini: Latvian and Russian locales
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-24  Baard Farstad  <bf@ez.no>
+
+    * eztexttool.php: Fixed export of eZ article articles to latex.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-25  Baard Farstad  <bf@ez.no>
+
+    * eztemplate.php: Removed debug output if debug is disabled.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-26  Christofer Elo  <ce@ez.no>
+
+    * ezbenchmark.php: fizx
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-27  Jakob Nielsen  <jakob.nielsen@nhst.no>
+
+    * INIFile.php: Added the hack again $contents.="\n"
+    Hopefully this will work. I'll try to find the reason for why we have to add
+    this line.
+
+    * eztexttool.php: Minor text fix
+
+    * INIFile.php: - Fixed/Changed the function Parse
+    - Changed some stuff in save_data, so that it would actually work (hopefully :)
+    - Changed some code that wasn't according to the code standard.
+
+    It is important that the changes to the parse function are tested very hard since it would effect the whole system if i doesn't.
+
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changed version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * ezdate.php
+      ezdatetime.php
+      ezlocale.php: bugfix when using sunday as first day of week
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * INIFile.php
+      ezhttptool.php
+      eztemplate.php:
+    $index and $wwwDir go to $GlobalSiteIni->Index and $GlobalSiteIni->WWWDir. Fixes namespace problems.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changed version info.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/linklist.php.ini
+      admin/intl/he_IL/linkselect.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-02  Christoffer Elo  <ce@ez.no>
+
+    * ezdb.php: Added a new ezsection/frontpage feature:
+    this will make it easier to build up a frontpage from the admin interface.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-06  Baard Farstad  <bf@ez.no>
+
+    * ezcachefile.php: Fixed close file problem.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-08  Kai Duebbert  <kai@duebbert.de>
+
+    * ezfile.php:
+    fixed wrong use of eZFile::file_exists() instead of file_exists(). fixes bug.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-10  Christoffer Elo  <ce@ez.no>
+
+    * ezgpg.php: Jalla fix
+
+2001-10-10  Chris Mason  <chris@net.ai>
+
+    * ezgpg.php: Added homedir directory variable
+
+2001-10-10  Baard Farstad  <bf@ez.no>
+
+    * ezbenchmark.php
+      ezmysqldb.php: Added bebug possibility.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-11  Christoffer Elo  <ce@ez.no>
+
+    * ezgpg.php: Added copy of address on eztrade
+
+2001-10-11  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Version change.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-12  Jakob Nielsen  <jakob.nielsen@nhst.no>
+
+    * INIFile.php: Added a ^ to the line
+
+    if( ereg( "\[([[:alnum:]]+)\]", $data, $out ) )
+
+    in parse_data. This will make sure that the the line only will be looked upon as a group if the line starts with a [. Without this fix you can't have the [....] brackets inside a string in the ini-files. Specially a problem in the language files.
+
+    So the line now looks like this:
+
+    if( ereg( "^\[([[:alnum:]]+)\]", $data, $out ) )
+
+    It is possible to make this regexp more advanced, but this will do it for now, I think!
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * admin/linkselect.php
+      ezlinkitem.php
+      ezlinksection.php
+      ezmodulelink.php
+      ezpostgresqldb.php: Fixed postgres bugs.
+
+2001-10-15  fh  <fh@zev.ez.no>
+
+    * ezfile.php: Fix for tmpdir bug
+
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * ezpostgresqldb.php: Runs a query only if the connection is up.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changed version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * eztemplate.php
+      template.inc: Fixed a error check bug.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-18  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-26  Christoffer Elo  <ce@ez.no>
+
+    * ezlocale.php: fixed a npsp
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/linklist.php.ini
+      admin/intl/fi_FI/linkselect.php.ini
+      locale/fi_FI.ini: updated fi_FI for 2.2 final
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * locale/es_MX.ini
+      admin/intl/es_MX/linklist.php.ini
+      admin/intl/es_MX/linkselect.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * ezinifile.php
+      INIFile.php: Fixed hasVar() function.
+
+    * ezpublish.php: Fixed version.
+
+    * ezquery.php: Added function for setting stop word frequency.
+
+    * ezquery.php: Fixed setting of stopword frequency,
+
+2001-11-01  Christoffer Elo  <ce@ez.no>
+
+    * admin/linklist.php
+      admin/linkselect.php
+      ezlinkitem.php: Fixed bugs in mediacatalogue
+    Fixed a link bug in eZ trade
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * INIFile.php
+      ezinifile.php
+      ezmysqldb.php: Added new ini file class with copyright of eZ systems.
+
+2001-11-01  Christoffer Elo  <ce@ez.no>
+
+    * ezmediafile.php: Fixed bugs in media catalogue
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/linkselect.php.ini: de_DE update for 2.2.1
+
+2001-11-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * ezdb.php: updated table for support
+    improved ezdb::finish method
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-07  Baard Farstad  <bf@ez.no>
+
+    * INIFile.php: Added parameter to function.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changed version number.
+
+    * ezdb.php
+      eztemplate.php: Fixed storing of $10 like text correctly.
+
+    * eztemplate.php: Fixed storing $100 correctly.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-12  Christoffer Elo  <ce@ez.no>
+
+    * admin/linkselect.php
+      templates/standard/typelist.tpl
+      admin/linklist.php
+      ezlinkitem.php
+      ezmediafile.php: Fixed a SQL bug in the typelist.
+    Added wmf to ezmediafile
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-13  Jan Borsodi  <jb@ez.no>
+
+    * ezlog.php: Removed the session test code.
+
+    * ezlog.php: Conflict fixes.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-14  Christoffer Elo  <ce@ez.no>
+
+    * ezhttptool.php: Fixed the IE cookie bug
+
+2001-11-14  Baard Farstad  <bf@ez.no>
+
+    * ezhttptool.php: Added function for setting cookie.
+
+    * ezhttptool.php: Added custom setcookie function.
+
+2001-11-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * INIFile.php
+      ezinifile.php: added parameter in constructor for choosing caching
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-15  Christoffer Elo  <ce@ez.no>
+
+    * ezmysqldb.php:
+    Added a exit() in the ezmysql class when it cant create a connection.
+    added some languages
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * locale/fr_FR.ini: updated fr_FR for 2.2 final
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-19  Christoffer Elo  <ce@ez.no>
+
+    * ezhttptool.php
+      ezmysqldb.php: Added data checking for the voucherinformation
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/linklist.php.ini
+      admin/intl/es_AR/linkselect.php.ini
+      locale/es_AR.ini: updated es_AR for 2.2.2
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * locale/se_SE.ini
+      admin/intl/se_SE/linklist.php.ini
+      admin/intl/se_SE/linkselect.php.ini: se_SE swedish 2.2.1
+
+2001-11-22  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: New version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-11-23  Baard Farstad  <bf@ez.no>
+
+    * ezpostgresqldb.php:
+    removed dependency to mysql_escape_string() when using postgresql database.
+
+2001-11-23  Christoffer Elo  <ce@ez.no>
+
+    * eztime.php: fix
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-02  Kai Duebbert  <kai@duebbert.de>
+
+    * eztemplate.php: small fixes to uninitialized variables.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-03  Kai Duebbert  <kai@duebbert.de>
+
+    * ezmysqldb.php:
+    improved connection handling to mysql server. tries 5 times with break of 5 seconds in between.
+
+    * INIFile.php
+      ezfile.php
+      eztemplate.php: improved handling of $siteDir.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/linklist.php.ini
+      admin/intl/hr_HR/linkselect.php.ini
+      locale/hr_HR.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-10  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changes.
+
+2001-12-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * ezdb.php: small improvement in eZDB::finish
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-12  Kai Duebbert  <kai@duebbert.de>
+
+    * INIFile.php:
+    better error message, if site.ini or site.ini.php are not found
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-18  Sascha Frinken  <sascha@impetex.de>
+
+    * ezmysqldb.php: Commitng the mygold cahnges
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/linklist.php.ini
+      admin/intl/pt_PT/linkselect.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-01-02  Baard Farstad  <bf@ez.no>
+
+    * ezbenchmark.php
+      ezmysqldb.php: Added import script.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-01-03  Kai Duebbert  <kai@duebbert.de>
+
+    * eztemplate.php: fixed useless variable assigning
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-01-14  Christoffer Elo  <ce@ez.no>
+
+    * ezlinkitem.php
+      ezmodulelink.php
+      ezmysqldb.php: Fixed some bugs
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * ezmysqldb.php: Fixes
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-06  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * ezpostgresqldb.php: fixed bug when ampty offset or limit
+
+    * ezlocale.php: fixed bug
+
+    * ezlocale.php: fixed problem in formatNumber
+
+    * ezlocale.php: added formatNumber()
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-07  Baard Farstad  <bf@ez.no>
+
+    * ezpostgresqldb.php: Fixed escaping for postgrsql.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-15  Christoffer Elo  <ce@ez.no>
+
+    * ezcachefile.php
+      ezlist.php
+      ezmysqldb.php: Added fixes
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-18  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * ezcachefile.php:
+    Additional component added - GlobalSectionID, not tested yet
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-19  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * locale/Attic/en_UC.ini: New file.
+
+    * locale/Attic/en_UC.ini: Unicode stub witj correct charset code
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-02-27  Baard Farstad  <bf@ez.no>
+
+    * ezfile.php
+      eztemplate.php: Fixed problem with nvh setup.
+    VS: ----------------------------------------------------------------------
+
+2002-02-27  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * ezcachefile.php:
+    additional component - sectionID, to make caching for different sections
+
+2002-02-27  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: New version.
+
+    * ezcachefile.php: Fixed cache file bug.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-03-04  Christoffer Elo  <ce@ez.no>
+
+    * ezfile.php: Added file() so it can work with nVH.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-03-05  Christoffer Elo  <ce@ez.no>
+
+    * eztemplate.php: Fixed the global_section_name to lowercase
+
+    * ezgpg.php
+      ezmysqldb.php
+      eztemplate.php: Added a global_section_name template variable.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-03-06  Christoffer Elo  <ce@ez.no>
+
+    * eztemplate.php: Added a template variable
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * eztemplate.php: Added design for akersmic
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-03-25  master  <master@zev.ez.no>
+
+    * INIFile.php: *** empty log message ***
+
+    * INIFile.php: multilingual admin interface
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-05  bf  <bf@zev.ez.no>
+
+    * ezbenchmark.php: Updated the benchmark file.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-10  jhe  <jhe@zev.ez.no>
+
+    * ezcachefile.php: fixed cache bug
+
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * ezcachefile.php
+      ezgpg.php
+      ezlist.php
+      ezmysqldb.php
+      eztemplate.php: Major commit from the online akersmic version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/linklist.php.ini
+      admin/intl/no_NO/linkselect.php.ini: updated no_NO for 2.2.4
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-16  christoffer  <ce@zev.ez.no>
+
+    * ezmysqldb.php
+      eztime.php
+      locale/de_DE.ini
+      locale/de_MG.ini: Major commit for the mygold project
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-24  jhe  <jhe@zev.ez.no>
+
+    * INIFile.php: coding standard fixes
+
+    * eztemplate.php: fixed bug when clearing cache using site.ini.php file
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-04-25  jhe  <jhe@zev.ez.no>
+
+    * eztemplate.php: many coding standard fixes
+
+2002-04-25  bf  <bf@zev.ez.no>
+
+    * ezmysqldb.php
+      eztemplate.php
+      ezcachefile.php: Fixed version check in eZ template.
+
+    * ezpublish.php: Changed version information.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-06-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * INIFile.php:
+    error messages in ini file is not printet if DEBUG is disabled
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-08-14  Baard Farstad  <bf@ez.no>
+
+    * ezpublish.php: Changed version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2002-08-15  Gunnstein Lye  <gl@ez.no>
+
+    * eztexttool.php:
+    Added eZTextTool::fixhtmlentities(), which fixes errors made by the
+    over-enthusiastic htmlspecialchars(). Used in eZArticle and
+    eZImageCatalogue.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2003-02-20  Bjoern Reiten  <br@ez.no>
+
+    * eztime.php: fixed bug (redeclaration of the function addZero())
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2003-04-10  Bjoern Reiten  <br@ez.no>
+
+    * ezcachefile.php: removed debug.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2003-04-11  Bjoern Reiten  <br@ez.no>
+
+    * ezpublish.php: updated version.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2003-06-05  Bjoern Reiten  <br@ez.no>
+
+    * ezpublish.php: updated version number.
+
+
+Module : classes
+Repository path : /home/cvsroot/projects/php/classes
+Maintainer(s) : bf@ez.no
+2003-07-22  Vidar Langseid  <vl@ez.no>
+
+    * ezlinkitem.php:
+    - Fixed bug with Article title not beeing escaped when added as link item to a product (productedit)
+

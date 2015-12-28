@@ -1,0 +1,638 @@
+Wed Sep  5 15:30:03 CEST 2001 - Creating module ezsitemanager, module category php
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-06  br  <br@zev.ez.no>
+
+    * admin/intl/no_NO/sectionedit.php.ini: added translation.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsection.php:
+    Fixed Section support with Language and template override in eZ article.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/sectionedit.php.ini
+      admin/intl/fr_FR/sectionlist.php.ini: updated fr_FR
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-21  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsection.php:
+    Changes, fixed check in section if sections are enabled or not.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-24  Baard Farstad  <bf@ez.no>
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/templateedit.php.ini
+      admin/intl/en_GB/templatelist.php.ini
+      admin/menubox.php
+      admin/sqlquery.php
+      admin/templateedit.php
+      admin/templatelist.php
+      admin/templates/standard/sqlquery.tpl
+      admin/templates/standard/templateedit.tpl
+      admin/templates/standard/templatelist.tpl:
+    Added basic editor for templates in admin.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-26  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/datasupplier.php
+      admin/menubox.php
+      admin/sqlquery.php: Fixed showing of column names in SQL query.
+
+2001-09-26  Unknown  <master@open.lv>
+
+    * admin/menubox.php: sql admin activated
+
+    * admin/sqlquery.php: SQL Admin working sample
+
+    * admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/sqlquery.php.ini
+      admin/templates/standard/sqlquery.tpl: SQL Admin added
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-09-27  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/sqlquery.tpl
+      admin/templates/standard/templatelist.tpl:
+    fix missing tags for nVH install.
+
+2001-09-27  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/en_GB/menuedit.php.ini
+      admin/intl/en_GB/menulist.php.ini
+      admin/menuedit.php
+      admin/menulist.php
+      admin/templates/standard/menuedit.tpl
+      admin/templates/standard/menulist.tpl
+      classes/ezmenu.php: Added menu handling
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/menulist.php.ini
+      admin/menubox.php
+      admin/menuedit.php
+      admin/menulist.php
+      admin/templates/standard/menuedit.tpl
+      admin/templates/standard/menulist.tpl
+      classes/ezmenu.php: added menu
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/sectionedit.php.ini
+      admin/intl/he_IL/sectionlist.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-02  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * admin/templates/standard/sectionedit.tpl:
+    Moved some buttons to make them appear.
+
+2001-10-02  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/en_GB/sectionedit.php.ini
+      admin/sectionedit.php
+      admin/templates/standard/sectionedit.tpl: added eztrade to frontpage
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/sectionedit.php.ini
+      admin/sectionedit.php
+      admin/templates/standard/sectionedit.tpl
+      classes/ezsection.php
+      classes/ezsectionfrontpage.php: Added a new ezsection/frontpage feature:
+    this will make it easier to build up a frontpage from the admin interface.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-08  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * admin/intl/en_GB/sqlquery.php.ini:
+    some new fetures - row count, prefernces
+
+    * admin/templates/standard/sqlquery.tpl:
+    some new feautures - row count, preferences
+
+    * admin/sqlquery.php: some new features - row count, preferences
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-09  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezsitemanager.sql
+      sql/postgresql/ezsitemanager.sql: Fixed SQL schemas
+
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/sqlquery.php.ini
+      admin/sqlquery.php
+      admin/templates/standard/sqlquery.tpl: Did some translations.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-10  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/sectionedit.php.ini: added translation.
+
+2001-10-10  Christoffer Elo  <ce@ez.no>
+
+    * admin/sectionedit.php: Fixed a bug
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-11  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/en_GB/sectionedit.php.ini
+      admin/intl/no_NO/sectionedit.php.ini
+      admin/sectionedit.php
+      admin/templates/standard/sectionedit.tpl
+      classes/ezsection.php
+      classes/ezsectionfrontpage.php: Fixed some bugs.
+    * Added headline in sectionedit
+    * Fixed when a category had no items
+    * Added function &settingByRowID in classes/ezsectionfrontpage.php
+    * Store data when user enter OK.
+    * Fixed up / down ( was going the wrong way, removed DESC in sql )
+
+2001-10-11  Baard Farstad  <bf@ez.no>
+
+    * admin/sqlquery.php: Fixed query.
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezsitemanager.sql
+      sql/postgresql/ezsitemanager.sql:
+    updated sql scheemes, ready for release
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-12  Bjoern Reiten  <br@ez.no>
+
+    * admin/sectionedit.php
+      admin/templates/standard/sectionedit.tpl: removed unnecessarily code.
+
+    * admin/sectionedit.php: added choices for ads and 1short.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-15  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsection.php: Removed debug.
+
+    * admin/sectionedit.php
+      classes/ezsection.php: Fixed storing of uppercase names in sitemanager.
+
+2001-10-15  Vidar Langseid  <vl@ez.no>
+
+    * sql/mysql/ezsitemanager.sql
+      sql/postgresql/ezsitemanager.sql:
+    Updates sql schemes.
+    Added tables eZSiteManager_Menu and eZSiteManager_MenuType
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsection.php: Added one column product at frontpage
+    Added cache on frontpage
+
+2001-10-16  Chris Mason  <chris@net.ai>
+
+    * sql/mysql/ezsitemanager.sql: Fixed two errors in sql files
+    : ----------------------------------------------------------------------
+
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/en_GB/sectionedit.php.ini
+      admin/sectionedit.php
+      admin/templates/standard/sectionedit.tpl
+      classes/ezsectionfrontpage.php: Added languages
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/en_GB/sectionedit.php.ini
+      admin/templates/standard/sectionedit.tpl:
+    Added support for 0 in frontpage (all categories ).
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/cacheadmin.php.ini
+      admin/intl/de_DE/fileedit.php.ini
+      admin/intl/de_DE/filelist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/menuedit.php.ini
+      admin/intl/de_DE/menulist.php.ini
+      admin/intl/de_DE/sectionedit.php.ini
+      admin/intl/de_DE/sectionlist.php.ini
+      admin/intl/de_DE/siteconfig.php.ini
+      admin/intl/de_DE/sqlquery.php.ini
+      admin/intl/de_DE/templateedit.php.ini
+      admin/intl/de_DE/templatelist.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezsitemanager.sql
+      sql/postgresql/ezsitemanager.sql: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/sectionedit.php.ini
+      admin/intl/no_NO/sqlquery.php.ini
+      admin/intl/no_NO/menuedit.php.ini: updated no_NO
+
+    * admin/intl/en_GB/menuedit.php.ini: removed duplicate keys
+
+    * admin/intl/en_GB/fileedit.php.ini
+      admin/intl/en_GB/filelist.php.ini
+      admin/intl/en_GB/menuedit.php.ini
+      admin/intl/en_GB/menulist.php.ini
+      admin/intl/en_GB/sectionlist.php.ini
+      admin/intl/en_GB/siteconfig.php.ini
+      admin/intl/en_GB/templateedit.php.ini: newline
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/menuedit.php.ini
+      admin/intl/no_NO/menulist.php.ini
+      admin/intl/no_NO/sectionedit.php.ini
+      admin/intl/no_NO/sqlquery.php.ini
+      admin/intl/no_NO/templateedit.php.ini
+      admin/intl/no_NO/templatelist.php.ini: updated no_NO
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/cacheadmin.php.ini
+      admin/intl/fi_FI/fileedit.php.ini
+      admin/intl/fi_FI/filelist.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/menuedit.php.ini
+      admin/intl/fi_FI/menulist.php.ini
+      admin/intl/fi_FI/sectionedit.php.ini
+      admin/intl/fi_FI/sectionlist.php.ini
+      admin/intl/fi_FI/siteconfig.php.ini
+      admin/intl/fi_FI/sqlquery.php.ini
+      admin/intl/fi_FI/templateedit.php.ini
+      admin/intl/fi_FI/templatelist.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/cacheadmin.php.ini
+      admin/intl/es_MX/fileedit.php.ini
+      admin/intl/es_MX/filelist.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/menuedit.php.ini
+      admin/intl/es_MX/menulist.php.ini
+      admin/intl/es_MX/sectionedit.php.ini
+      admin/intl/es_MX/sectionlist.php.ini
+      admin/intl/es_MX/siteconfig.php.ini
+      admin/intl/es_MX/sqlquery.php.ini
+      admin/intl/es_MX/templateedit.php.ini
+      admin/intl/es_MX/templatelist.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * admin/siteconfig.php:
+    Fixed using site.ini.php if site.ini does not exist.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-05  Thomas Hellstroem  <th@ez.no>
+
+    * admin/intl/no_NO/sectionedit.php.ini: Layout
+
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/fileedit.php.ini
+      admin/intl/en_GB/filelist.php.ini
+      admin/intl/en_GB/menuedit.php.ini
+      admin/intl/en_GB/menulist.php.ini
+      admin/intl/en_GB/sectionlist.php.ini
+      admin/intl/en_GB/siteconfig.php.ini
+      admin/intl/en_GB/templateedit.php.ini: en_GB fixxes
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/cacheadmin.php.ini
+      admin/intl/de_DE/fileedit.php.ini
+      admin/intl/de_DE/filelist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/menuedit.php.ini
+      admin/intl/de_DE/menulist.php.ini
+      admin/intl/de_DE/sectionedit.php.ini
+      admin/intl/de_DE/sectionlist.php.ini
+      admin/intl/de_DE/siteconfig.php.ini
+      admin/intl/de_DE/sqlquery.php.ini
+      admin/intl/de_DE/templateedit.php.ini
+      admin/intl/de_DE/templatelist.php.ini: de_DE update for 2.2.1
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini: Added translation.
+
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/menuedit.php.ini
+      admin/intl/no_NO/menulist.php.ini
+      admin/intl/no_NO/sectionedit.php.ini
+      admin/intl/no_NO/sqlquery.php.ini
+      admin/intl/no_NO/templateedit.php.ini
+      admin/intl/no_NO/templatelist.php.ini: fixed no_NO translation
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini: fixed several bugs in no_NO files
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-13  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/standard/sectionlist.tpl: Fixed bug when field is emty.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * admin/sectionedit.php: Fixed bug when creating new section.
+
+    * admin/sectionedit.php:
+    Fixed redirect bug when creating a new row on a new session.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/cacheadmin.php.ini
+      admin/intl/es_AR/fileedit.php.ini
+      admin/intl/es_AR/filelist.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/menuedit.php.ini
+      admin/intl/es_AR/menulist.php.ini
+      admin/intl/es_AR/sectionedit.php.ini
+      admin/intl/es_AR/sectionlist.php.ini
+      admin/intl/es_AR/siteconfig.php.ini
+      admin/intl/es_AR/sqlquery.php.ini
+      admin/intl/es_AR/templateedit.php.ini
+      admin/intl/es_AR/templatelist.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/cacheadmin.php.ini
+      admin/intl/se_SE/fileedit.php.ini
+      admin/intl/se_SE/filelist.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/menuedit.php.ini
+      admin/intl/se_SE/menulist.php.ini
+      admin/intl/se_SE/sectionedit.php.ini
+      admin/intl/se_SE/sectionlist.php.ini
+      admin/intl/se_SE/siteconfig.php.ini
+      admin/intl/se_SE/sqlquery.php.ini
+      admin/intl/se_SE/templateedit.php.ini
+      admin/intl/se_SE/templatelist.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/sqlquery.php.ini: lang fixes
+
+    * admin/intl/hr_HR/cacheadmin.php.ini
+      admin/intl/hr_HR/fileedit.php.ini
+      admin/intl/hr_HR/filelist.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/menuedit.php.ini
+      admin/intl/hr_HR/menulist.php.ini
+      admin/intl/hr_HR/sectionedit.php.ini
+      admin/intl/hr_HR/sectionlist.php.ini
+      admin/intl/hr_HR/siteconfig.php.ini
+      admin/intl/hr_HR/sqlquery.php.ini
+      admin/intl/hr_HR/templateedit.php.ini
+      admin/intl/hr_HR/templatelist.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/filelist.tpl
+      admin/templates/standard/menulist.tpl
+      admin/templates/standard/sectionlist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/sectionedit.php.ini
+      admin/intl/pt_PT/sectionlist.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2002-01-16  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezsection.php: fix warnings
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2002-02-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/templatelist.php
+      sql/postgresql/ezsitemanager.sql: fixed psql problems
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : vl@ez.no
+2002-02-08  Baard Farstad  <bf@ez.no>
+
+    * admin/cacheadmin.php: Added clearcache for windows.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-03-04  Christoffer Elo  <ce@ez.no>
+
+    * admin/fileedit.php
+      admin/siteconfig.php
+      admin/templateedit.php
+      admin/templatelist.php:
+    Replaced file() with eZFile::file() so it can work with nVH
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsection.php: Added design for akersmic
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * classes/ezsection.php: Major commit from the online akersmic version.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/menuedit.php.ini
+      admin/intl/no_NO/menulist.php.ini
+      admin/intl/no_NO/sectionedit.php.ini
+      admin/intl/no_NO/siteconfig.php.ini
+      admin/intl/no_NO/sqlquery.php.ini
+      admin/intl/no_NO/templateedit.php.ini
+      admin/intl/no_NO/templatelist.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-04-24  jhe  <jhe@zev.ez.no>
+
+    * admin/cacheadmin.php
+      admin/datasupplier.php: coding standard fixes
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2002-09-27  Vidar Langseid  <vl@ez.no>
+
+    * admin/sectionedit.php:
+    Bugfix : You may now add/edit ads in SectionEdit even though you don't have any
+    productcategories in eZ trade.
+
+
+Module : ezsitemanager
+Repository path : /home/cvsroot/projects/php/ezsitemanager
+Maintainer(s) : ce@ez.no
+2003-06-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/sectionedit.php:
+    fixed bug with section override templates for articleview
+    fixed typo in variable name
+

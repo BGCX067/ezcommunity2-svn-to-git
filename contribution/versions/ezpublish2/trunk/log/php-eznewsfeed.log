@@ -1,0 +1,412 @@
+Wed Sep  5 15:30:18 CEST 2001 - Creating module eznewsfeed, module category php
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/categoryedit.php.ini
+      admin/intl/fr_FR/importnews.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/newsarchive.php.ini
+      admin/intl/fr_FR/newsedit.php.ini
+      admin/intl/fr_FR/newssearch.php.ini
+      admin/intl/fr_FR/sourcesiteedit.php.ini
+      admin/intl/fr_FR/unpublished.php.ini
+      user/intl/fr_FR/allcategories.php.ini
+      user/intl/fr_FR/newslist.php.ini
+      user/intl/fr_FR/search.php.ini: updated fr_FR
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/categoryedit.php.ini
+      admin/intl/he_IL/importnews.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/newsarchive.php.ini
+      admin/intl/he_IL/newsedit.php.ini
+      admin/intl/he_IL/newssearch.php.ini
+      admin/intl/he_IL/sourcesiteedit.php.ini
+      admin/intl/he_IL/unpublished.php.ini
+      user/intl/he_IL/allcategories.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/newslist.php.ini
+      user/intl/he_IL/search.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/eznewsfeed.sql
+      sql/postgresql/eznewfeed.sql: updated sql scheemes, ready for release
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/categoryedit.php.ini
+      user/intl/de_DE/headlines.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/newssearch.php.ini: updated no_NO
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/importnews.php.ini
+      admin/intl/en_GB/newsedit.php.ini
+      admin/intl/en_GB/sourcesiteedit.php.ini
+      admin/intl/en_GB/unpublished.php.ini
+      user/intl/en_GB/allcategories.php.ini: newline
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/importnews.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/newsedit.php.ini
+      admin/intl/no_NO/newssearch.php.ini
+      admin/intl/no_NO/sourcesiteedit.php.ini
+      admin/intl/no_NO/unpublished.php.ini
+      user/intl/no_NO/allcategories.php.ini
+      user/intl/no_NO/newslist.php.ini: updated no_NO
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/importnews.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/newsarchive.php.ini
+      admin/intl/fi_FI/newsedit.php.ini
+      admin/intl/fi_FI/newssearch.php.ini
+      admin/intl/fi_FI/sourcesiteedit.php.ini
+      admin/intl/fi_FI/unpublished.php.ini
+      user/intl/fi_FI/allcategories.php.ini
+      user/intl/fi_FI/headlines.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/newslist.php.ini: updated fi_FI for 2.2 final
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-29  Baard Farstad  <bf@ez.no>
+
+    * classes/ezbackslashimporter.php
+      classes/eznewsimporter.php
+      classes/ezrdfimporter.php
+      classes/ezrssimporter.php: Fixed support for libxml in newsfeed.
+
+    * classes/ezbackslashimporter.php
+      classes/eznewsimporter.php
+      classes/ezrdfimporter.php
+      classes/ezrssimporter.php:
+    Added support for libxml instead of qdom XML parser. People happy now? ;)
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/importnews.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/newsarchive.php.ini
+      admin/intl/es_MX/newssearch.php.ini
+      admin/intl/es_MX/unpublished.php.ini
+      user/intl/es_MX/headlines.php.ini
+      user/intl/es_MX/menubox.php.ini: updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/importnews.php.ini
+      admin/intl/en_GB/newsedit.php.ini
+      admin/intl/en_GB/sourcesiteedit.php.ini
+      admin/intl/en_GB/unpublished.php.ini
+      user/intl/en_GB/allcategories.php.ini: en_GB fixxes
+
+2001-11-05  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/postgresql/Attic/eznewfeed.sql
+      sql/postgresql/eznewsfeed.sql: renamed file
+
+    * sql/postgresql/eznewsfeed.sql: New file.
+
+    * sql/postgresql/Attic/eznewfeed.sql
+      sql/postgresql/eznewsfeed.sql: renamed file
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/importnews.php.ini
+      admin/intl/de_DE/newsedit.php.ini
+      admin/intl/de_DE/sourcesiteedit.php.ini
+      admin/intl/de_DE/unpublished.php.ini
+      user/intl/de_DE/allcategories.php.ini
+      user/intl/de_DE/headlines.php.ini: de_DE update for 2.2.1
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/importnews.php.ini
+      admin/intl/no_NO/newsedit.php.ini
+      admin/intl/no_NO/newssearch.php.ini
+      admin/intl/no_NO/sourcesiteedit.php.ini
+      admin/intl/no_NO/unpublished.php.ini
+      user/intl/no_NO/allcategories.php.ini: fixed no_NO translation
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-13  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/headlines.tpl:
+    set links to be opened in a new window.
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-14  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezbackslashimporter.php: fixed bug in backslashimporter.
+
+    * classes/ezbackslashimporter.php: Fixed bug in backslashimporter.
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/fr_FR/allcategories.php.ini
+      user/intl/fr_FR/headlines.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/newslist.php.ini: updated fr_FR for 2.2 final
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-19  Baard Farstad  <bf@ez.no>
+
+    * classes/ezrdfimporter.php: Fixed debug output.
+
+    * classes/ezbackslashimporter.php
+      classes/ezrdfimporter.php
+      classes/ezrssimporter.php: FIxed XML parsing.
+
+    * classes/ezrdfimporter.php
+      classes/ezrssimporter.php
+      classes/ezbackslashimporter.php: Fixed XML parsing dependencies.
+
+2001-11-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/categoryedit.php
+      admin/importnews.php
+      admin/newsarchive.php
+      admin/newsedit.php
+      admin/newssearch.php
+      admin/sourcesiteedit.php
+      admin/unpublished.php
+      user/allcategories.php
+      user/headlines.php
+      user/newslist.php
+      user/search.php: changed new INIFile("site.ini") to INIFile::globalINI()
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/importnews.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/newsarchive.php.ini
+      admin/intl/es_AR/newsedit.php.ini
+      admin/intl/es_AR/newssearch.php.ini
+      admin/intl/es_AR/sourcesiteedit.php.ini
+      admin/intl/es_AR/unpublished.php.ini
+      user/intl/es_AR/allcategories.php.ini
+      user/intl/es_AR/headlines.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/newslist.php.ini
+      user/intl/es_AR/search.php.ini: updated es_AR for 2.2.2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/importnews.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/newsarchive.php.ini
+      admin/intl/se_SE/newsedit.php.ini
+      admin/intl/se_SE/newssearch.php.ini
+      admin/intl/se_SE/sourcesiteedit.php.ini
+      admin/intl/se_SE/unpublished.php.ini
+      user/intl/se_SE/allcategories.php.ini
+      user/intl/se_SE/headlines.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/newslist.php.ini
+      user/intl/se_SE/search.php.ini: se_SE swedish 2.2.1
+
+    * user/intl/es_MX/headlines.php.ini
+      user/intl/es_MX/menubox.php.ini: es_MX update for 2.2.2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/importnews.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/newsarchive.php.ini
+      admin/intl/hr_HR/newsedit.php.ini
+      admin/intl/hr_HR/newssearch.php.ini
+      admin/intl/hr_HR/sourcesiteedit.php.ini
+      admin/intl/hr_HR/unpublished.php.ini
+      user/intl/hr_HR/allcategories.php.ini
+      user/intl/hr_HR/headlines.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/newslist.php.ini
+      user/intl/hr_HR/search.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/importnews.tpl
+      admin/templates/standard/newsarchive.tpl
+      admin/templates/standard/newssearch.tpl
+      admin/templates/standard/unpublished.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-12-10  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezrssimporter.php: Added updates to the rssimporter.
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/pt_PT/headlines.php.ini
+      user/intl/pt_PT/newslist.php.ini
+      user/intl/pt_PT/search.php.ini
+      admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/importnews.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/newsarchive.php.ini
+      admin/intl/pt_PT/newsedit.php.ini
+      admin/intl/pt_PT/newssearch.php.ini
+      admin/intl/pt_PT/sourcesiteedit.php.ini
+      admin/intl/pt_PT/unpublished.php.ini
+      user/intl/pt_PT/allcategories.php.ini
+      user/intl/pt_PT/menubox.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2002-01-24  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezrdfimporter.php
+      classes/ezrssimporter.php
+      classes/ezbackslashimporter.php:
+    fixed bugs with fopen, and emty objects from ezxml.
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : vl@ez.no
+2002-02-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/newsedit.php: fixed bug with redirecting on nVH
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : br@ez.no
+2002-02-26  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezbackslashimporter.php
+      classes/ezrdfimporter.php
+      classes/ezrssimporter.php: changed fread to fgets
+
+    * classes/ezbackslashimporter.php
+      classes/ezrdfimporter.php
+      classes/ezrssimporter.php: use fgets instead of fread.
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : br@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/newsarchive.php.ini
+      admin/intl/no_NO/newsedit.php.ini
+      admin/intl/no_NO/sourcesiteedit.php.ini
+      admin/intl/no_NO/unpublished.php.ini: updated no_NO for 2.2.4
+
+
+Module : eznewsfeed
+Repository path : /home/cvsroot/projects/php/eznewsfeed
+Maintainer(s) : br@ez.no
+2003-06-12  Vidar Langseid  <vl@ez.no>
+
+    * sql/mysql/eznewsfeed.sql
+      sql/postgresql/eznewsfeed.sql:
+    Merged changes done in sql/publish_mysql.sql and sql/publish_postgresql.sql
+    into sql files for each module
+

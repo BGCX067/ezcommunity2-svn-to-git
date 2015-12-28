@@ -1,0 +1,132 @@
+Wed Sep  5 15:27:47 CEST 2001 - Creating module ezsession, module category php
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-09-26  Bjoern Reiten  <br@ez.no>
+
+    * sql/informix/ezsession.sql
+      sql/mysql/ezsession.sql
+      sql/postgresql/ezsession.sql:
+    changed Value in eZSession_SessionVariable from varchar(50) to text.
+
+2001-09-26  Christofer Elo  <ce@ez.no>
+
+    * classes/ezsession.php: Fixed a bug in setArray()
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsession.php: Altererd cookie timeout to 40 days.
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezsession.sql: Added indeces.
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/informix/ezsession.sql
+      sql/mysql/ezsession.sql: updated sql scheemes, ready for release
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-11-14  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsession.php: Fixed the IE cookie bug
+
+2001-11-14  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsession.php: Added custom cookie function.
+
+    * classes/ezsession.php: Added custom setcookie function.
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-11-15  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsession.php:
+    Added a exit() in the ezmysql class when it cant create a connection.
+    added some languages
+
+2001-11-15  Thomas Hellstroem  <th@ez.no>
+
+    * classes/ezsession.php: Fixed IE cookie bug
+
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsession.php: Fixed cookie problem on IE* ;)
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-11-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsession.php: Added the IE cookie workaround
+
+2001-11-16  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsession.php: FIxed IE cookie bug.
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2001-11-19  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezsession.php: Added data checking for the voucherinformation
+
+    * classes/ezsession.php: Added new patch
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2002-04-16  christoffer  <ce@zev.ez.no>
+
+    * classes/ezpreferences.php
+      classes/ezsession.php: Major commit for the mygold project
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2002-07-09  Baard Farstad  <bf@ez.no>
+
+    * classes/ezsession.php: Added sorting of session list.
+
+
+Module : ezsession
+Repository path : /home/cvsroot/projects/php/ezsession
+Maintainer(s) : bf@ez.no
+2003-05-16  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezsession.php: Fixed sequrity bug with hash values.
+

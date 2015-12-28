@@ -1,0 +1,289 @@
+Wed Sep  5 15:28:32 CEST 2001 - Creating module ezaddress, module category php
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/addresstype.php.ini
+      admin/intl/fr_FR/country.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/onlinetype.php.ini
+      admin/intl/fr_FR/phonetype.php.ini: updated fr_FR
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-09-26  Christofer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Added english output error
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/addresstype.php.ini
+      admin/intl/he_IL/country.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/onlinetype.php.ini
+      admin/intl/he_IL/phonetype.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-11  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezaddress.sql: SQL update.
+
+2001-10-11  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Added copy of address on eztrade
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/mysql/ezaddress.sql
+      sql/postgresql/ezaddress.sql: updated sql scheemes, ready for release
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-12  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Added a default ID value
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Fixed postgres bugs.
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/addresstype.php.ini
+      admin/intl/de_DE/country.php.ini
+      admin/intl/de_DE/onlinetype.php.ini
+      admin/intl/de_DE/phonetype.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * admin/intl/en_GB/country.php.ini
+      admin/intl/no_NO/country.php.ini: added lang
+
+    * admin/countryedit.php
+      admin/templates/standard/countryedit.tpl
+      admin/typeedit.php: Added vat handling on countires
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-18  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezcountry.php: fixed
+
+    * classes/ezcountry.php
+      classes/ezonline.php
+      classes/ezonlinetype.php
+      classes/ezphone.php
+      classes/ezphonetype.php
+      classes/ezaddress.php
+      classes/ezaddresstype.php:
+    Added references and updated the documentation
+
+    * classes/ezaddress.php
+      classes/ezaddresstype.php
+      classes/ezonline.php
+      classes/ezonlinetype.php
+      classes/ezphone.php: Fixed documentation for all the ezaddress classes
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/country.php.ini: updated no_NO
+
+    * admin/intl/en_GB/addresstype.php.ini
+      admin/intl/en_GB/onlinetype.php.ini
+      admin/intl/en_GB/phonetype.php.ini: newline
+
+    * admin/intl/no_NO/country.php.ini: updated no_NO
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/onlinetype.php.ini
+      admin/intl/fi_FI/phonetype.php.ini
+      admin/intl/fi_FI/addresstype.php.ini
+      admin/intl/fi_FI/country.php.ini
+      admin/intl/fi_FI/menubox.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/addresstype.php.ini
+      admin/intl/es_MX/country.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/onlinetype.php.ini
+      admin/intl/es_MX/phonetype.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/addresstype.php.ini
+      admin/intl/en_GB/onlinetype.php.ini
+      admin/intl/en_GB/phonetype.php.ini: en_GB fixxes
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/addresstype.php.ini
+      admin/intl/de_DE/country.php.ini
+      admin/intl/de_DE/onlinetype.php.ini
+      admin/intl/de_DE/phonetype.php.ini: de_DE update for 2.2.1
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/addresstype.php.ini
+      admin/intl/es_AR/country.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/onlinetype.php.ini
+      admin/intl/es_AR/phonetype.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/addresstype.php.ini
+      admin/intl/se_SE/country.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/onlinetype.php.ini
+      admin/intl/se_SE/phonetype.php.ini: se_SE swedish 2.2.1
+
+    * admin/intl/es_MX/menubox.php.ini: es_MX update for 2.2.2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-12-05  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezaddress.php:
+    Set that this function return true or false, since some functions require
+    that.
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/addresstype.php.ini
+      admin/intl/hr_HR/country.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/onlinetype.php.ini
+      admin/intl/hr_HR/phonetype.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/onlinelist.tpl
+      admin/templates/standard/typelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/addresstype.php.ini
+      admin/intl/pt_PT/country.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/onlinetype.php.ini
+      admin/intl/pt_PT/phonetype.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Fixed a main address id bug
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2002-01-31  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezaddress.php: Fixed a return bug
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/addresstype.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/onlinetype.php.ini: updated no_NO for 2.2.4
+
+
+Module : ezaddress
+Repository path : /home/cvsroot/projects/php/ezaddress
+Maintainer(s) : ce@ez.no
+2002-04-16  christoffer  <ce@zev.ez.no>
+
+    * classes/ezaddress.php: Major commit for the mygold project
+

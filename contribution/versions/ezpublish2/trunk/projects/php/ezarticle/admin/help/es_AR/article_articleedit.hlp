@@ -1,0 +1,186 @@
+<h2>Edición de Artículos</h2>
+
+
+<p>Este es el archivo de ayuda para la página de edición de artículos de eZ Article.
+Se mostrarán los diferentes tags que pueden usarse en un artículo.<br>
+<b>Nota:</b> Todos los tags pueden ser modificados en el template.
+</p>
+
+<h2>Tags para formateo básico</h2>
+
+<p>
+Todos estos tags pueden tener subtags excepto el tag header.
+</p>
+
+<h3>&lt;header nivel> &lt;/header></h3>
+<p>
+Mostrará un título de nivel 1 a 5. Si no se indica nivel se creará el título con nivel 1 (el más grande).
+</p>
+
+<h3>&lt;bold> &lt;/bold></h3>
+<p>
+El texto entre estos tags se imprime en <b>negrita</b>.
+</p>
+
+<h3>&lt;italic> &lt;/italic></h3>
+<p>
+El texto entre estos tags se imprime en <i>itálica</i>.
+</p>
+
+<h3>&lt;strike> &lt;/strike></h3>
+<p>
+El texto entre estos tags se imprime <s>tachado</s>.
+</p>
+
+<h3>&lt;underline> &lt;/underline></h3>
+<p>
+El texto entre estos tags se imprime <u>subrayado</u>.
+</p>
+
+<h3>&lt;strong> &lt;/strong></h3>
+<p>
+El texto entre estos tags se imprime <strong>remarcado</strong>.
+</p>
+
+<h3>&lt;pre> &lt;/pre></h3>
+<p>
+Se mostrará un texto predefinido.
+</p>
+
+<h3>&lt;quote> &lt;/quote></h3>
+<p>
+Se mostrará el texto entre estos tags como una cita.
+</p>
+
+<h3>&lt;factbox> &lt;/factbox></h3>
+<p>
+Se mostrará un recuadro a la derecha, el cuál puede tener subtags.
+</p>
+
+<h3>&lt;bullet> &lt;/bullet></h3>
+<p>
+Cada línea nueva entre estos tags será precedida por un círculo, creando una lista no numerada.
+</p>
+
+<h3>&lt;list> &lt;/list></h3>
+<p>
+Cada línea nueva entre estos tags será precedida por un número, creando una lista ordenada.
+</p>
+
+<h3>&lt;page></h3>
+<p>
+Fuerza un salto de página en el documento.
+</p>
+
+<h2>Tags para Imágenes</h2>
+Se pueden ubicar imágenes en cualquier posicion dentro del artículo. Los tags para
+imágenes se ingresan en un formato simple y son convertidos a XML antes de almacenarlos.
+Si quiere utilizar tags para imágenes avanzados, debe escribirlos en XML.
+
+<h3>&lt;image <i>número</i>></h3>
+<p>
+Esta es la versión más simple de este tag, el cuál mostrará la imagen número "número"
+centrada y de tamaño mediano.
+</p>
+
+<h3>&lt;image <i>número</i> <i>posición</i> <i>tamaño</i>></h3>
+<p>
+Esta versión del tag le permitirá especificar la posición y el tamaño de la imagen.
+Las posiciones disponibles son: left, center, right y float. Los tamaños disponibles
+son: small, medium, large y original.
+</p>
+
+<h3>&lt;image <i>número</i> <i>posición</i> <i>tamaño</i> <i>enlace</i>></h3>
+<p>
+Esta versión del tag le permitirá especificar la posición y el tamaño de la imagen.
+Las posiciones disponibles son: left, center, right y float. Los tamaños disponibles
+son: small, medium, large y original. Tambien puede especificar un enlace al cuál ir 
+cuando se pulse sobre la imagen, esto es opcional.
+</p>
+<br>
+Los siguientes son explicaciones de cada argumento de las opciones anteriores.
+    <ul>
+        <li>número
+        <p>Es el número de la imagen que aparece en la pantalla "Imágenes".</p></li>
+        <li>posición<p>Esta es la posición donde queres que la imagen aparezca en la página, podes elegir entre las siguientes:</p>
+            <dl>
+            <dt>center</dt>
+            <dd>Centra la imagen en la página</dd>
+            <dt>float</dt>
+            <dd>La imagen aparecerá en línea con el texto. Usa esto para imágenes pequeñas, como por ejemplo bullets</dd>
+            <dt>left</dt>
+            <dd>Ubica la imagen a la izquierda de la página. El texto circulará alrededor de la imagen.</dd>
+            <dt>right</dt>
+            <dd>Ubica la imagen a la derecha de la página. El texto circulará alrededor de la imagen.</dd>
+            </dl>
+        </li>
+        <li>tamaño<p>indica el tamaño de la imagen</p>
+        <dl>
+        <dt>large</dt>
+        <dd>Usa los tamaños definidos en LargeImageWidth y LargeImageHeight en la sección eZArticle del archivo site.ini</dd>
+        <dt>original</dt>
+        <dd>Usa el tamaño original de la imagen</dd>
+        <dt>medium</dt>
+        <dd>Usa los tamaños definidos en MediumImageWidth y MediumImageHeight en la sección eZArticle del archivo site.ini </dd>
+        <dt>small</dt>
+        <dd>Usa los tamaños definidos en SmallImageWidth y SmallImageHeight en la sección eZArticle del archivo site.ini </dd>
+        </dl></li>
+    </ul>
+<br>
+
+<h3>&lt;image <i>id="número"</i> <i>align="posición"</i> <i>size="tamaño"</i> <i>caption="subítulo¨</i> <i>href="enlace"</i> <i>target="objetivo"</i>></h3>
+<p>
+Si se especifica la versión XML de este tag, usted podrá especificar un caption de usuario,
+el objetivo para el enlace, el url y el href url.
+Si el caption es "_blank" no se mostrará un subtítulo. Todos estos valores son opcionales.
+</p>
+
+<h2>Tags para hipervínculos</h2>
+
+<h3>&lt;link url texto></h3>
+<p>
+Se puede crear un enlace con su descripción con este tag.
+</p>
+
+<h3>&lt;mail dirección sujeto, texto></h3>
+<p>
+Este tab creará un tag "mailto:" para facilitar el envío de emails.
+</p>
+
+
+<h2>Tags para objetos</h2>
+
+<h3>&lt;file número></h3>
+<p>
+Mostrará un enlace hacia el archivo adjuntado.
+</p>
+
+<h3>&lt;media número></h3>
+<p>
+Ubicará un objeto multimedia en el artículo.
+</p>
+
+<h3>&lt;form></h3>
+<p>
+Ubicará el formulario elegido en el artículo.
+</p>
+
+<h2>Tags avanzados</h2>
+
+<h3>&lt;html> &lt;/html></h3>
+<p>
+Se mostrará el html incluído en en artículo. <br><b>Nota:</b> No está recomendado 
+usar este tag, ya que limita la posibilidad de exportar el artículo a otros formatos.
+Se debiera crear un tag de usuario, en su lugar. 
+</p>
+
+
+<h3>&lt;table width border>&lt;tr>&lt;td> Datos de la celda&lt;/td>&lt;/tr>&lt;/table></h3>
+<p>
+Se dibujará una tabla.
+</p>
+
+
+
+
+

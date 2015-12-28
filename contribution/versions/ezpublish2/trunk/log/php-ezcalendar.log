@@ -1,0 +1,400 @@
+Wed Sep  5 15:29:18 CEST 2001 - Creating module ezcalendar, module category php
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+2001-09-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/monthview.php:
+    added feature: site.ini setting if user can se other users calendar
+
+    * user/appointmentview.php
+      classes/ezappointment.php: fixed small bug when viewing own appointments
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+2001-09-13  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/appointmentedit.php:
+    added setting to make consultations visible for everyone
+
+2001-09-13  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/nl_NL/appointmentedit.php.ini: updated nl_NL
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+2001-09-14  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/appointmentedit.php
+      user/dayview.php
+      user/intl/en_GB/appointmentedit.php.ini
+      user/monthview.php
+      user/templates/standard/appointmentedit.tpl
+      classes/ezappointment.php
+      sql/mysql/ezcalendar.sql
+      sql/postgresql/ezcalendar.sql:
+    added buttons for buy and file folder in contact lists
+    several bugfixes in calendar
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@rz.no
+2001-09-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/appointmentedit.php:
+    fixed bug when choosing multiple participants in appointmentedit
+
+    * user/appointmentedit.php
+      user/dayview.php
+      user/monthview.php: fixed year bug in december
+
+    * user/intl/en_GB/trustees.php.ini
+      user/appointmentedit.php: fixed cancel button in appointmentedit
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/appointmentedit.php
+      user/appointmentview.php: small bugfixes
+
+    * user/appointmentedit.php
+      user/dayview.php: fixed bug with trustees and caching
+
+    * user/appointmentedit.php:
+    small bug fix when deleting appointment in a trustees calendar
+
+    * user/appointmentedit.php: fixed permission bug
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/typelist.php.ini
+      user/intl/fr_FR/appointmentview.php.ini
+      user/intl/fr_FR/dayview.php.ini
+      user/intl/fr_FR/monthview.php.ini: updated fr_FR
+
+2001-09-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/appointmentedit.php.ini
+      user/intl/no_NO/menubox.php.ini:
+    fixed no_NO translation for eZcalendar, eZcontact, eZfilemanager and eZforum
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/en_GB/typeedit.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/templates/standard/typeedit.tpl
+      admin/typeedit.php
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/trustees.php.ini: more internationalization
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-24  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/dayview.php: small code standard fix
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-25  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/typeedit.php
+      admin/typelist.php
+      classes/ezappointmenttype.php: small speed improvement
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/en_GB/appointmentedit.php.ini
+      user/intl/no_NO/appointmentedit.php.ini
+      user/monthview.php
+      user/templates/standard/appointmentedit.tpl
+      user/appointmentedit.php
+      user/dayview.php: fixed bug when inserting wrong dates
+
+    * user/monthview.php: fixed bug listing days outside of current month
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-09-28  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/monthview.php
+      user/templates/standard/monthview.tpl:
+    fixed problem with year no in december
+
+    * user/trustees.php: fixed bug
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/typeedit.php.ini
+      admin/intl/he_IL/typelist.php.ini
+      user/intl/he_IL/appointmentedit.php.ini
+      user/intl/he_IL/appointmentview.php.ini
+      user/intl/he_IL/dayview.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/monthview.php.ini
+      user/intl/he_IL/yearview.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/appointmentview.php
+      user/dayview.php
+      user/monthview.php: fixed $user bugs
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/Attic/ezcalendar.sql: updated sql scheemes, ready for release
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/trustees.php: added error message when user is not logged in
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/de_DE/appointmentedit.php.ini
+      user/intl/de_DE/trustees.php.ini: updated de_DE for 2.2 beta2
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/appointmentedit.php.ini: newline
+
+    * user/intl/no_NO/appointmentedit.php.ini: updated no_NO
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/typeedit.php.ini
+      admin/intl/fi_FI/typelist.php.ini
+      user/intl/fi_FI/appointmentedit.php.ini
+      user/intl/fi_FI/appointmentview.php.ini
+      user/intl/fi_FI/dayview.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/monthview.php.ini
+      user/intl/fi_FI/trustees.php.ini
+      user/intl/fi_FI/yearview.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/es_MX/appointmentedit.php.ini
+      user/intl/es_MX/dayview.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/monthview.php.ini
+      user/intl/es_MX/trustees.php.ini
+      user/intl/es_MX/yearview.php.ini
+      admin/intl/es_MX/typeedit.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/en_GB/appointmentedit.php.ini: en_GB fixxes
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/typeedit.php.ini
+      user/intl/de_DE/appointmentedit.php.ini
+      user/intl/de_DE/appointmentview.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/trustees.php.ini: de_DE update for 2.2.1
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/intl/no_NO/appointmentedit.php.ini: updatet no_NO
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/typeedit.php.ini
+      user/intl/fr_FR/appointmentedit.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/trustees.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-19  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/typelist.php:
+    changed new INIFile("site.ini") to INIFile::globalINI()
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_AR/typeedit.php.ini
+      admin/intl/es_AR/typelist.php.ini
+      user/intl/es_AR/appointmentedit.php.ini
+      user/intl/es_AR/appointmentview.php.ini
+      user/intl/es_AR/dayview.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/monthview.php.ini
+      user/intl/es_AR/trustees.php.ini
+      user/intl/es_AR/yearview.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/se_SE/appointmentedit.php.ini
+      user/intl/se_SE/appointmentview.php.ini
+      user/intl/se_SE/dayview.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/monthview.php.ini
+      user/intl/se_SE/trustees.php.ini
+      user/intl/se_SE/yearview.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/typeedit.php.ini
+      admin/intl/se_SE/typelist.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/typeedit.php.ini
+      admin/intl/hr_HR/typelist.php.ini
+      user/intl/hr_HR/appointmentedit.php.ini
+      user/intl/hr_HR/appointmentview.php.ini
+      user/intl/hr_HR/dayview.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/monthview.php.ini
+      user/intl/hr_HR/trustees.php.ini
+      user/intl/hr_HR/yearview.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/standard/typelist.tpl:
+    fixed missing {www_dir} in templates
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/typeedit.php.ini
+      admin/intl/pt_PT/typelist.php.ini
+      user/intl/pt_PT/appointmentedit.php.ini
+      user/intl/pt_PT/appointmentview.php.ini
+      user/intl/pt_PT/dayview.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/monthview.php.ini
+      user/intl/pt_PT/trustees.php.ini
+      user/intl/pt_PT/yearview.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2001-12-22  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/typeedit.php
+      admin/typelist.php: fixed wrong use of header and ini file
+
+
+Module : ezcalendar
+Repository path : /home/cvsroot/projects/php/ezcalendar
+Maintainer(s) : jhe@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/typeedit.php.ini: updated no_NO for 2.2.4
+

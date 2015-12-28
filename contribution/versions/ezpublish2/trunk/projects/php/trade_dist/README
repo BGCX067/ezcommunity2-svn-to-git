@@ -1,0 +1,129 @@
+NOTE: eZ trade has shipped with a missing table. This is fixed in version 1.0.4. To upgrade the 
+database manually run the following SQL command:
+
+DROP TABLE IF EXISTS eZUser_Forgot;
+CREATE TABLE eZUser_Forgot (
+  ID int(11) DEFAULT '0' NOT NULL auto_increment,
+  UserID int(11) DEFAULT '0' NOT NULL,
+  Hash char(33),
+  Time timestamp(14),
+  PRIMARY KEY (ID)
+);
+
+
+NOTE: To upgrade the database from version 1.0.1 to 1.0.2 
+run the following SQL commands:
+
+create table eZArticle_ArticleCategoryDefinition( ID int primary key auto_increment, ArticleID int not null, CategoryID int not null ); 
+INSERT INTO eZArticle_ArticleCategoryDefinition ( ArticleID, CategoryID )  SELECT DISTINCT ArticleID, CategoryID from eZArticle_ArticleCategoryLink;  
+
+ALTER TABLE eZTrade_Product add IsHotDeal enum( 'true', 'false' ) default 'false';
+
+create table eZTrade_ProductCategoryDefinition( ID int primary key auto_increment, ProductID int not null, CategoryID int not null ); 
+INSERT INTO eZTrade_ProductCategoryDefinition ( ProductID, CategoryID )  SELECT DISTINCT ProductID, CategoryID from eZTrade_ProductCategoryLink;  
+
+NOTE: To upgrade the database from version 1.0.2 to 1.0.3 
+run the followint SQL commands:
+
+# Create the eZ forum tables.
+DROP TABLE IF EXISTS eZForum_Category;
+CREATE TABLE eZForum_Category (
+  Name varchar(20),
+  Description varchar(40),
+  Private enum('Y','N') DEFAULT 'N',
+  ID int(11) DEFAULT '0' NOT NULL auto_increment,
+  PRIMARY KEY (ID)
+);
+
+DROP TABLE IF EXISTS eZForum_Forum;
+CREATE TABLE eZForum_Forum (
+  CategoryID int(11) DEFAULT '0' NOT NULL,
+  Name varchar(20) DEFAULT '' NOT NULL,
+  Description varchar(40),
+  Moderated enum('Y','N') DEFAULT 'N',
+  Private enum('Y','N') DEFAULT 'N',
+  ID int(11) DEFAULT '0' NOT NULL auto_increment,
+  PRIMARY KEY (ID)
+);
+
+DROP TABLE IF EXISTS eZForum_Message;
+CREATE TABLE eZForum_Message (
+  ForumID int(11) DEFAULT '0' NOT NULL,
+  Topic varchar(60),
+  Body text,
+  UserID int(11),
+  Parent int(11),
+  EmailNotice enum('N','Y') DEFAULT 'N',
+  PostingTime timestamp(14),
+  TreeID int(11),
+  ThreadID int(11),
+  Depth int(11),
+  ID int(11) DEFAULT '0' NOT NULL auto_increment,
+  PRIMARY KEY (ID)
+);
+
+ALTER TABLE eZSession_Session ADD Created timestamp;
+ALTER TABLE eZSession_Session ADD LastAccessed timestamp;
+ALTER TABLE eZSession_Session ADD SecondLastAccessed timestamp;
+
+ALTER TABLE eZUser_Group ADD SessionTimeout int default 60;
+
+# Create the forum tables 
+CREATE TABLE eZArticle_ArticleForumLink( ID int primary key auto_increment, ArticleID int not NULL, ForumID int not NULL );
+
+CREATE TABLE eZForum_ForumCategoryLink( ID int primary key auto_increment, ForumID int not null, CategoryID int not null );
+INSERT INTO eZForum_ForumCategoryLink ( ForumID, CategoryID )  SELECT ID, CategoryID from eZForum_Forum;
+ALTER TABLE eZForum_Forum DROP CategoryID;
+
+
+NOTE: To upgrade the database from 1.0.3 to 1.0.4 and higher 
+      run the following SQL commands:
+
+ALTER TABLE eZContact_Address DROP AddressType;
+ALTER TABLE eZContact_Address ADD AddressTypeID int;
+
+NOTE: To upgrade the database from 1.0.5 to 2.0 Beta 1 and higher 
+      run the following SQL commands:
+
+
+CREATE TABLE eZArticle_ArticleFileLink (
+  ID int(11) DEFAULT '0' NOT NULL auto_increment,
+  ArticleID int(11) DEFAULT '0' NOT NULL,
+  FileID int(11) DEFAULT '0' NOT NULL,
+  Created timestamp(14),
+  PRIMARY KEY (ID)
+);
+
+ALTER TABLE eZTrade_ProductImageLink add Created timestamp;
+
+alter table eZTrade_WishList add IsPublic int not null default 0;
+
+alter table eZTrade_CartItem add WishListItemID int not null default 0;
+
+ alter table eZTrade_WishListItem add IsBought int not null default 0; 
+
+# A new block template in the wishlist.tpl file:
+
+		  <!-- BEGIN is_bought_tpl -->
+		  {intl-is_bought}
+		  <!-- END is_bought_tpl -->
+
+		  <!-- BEGIN is_not_bought_tpl -->
+		  {intl-is_not_bought}
+		  <!-- END is_not_bought_tpl -->
+
+New ordering fields:
+ alter table eZTrade_Order drop AddressID; 
+alter table eZTrade_Order add ShippingAddressID int;     
+alter table eZTrade_Order add BillingAddressID int;                       
+
+
+#
+# Table structure for table 'eZContact_AddressDefinition'
+#
+DROP TABLE IF EXISTS eZContact_AddressDefinition;
+CREATE TABLE eZContact_AddressDefinition (
+  AddressID int(11),
+  UserID int(11),
+  PRIMARY KEY (UserID)
+);

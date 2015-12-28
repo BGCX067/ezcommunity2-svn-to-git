@@ -1,0 +1,195 @@
+Wed Sep  5 15:30:31 CEST 2001 - Creating module ezurltranslator, module category php
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-09-06  Vidar Langseid  <vl@ez.no>
+
+    * admin/urledit.php:
+    BUGFIX : Now reads language setting from eZURLTranslatorMain section
+    in ini-file instead from eZSiteManager section
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/urledit.php.ini: updated fr_FR
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/urledit.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-02  Vidar Langseid  <vl@ez.no>
+
+    * classes/ezurltranslator.php:
+    Now a trailing slash in the URI make no difference.
+    ie both : http://ezsystems.vl.dvh1.ez.no/shop/software/
+    and http://ezsystems.vl.dvh1.ez.no/shop/software will work
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-16  fh  <fh@zev.ez.no>
+
+    * admin/urledit.php: Added delete on empty list check.
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini: newline
+
+    * admin/intl/no_NO/menubox.php.ini: updated no_NO
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-26  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezurltranslator.php: Removed a print
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/urledit.php.ini: updated fi_FI for 2.2 final
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/urledit.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini: en_GB fixxes
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/menubox.php.ini: de_DE update for 2.2.1
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-08  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/intl/no_NO/menubox.php.ini: fixed no_NO translation
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezurltranslator.php:
+    if a urlkeyword is added in site.ini but not in admin, the url will be treated as a normal ez publish url
+
+    * classes/ezurltranslator.php:
+    if a urlkeyword is defined in site.ini but not in admin, the url will be treated as a normal ez publish url
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-12  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezurltranslator.php:
+    Added a hack so the urltranslator works with php session.
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/menubox.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/urledit.php.ini: se_SE swedish 2.2.1
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/urledit.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/urledit.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2002-01-28  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * classes/ezurltranslator.php:
+    new method getbydest - to receive id by destination url
+
+
+Module : ezurltranslator
+Repository path : /home/cvsroot/projects/php/ezurltranslator
+Maintainer(s) : vl@ez.no
+2002-02-15  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * classes/ezurltranslator.php:
+    getbydest - new method - get translation by Dest parameter
+

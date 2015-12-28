@@ -1,0 +1,3737 @@
+Wed Sep  5 15:27:40 CEST 2001 - Creating module ezarticle, module category php
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-06  Baard Farstad  <bf@ez.no>
+
+    * user/index.php: Added better check for user input in article index.
+
+    * user/index.php
+      user/templates/standard/index.tpl:
+    Added display of current letter in index.
+
+    * classes/ezarticle.php
+      sql/mysql/ezarticle.sql
+      user/datasupplier.php
+      user/index.php
+      user/templates/standard/index.tpl:
+    Added limit of article index pr first letter.
+
+    * user/templates/standard/topiclist.tpl
+      user/topiclist.php: Added category definition on topiclist.
+
+2001-09-06  br  <br@zev.ez.no>
+
+    * user/templates/linmag/articlelist.tpl: added article_date_tpl block.
+
+2001-09-06  jb  <jb@zev.ez.no>
+
+    * classes/ezarticlecategory.php
+      xmlrpc/categorylist.php:
+    Improved the search for categories to only include those categories which
+    the user has access to.
+
+2001-09-06  th  <th@zev.ez.no>
+
+    * user/templates/standard/articlelist.tpl: Layout - test
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/templates/standard/articleedit.tpl: Layout
+
+2001-09-06  jb  <jb@zev.ez.no>
+
+    * xmlrpc/categorylist.php
+      xmlrpc/article.php:
+    Added support for sending over the weburl of the item and parent
+    in a search.
+
+2001-09-06  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: Added _blank to remove image caption.
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php: Added image caption override.
+
+2001-09-06  jb  <jb@zev.ez.no>
+
+    * classes/ezarticlecategory.php:
+    Bugfix: Fixed countByParent to work in the same manner as getByParent,
+    the last version did not check for category permissions and often returned
+    a wrong count(to large).
+
+2001-09-06  br  <br@zev.ez.no>
+
+    * admin/intl/en_GB/menubox.php.ini: added newline at the last line.
+
+2001-09-06  kaid  <kaid@zev.ez.no>
+
+    * admin/templates/flower/imagelist.tpl
+      user/templates/gruk/topiclist.tpl
+      user/templates/mygold/topiclist.tpl
+      user/templates/standard/topiclist.tpl
+      admin/templates/flower/articlelist.tpl: fixed missing VH-less tags
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-07  fh  <fh@zev.ez.no>
+
+    * classes/ezarticle.php:
+    Fixed SQL syntax error in authorList when sorting on article count.
+
+    * admin/imageedit.php
+      user/datasupplier.php
+      user/imageedit.php
+      user/imagelist.php
+      user/intl/en_GB/imageedit.php.ini
+      user/templates/standard/imageedit.tpl:
+    -Added photographer edit on user side
+    -fixed several GRAVE bugs. Editing images could not have worked.
+
+    * admin/imageedit.php
+      admin/intl/en_GB/imageedit.php.ini
+      admin/templates/standard/imageedit.tpl: Add image photographer on upload
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/gruk/menumaker.tpl
+      admin/intl/no_NO/attribute.php.ini
+      admin/intl/no_NO/filelist.php.ini
+      admin/templates/standard/attributelist.tpl
+      user/templates/gruk/articleview.tpl
+      user/templates/gruk/frontpage.tpl
+      user/templates/gruk/index.tpl: Layout
+
+2001-09-07  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/standard/menumaker.tpl:
+    added support for printing the first articles in parent category.
+
+    * user/menumaker.php: added support for printing articles first.
+
+2001-09-07  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php: Fixed user comments.
+
+    * user/newsgroup.php:
+    Fixed setting of section id and fixed correct intro for articles.
+
+    * sql/mysql/ezarticle.sql
+      classes/ezarticle.php:
+    Fixed search in MySQL, it now only returns articles where all words are present unless it's a stop word.
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/gruk/index.tpl
+      user/templates/gruk/articleprint.tpl
+      user/templates/gruk/topiclist.tpl: Layout
+
+2001-09-07  Gunnstein Lye  <gl@ez.no>
+
+    * user/intl/id_ID/articleheaderlist.php.ini
+      user/intl/id_ID/articlelist.php.ini
+      user/intl/id_ID/articleview.php.ini
+      user/intl/id_ID/menubox.php.ini
+      user/intl/id_ID/search.php.ini
+      admin/intl/id_ID/articleedit.php.ini
+      admin/intl/id_ID/articlelist.php.ini
+      admin/intl/id_ID/articlepreview.php.ini
+      admin/intl/id_ID/categoryedit.php.ini
+      admin/intl/id_ID/imageedit.php.ini
+      admin/intl/id_ID/imagelist.php.ini
+      admin/intl/id_ID/menubox.php.ini
+      admin/intl/id_ID/search.php.ini: updated id_ID
+
+2001-09-07  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/gruk/index.tpl: Layout
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-08  fh  <fh@zev.ez.no>
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/searchform.php.ini
+      admin/search.php
+      admin/templates/standard/search.tpl
+      admin/templates/standard/searchform.tpl
+      classes/ezarticle.php:
+    Advanced search works now. EXCEPT! there is no multipage for it..
+
+    * admin/datasupplier.php
+      admin/intl/en_GB/searchform.php.ini
+      admin/menubox.php
+      admin/searchform.php
+      admin/templates/standard/search.tpl
+      admin/templates/standard/searchform.tpl:
+    Added files for searching... I might not finish so I do a temp commit.
+
+2001-09-08  Baard Farstad  <bf@ez.no>
+
+    * admin/articlelist.php
+      admin/templates/standard/articlelist.tpl:
+    Fixed returning to current category after deleting an article.
+
+    * admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini: Added translation.
+
+    * admin/articlelist.php
+      admin/categoryedit.php
+      admin/templates/standard/categoryedit.tpl
+      classes/ezarticlecategory.php: Added modification sorting on articles.
+
+    * user/templates/standard/articlelist.tpl
+      user/templates/standard/articletags.tpl
+      admin/articlelist.php
+      classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php
+      user/articlelist.php: Added popuplink.
+
+2001-09-08  fh  <fh@zev.ez.no>
+
+    * admin/intl/en_GB/mediaedit.php.ini
+      admin/mediaedit.php
+      admin/templates/standard/mediaedit.tpl:
+    Creator edit in media add in article..
+
+2001-09-08  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/articlelist.tpl: Fix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-10  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/articlelist.php
+      user/articleview.php
+      user/datasupplier.php: fixed small bugs
+
+2001-09-10  nca_intelhosting3  <bf@ez.no>
+
+    * user/articlelist.php: updated cvs to current intelhosting version
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-11  fh  <fh@zev.ez.no>
+
+    * admin/templates/standard/search.tpl
+      classes/ezarticle.php
+      admin/datasupplier.php
+      admin/search.php
+      admin/searchform.php: Advanced search in admin.
+
+2001-09-11  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php
+      classes/eztechgenerator.php
+      user/templates/standard/articletags.tpl: Added file tag in article.
+
+2001-09-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/articlelist.php: small bug
+
+2001-09-11  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php: Fixed list limit.
+
+2001-09-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/search.tpl: search now uses get instead of post
+
+    * user/articlelist.php:
+    link in articlelist when article has no text but attributes
+
+2001-09-11  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php
+      sql/mysql/ezarticle.sql: SQL fixed and rendering fixes.
+
+2001-09-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/categoryedit.php
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/templates/standard/categoryedit.tpl
+      classes/ezarticlecategory.php
+      user/articlelist.php
+      user/templates/standard/articlelist.tpl:
+    support for overriding ListLimit in site.ini per category
+
+2001-09-11  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php
+      user/templates/standard/articlelist.tpl: Added author on category image.
+
+    * user/newsgroup.php: Fixed section ID.
+
+    * user/articleview.php
+      user/templates/standard/articletags.tpl: Added target to image link.
+
+    * user/articleview.php: Fixed bug.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-12  Christofer Elo  <ce@ez.no>
+
+    * user/datasupplier.php
+      user/search.php
+      user/templates/standard/search.tpl
+      classes/ezarticle.php: Added the advanced search functions
+
+2001-09-12  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/articlelist.php:
+    small bugfixes when listing articles (when using other list limit)
+
+2001-09-12  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php
+      user/newsgroup.php: Fixed possibility to have 2 column article list.
+
+2001-09-12  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/menubox.php.ini: added translation.
+
+2001-09-12  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlelist.tpl: Layout
+
+2001-09-12  Christofer Elo  <ce@ez.no>
+
+    * user/templates/standard/searchform.tpl
+      user/intl/en_GB/searchform.php.ini
+      user/intl/no_NO/searchform.php.ini
+      user/datasupplier.php
+      user/searchform.php: Added advanced search in user
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-13  Baard Farstad  <bf@ez.no>
+
+    * user/newsgroup.php: Fixed newsgroup list.
+
+2001-09-13  nca_intelhosting3  <bf@ez.no>
+
+    * user/mailtofriend.php: Added files
+
+2001-09-13  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articletags.tpl
+      classes/ezqdomrenderer.php: Added target to link tag.
+
+2001-09-13  Christofer Elo  <ce@ez.no>
+
+    * admin/search.php: Fixed the photograf bug in admin too.
+
+    * user/search.php
+      classes/ezarticle.php: Fixed photographer and ispublished bug in search
+
+2001-09-13  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/searchform.php.ini: added translation.
+
+2001-09-13  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php:
+    Fixed rendering of file and media inside a table.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-14  Bjoern Reiten  <br@ez.no>
+
+    * admin/intl/no_NO/formlist.php.ini: Added translation form no_forms_exist
+
+    * user/templates/linmag/search.tpl: set Article to be intl-article
+
+    * user/intl/en_GB/search.php.ini: Added translation.
+
+    * user/intl/no_NO/search.php.ini: added translation
+
+    * user/templates/standard/search.tpl: set Article to be a intl- variable.
+
+2001-09-14  Christofer Elo  <ce@ez.no>
+
+    * admin/articlelist.php: FIxed refrence bugs
+    Fixed a published bug in article
+
+2001-09-14  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      user/articlelist.php
+      user/datasupplier.php
+      user/templates/standard/articlelist.tpl
+      user/topiclist.php
+      classes/ezarticle.php: Fixed topic link from article list.
+
+2001-09-14  Christofer Elo  <ce@ez.no>
+
+    * user/menuarticleview.php
+      user/templates/standard/articlelist.tpl: Added cache
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-15  Baard Farstad  <bf@ez.no>
+
+    * admin/articleedit.php:
+    Fixed so that you don't have to enter email address when creating a new author.
+
+    * user/templates/standard/articlelist.tpl
+      user/templates/standard/articleview.tpl
+      user/articlelist.php
+      user/articleview.php:
+    Added override for image size in article list and view.
+
+    * classes/ezarticle.php: Fixed image placement sorting.
+
+    * user/articleview.php
+      user/templates/standard/articleview.tpl
+      classes/ezarticle.php:
+    Fixed image placement, it now handled deleting of images in the list and still remembers the placement.
+
+    * user/articleview.php:
+    Added site.ini setting for article list image sizes.
+
+    * user/templates/standard/articlelist.tpl
+      user/templates/standard/articleview.tpl
+      admin/articleedit.php
+      admin/templates/standard/articleedit.tpl
+      user/articleview.php:
+    Fixed a serious bug where article could disappear after entering invalid XML tags.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-16  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php:
+    Fixed exclusion of categories in sitemap which should now be shown.
+
+    * user/sitemap.php:
+    Fixed not showing categories which are excluded from search.
+
+    * admin/search.php
+      classes/ezarticle.php
+      user/search.php: Fixed search.
+
+    * classes/ezarticle.php: Fixed count in search.
+
+2001-09-16  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/articlelist.tpl
+      user/templates/linmag/articleview.tpl: added blocks for article_topic
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed possibility to attach files larger than ID 10.
+
+2001-09-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articlestatic.tpl
+      user/templates/linmag/articleview.tpl: Layout
+
+2001-09-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Moved the setIsPublished function further down after the article is stored
+    and categories are set. It seems that the function needs this to be done
+    after the category definition is set.
+
+    * classes/ezarticle.php:
+    Some changes to setIsPublished. The user used in checking can be supplied
+    externally, this is needed for XMLRPC to work properly. If no user is supplied
+    the current user is used.
+    The return type from categoryDefinition is now checked before used, it may
+    be that the category definition is not set for an article yet(for example
+    if an article is not stored yet.)
+
+2001-09-17  Baard Farstad  <bf@ez.no>
+
+    * user/sitemap.php: fixed sitemap.
+
+    * user/sitemap.php: Fixed alternating bgcolor in sitemap.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-18  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/frontpage.tpl: Layout
+
+2001-09-18  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php
+      user/templates/standard/frontpage.tpl:
+    Fixed showing of HTML banner on the frontpage.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : vl@ez.no
+2001-09-18  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/frontpage.tpl: Layout
+
+2001-09-18  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php
+      user/templates/standard/frontpage.tpl:
+    Fixed showing of HTML banner on the frontpage.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-18  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/frontpage.tpl: Layout
+
+2001-09-18  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php
+      user/templates/standard/frontpage.tpl:
+    Fixed showing of HTML banner on the frontpage.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articletags.tpl: Fixed <pre> tag.
+
+2001-09-19  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/linmag/articleprint.tpl: Layout
+
+2001-09-19  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/tag.php: Returns a list of custom tags defined in site.ini.
+
+    * xmlrpc/datasupplier.php: Added support for taglist.
+
+2001-09-19  Baard Farstad  <bf@ez.no>
+
+    * user/articleedit.php: Fixed setting author from the user submit article.
+
+    * user/articlelist.php
+      user/articleview.php:
+    Fixed Section support with Language and template override in eZ article.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-20  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/articleedit.php.ini
+      admin/intl/fr_FR/articlelist.php.ini
+      admin/intl/fr_FR/articlepreview.php.ini
+      admin/intl/fr_FR/categoryedit.php.ini
+      admin/intl/fr_FR/fileedit.php.ini
+      admin/intl/fr_FR/filelist.php.ini
+      admin/intl/fr_FR/imageedit.php.ini
+      admin/intl/fr_FR/imagelist.php.ini
+      admin/intl/fr_FR/mailtemplate.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/search.php.ini
+      admin/intl/fr_FR/sitemap.php.ini
+      admin/intl/fr_FR/unpublishedlist.php.ini
+      user/intl/fr_FR/articleedit.php.ini
+      user/intl/fr_FR/articleheaderlist.php.ini
+      user/intl/fr_FR/articlelinks.php.ini
+      user/intl/fr_FR/articlelist.php.ini
+      user/intl/fr_FR/articleview.php.ini
+      user/intl/fr_FR/authorlist.php.ini
+      user/intl/fr_FR/authorview.php.ini
+      user/intl/fr_FR/extendedsearch.php.ini
+      user/intl/fr_FR/headlines.php.ini
+      user/intl/fr_FR/index.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/smallarticlelist.php.ini
+      user/intl/fr_FR/urlsupplier.php.ini: updated fr_FR
+
+2001-09-20  Christofer Elo  <ce@ez.no>
+
+    * classes/ezarticlecategory.php
+      classes/ezarticle.php: Added the right permisssions
+
+2001-09-20  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticlecategory.php: Fixed permission bug.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-21  Unknown  <master@open.lv>
+
+    * user/templates/wap/articlelist.tpl
+      user/templates/wap/articletags.tpl
+      user/templates/wap/articleview.tpl: Templates for WAP sitedesign
+
+2001-09-21  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticlecategory.php: Fixed articles().
+
+2001-09-21  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezarticle.php
+      classes/ezarticlecategory.php
+      user/datasupplier.php
+      user/menubox.php: fixed bugs in ezforum
+    changed ezuser::groups (see crew@lists.ez.no)
+
+2001-09-21  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/standard/articlelist.tpl: Layout
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-22  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articleprint.tpl
+      user/templates/standard/articleview.tpl:
+    Fixed loosing section id when returning from printerfriendly pageview.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-24  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezarticle.sql: SQL fix.
+
+    * admin/export.php: Export filter.
+
+    * admin/datasupplier.php
+      admin/menubox.php
+      classes/ezqdomrenderer.php:
+    Fixed export of eZ article articles to latex.
+
+2001-09-24  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/linmag/Attic/articleedit.tpl
+      admin/templates/linmag/Attic/articlelist.tpl
+      admin/templates/linmag/Attic/articlelog.tpl
+      admin/templates/linmag/Attic/articlepreview.tpl
+      admin/templates/linmag/Attic/attributeedit.tpl
+      admin/templates/linmag/Attic/attributelist.tpl
+      admin/templates/linmag/Attic/categoryedit.tpl
+      admin/templates/linmag/Attic/fileedit.tpl
+      admin/templates/linmag/Attic/filelist.tpl
+      admin/templates/linmag/Attic/formlist.tpl
+      admin/templates/linmag/Attic/imageedit.tpl
+      admin/templates/linmag/Attic/imagelist.tpl
+      admin/templates/linmag/Attic/imagemap.tpl
+      admin/templates/linmag/Attic/mailtemplate.tpl
+      admin/templates/linmag/Attic/mediaedit.tpl
+      admin/templates/linmag/Attic/medialist.tpl
+      admin/templates/linmag/Attic/search.tpl
+      admin/templates/linmag/Attic/sitemap.tpl
+      admin/templates/linmag/Attic/topiclist.tpl
+      admin/templates/linmag/Attic/typeedit.tpl
+      admin/templates/linmag/Attic/typelist.tpl
+      admin/templates/linmag/Attic/unpublishedlist.tpl:
+    removed, since it is not used in linmag.
+
+2001-09-24  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php:
+    $User is also supplied to the getByParent() function.
+
+    * classes/ezarticlecategory.php:
+    Current user in getByParent can now be supplied as a parameter instead of
+    being taken from eZUser::currentUser().
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-25  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php
+      user/frontpage.php:
+    Fixed an include and fixed searching in keywords in article.
+
+    * classes/ezqdomgenerator.php
+      user/templates/standard/articletags_tex.tpl
+      user/templates/standard/tex.tpl
+      admin/export.php: Fixed popuplink compatibility.
+
+2001-09-25  Unknown  <master@open.lv>
+
+    * user/sitemap.php: section anabling
+
+2001-09-25  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articletags_tex.tpl
+      user/templates/standard/tex.tpl: New tempaltes for LaTeX.
+
+    * admin/intl/en_GB/menubox.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      user/frontpage.php:
+    Added translation and fixed section information on frontpage.
+
+    * admin/articlepreview.php
+      classes/ezqdomgenerator.php
+      user/datasupplier.php
+      user/frontpage.php:
+    Made it possible to choose which ID to show on the frontpage.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-26  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/category.php:
+    Changes to the update system. The update structure now contains an url
+    list of categories in which this object has changed.
+    All path creation code is gathered in a common createPath() function.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php: Fixed time publishing.
+
+    * admin/menubox.php: SQL fixes.
+
+    * classes/ezarticlecategory.php
+      user/datasupplier.php
+      user/search.php: Fixed showing the offset == 0 if no result was found.
+
+2001-09-27  Kai Duebbert  <kai@duebbert.de>
+
+    * user/templates/standard/articlelist.tpl
+      user/templates/standard/articleprint.tpl
+      user/templates/standard/articleview.tpl:
+    fix missing tags for nVH install.
+
+2001-09-27  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/search.tpl: Layout
+
+2001-09-27  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php
+      classes/ezqdomrenderer.php:
+    Fixed error checking and not showing excluded articles from articles()
+
+    * user/index.php
+      classes/ezarticle.php: Fixed name conflict.
+
+2001-09-27  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php: Added search count to search function.
+
+    * classes/ezarticle.php:
+    Bugfix: The splice function is not used when the limit is negative.
+
+2001-09-27  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/fileedit.php: small bug fix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-28  Baard Farstad  <bf@ez.no>
+
+    * user/topiclist.php: Fixed language variable.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-29  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezezrenderer.php
+      classes/eztechrenderer.php
+      modules/content.php:
+    $index and $wwwDir go to $GlobalSiteIni->Index and $GlobalSiteIni->WWWDir. Fixes namespace problems.
+
+    * user/sitemap.php: initialization of $Language was missing
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-09-30  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php
+      classes/eztechrenderer.php: Fixed bugs.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-01  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezarticle.php: removed debuginfo.
+
+    * user/searchsupplier.php: fixed search in user/searchsupplier.php
+
+2001-10-01  Kai Duebbert  <kai@duebbert.de>
+
+    * user/intl/de_DE/fileedit.php.ini
+      user/intl/de_DE/filelist.php.ini
+      user/intl/de_DE/frontpage.php.ini
+      user/intl/de_DE/imageedit.php.ini
+      user/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/mailtofriend.php.ini
+      user/intl/de_DE/menumaker.php.ini
+      user/intl/de_DE/newsgroup.php.ini
+      user/intl/de_DE/searchform.php.ini
+      user/intl/de_DE/sendmailtofriend.php.ini
+      user/intl/de_DE/sitemap.php.ini
+      user/intl/de_DE/topiclist.php.ini:
+    created missing translations, fixed wrong translations
+
+    * user/intl/de_DE/articleedit.php.ini
+      user/intl/de_DE/articleheaderlist.php.ini
+      user/intl/de_DE/articlelinks.php.ini
+      user/intl/de_DE/articlelist.php.ini
+      user/intl/de_DE/articleview.php.ini
+      user/intl/de_DE/authorlist.php.ini
+      user/intl/de_DE/authorview.php.ini
+      user/intl/de_DE/extendedsearch.php.ini
+      user/intl/de_DE/headlines.php.ini
+      user/intl/de_DE/index.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/urlsupplier.php.ini:
+    fixed translation errors, missing translations
+
+    * user/search.php:
+    fixed bug and deleted unnecessary initialization of $ini
+
+2001-10-01  Christoffer Elo  <ce@ez.no>
+
+    * user/frontpage.php: added productr
+
+2001-10-01  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/he_IL/articleedit.php.ini
+      admin/intl/he_IL/articlelist.php.ini
+      admin/intl/he_IL/articlepreview.php.ini
+      admin/intl/he_IL/categoryedit.php.ini
+      admin/intl/he_IL/fileedit.php.ini
+      admin/intl/he_IL/filelist.php.ini
+      admin/intl/he_IL/imageedit.php.ini
+      admin/intl/he_IL/imagelist.php.ini
+      admin/intl/he_IL/mailtemplate.php.ini
+      admin/intl/he_IL/menubox.php.ini
+      admin/intl/he_IL/search.php.ini
+      admin/intl/he_IL/sitemap.php.ini
+      admin/intl/he_IL/unpublishedlist.php.ini
+      user/intl/he_IL/articleedit.php.ini
+      user/intl/he_IL/articleheaderlist.php.ini
+      user/intl/he_IL/articlelinks.php.ini
+      user/intl/he_IL/articlelist.php.ini
+      user/intl/he_IL/articleview.php.ini
+      user/intl/he_IL/authorlist.php.ini
+      user/intl/he_IL/authorview.php.ini
+      user/intl/he_IL/extendedsearch.php.ini
+      user/intl/he_IL/headlines.php.ini
+      user/intl/he_IL/index.php.ini
+      user/intl/he_IL/menubox.php.ini
+      user/intl/he_IL/search.php.ini
+      user/intl/he_IL/smallarticlelist.php.ini
+      user/intl/he_IL/urlsupplier.php.ini: Added he_IL (Hebrew) translation
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-02  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/frontpage.php: *** empty log message ***
+
+    * user/frontpage.php:
+    Fixed the database lookup to use the correct sorting of the category.
+
+2001-10-02  Christoffer Elo  <ce@ez.no>
+
+    * user/frontpage.php: added eztrade to frontpage
+
+    * classes/ezarticlecategory.php
+      user/datasupplier.php
+      user/frontpage.php: Added a new ezsection/frontpage feature:
+    this will make it easier to build up a frontpage from the admin interface.
+
+    * user/frontpage.php: added categoryid
+
+    * user/frontpage.php: Added dobule products on frontpage
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-06  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezarticle.sql
+      user/articlelist.php: Updated indeces.
+
+    * classes/Attic/ezflowergenerator.php
+      classes/Attic/ezflowerrenderer.php: Removed obsolete classes.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-08  Baard Farstad  <bf@ez.no>
+
+    * sql/mysql/ezarticle.sql: Added indeces.
+
+    * user/datasupplier.php
+      user/frontpage.php: Added article cache on frontpage.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-09  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/frontpage.tpl: Added product template.
+
+2001-10-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/searchsupplier.php: fixed new standard for searching
+
+2001-10-09  Thomas Hellstroem  <th@ez.no>
+
+    * admin/templates/standard/categoryedit.tpl: Layout
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-10  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: removed nested tags in header.
+
+    * classes/ezqdomrenderer.php: Fixed rendering of subitems i header.
+
+    * classes/ezqdomrenderer.php
+      user/frontpage.php
+      user/searchsupplier.php: Count fix.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-11  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/standard/frontpage.tpl: added intl variable.
+
+    * user/intl/en_GB/frontpage.php.ini
+      user/intl/no_NO/frontpage.php.ini
+      user/menumaker.php
+      user/templates/standard/frontpage.tpl:
+    set intl variable to the text "Get more info in the shop" and fixed a
+    block in menumaker.
+
+2001-10-11  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/menubox.tpl: Link fix.
+
+2001-10-11  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * sql/informix/ezarticle.sql
+      sql/mysql/ezarticle.sql
+      sql/postgresql/ezarticle.sql: updated sql scheemes, ready for release
+
+2001-10-11  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php: Implemented custom columns on category lists.
+
+2001-10-11  Thomas Hellstroem  <th@ez.no>
+
+    * user/datasupplier.php: Layout
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-12  Sascha Frinken  <sascha@impetex.de>
+
+    * admin/intl/de_DE/articlepreview.php.ini
+      admin/intl/de_MG/articlepreview.php.ini
+      admin/intl/de_MG/menubox.php.ini
+      user/templates/mygold/articlelist.tpl
+      user/templates/mygold/articlestatic.tpl
+      user/templates/mygold/articleview.tpl
+      user/templates/mygold/sitemap.tpl: Added mygold design
+
+2001-10-12  Christoffer Elo  <ce@ez.no>
+
+    * user/frontpage.php: Fixed a bug
+
+2001-10-12  Bjoern Reiten  <br@ez.no>
+
+    * user/frontpage.php
+      user/templates/linmag/frontpage.tpl: Fixed support for ads.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezarticlegenerator.php
+      classes/ezarticlerenderer.php:
+    fixed problem with articles > 12000 characters (will be able to read generator tag even if the article is very large)
+
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezarticlecategory.php: Fixed postgres bugs.
+
+2001-10-15  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/imagemap.php
+      admin/templates/standard/imagemap.tpl
+      classes/ezarticle.php
+      classes/ezimagemap.php
+      user/articleview.php:
+    * forums are deleted when the article owning it are deleted
+    * publishing date are now shown correctly in articleview (was problem with locale)
+
+2001-10-15  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php
+      user/templates/standard/articletags.tpl
+      classes/ezqdomgenerator.php: Added support for <strike> tag.
+
+2001-10-15  Christoffer Elo  <ce@ez.no>
+
+    * sql/postgresql/ezarticle.sql: Removed "#" from PostgreSQL file.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezarticletool.php
+      user/datasupplier.php
+      user/frontpage.php
+      user/templates/standard/frontpage.tpl:
+    Added one column product at frontpage
+    Added cache on frontpage
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php: Fixed category link id.
+
+2001-10-16  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/category.php
+      xmlrpc/categorylist.php
+      xmlrpc/datasupplier.php:
+    Added support for querying for some general info on an url.
+    Removed position for categories.
+
+2001-10-16  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/standard/articletags.tpl
+      user/templates/standard/frontpage.tpl: Layout
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php: Fixed error message.
+
+    * user/templates/standard/articletags.tpl: Align fic.
+
+    * user/templates/standard/articletags.tpl: Fixed table border.
+
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * user/articleview.php: added meta keywords information
+
+    * admin/articlelog.php
+      classes/ezarticle.php: Added meta for products
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php: Fixed article category link.
+
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezarticle.php: Fixed a postgres sql bug
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php: Fixed correct category in frontpage article link.
+
+    * user/frontpage.php: Added support for 0 ( all categories ) in frontpage.
+
+2001-10-16  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezarticle.php: Fixed postgres bugs
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * user/menubox.php: Fix.
+
+    * user/menubox.php: Fixed bug with using two menuboxes on the same page.
+
+2001-10-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/help/de_DE/article_articleedit.hlp
+      admin/intl/de_DE/articleedit.php.ini
+      admin/intl/de_DE/articleedit.php.ini.unix
+      admin/intl/de_DE/articlelist.php.ini
+      admin/intl/de_DE/articlelog.php.ini
+      admin/intl/de_DE/articlepreview.php.ini
+      admin/intl/de_DE/attribute.php.ini
+      admin/intl/de_DE/attributelist.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/fileedit.php.ini
+      admin/intl/de_DE/filelist.php.ini
+      admin/intl/de_DE/formlist.php.ini
+      admin/intl/de_DE/imageedit.php.ini
+      admin/intl/de_DE/imagelist.php.ini
+      admin/intl/de_DE/imagemap.php.ini
+      admin/intl/de_DE/mailtemplate.php.ini
+      admin/intl/de_DE/mediaedit.php.ini
+      admin/intl/de_DE/medialist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/pendinglist.php.ini
+      admin/intl/de_DE/pendingmail.php.ini
+      admin/intl/de_DE/search.php.ini
+      admin/intl/de_DE/searchform.php.ini
+      admin/intl/de_DE/sendnewsletter.php.ini
+      admin/intl/de_DE/sitemap.php.ini
+      admin/intl/de_DE/topiclist.php.ini
+      admin/intl/de_DE/typeedit.php.ini
+      admin/intl/de_DE/typelist.php.ini
+      admin/intl/de_DE/unpublishedlist.php.ini
+      user/intl/de_DE/articleedit.php.ini
+      user/intl/de_DE/articleheaderlist.php.ini
+      user/intl/de_DE/articlelinks.php.ini
+      user/intl/de_DE/articlelist.php.ini
+      user/intl/de_DE/articlesend_form.php.ini
+      user/intl/de_DE/articleview.php.ini
+      user/intl/de_DE/authorlist.php.ini
+      user/intl/de_DE/authorview.php.ini
+      user/intl/de_DE/extendedsearch.php.ini
+      user/intl/de_DE/faqlist.php.ini
+      user/intl/de_DE/fileedit.php.ini
+      user/intl/de_DE/filelist.php.ini
+      user/intl/de_DE/frontpage.php.ini
+      user/intl/de_DE/headlines.php.ini
+      user/intl/de_DE/imageedit.php.ini
+      user/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/index.php.ini
+      user/intl/de_DE/mailtofriend.php.ini
+      user/intl/de_DE/medialist.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/menumaker.php.ini
+      user/intl/de_DE/newsgroup.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/searchform.php.ini
+      user/intl/de_DE/sendmailtofriend.php.ini
+      user/intl/de_DE/sitemap.php.ini
+      user/intl/de_DE/smallarticlelist.php.ini
+      user/intl/de_DE/startseite.php.ini
+      user/intl/de_DE/topiclist.php.ini
+      user/intl/de_DE/urlsupplier.php.ini: updated de_DE for 2.2 beta2
+
+2001-10-16  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php
+      user/templates/standard/articletags.tpl:
+    Added support for <html></html> tag in renderer.
+
+2001-10-16  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/datasupplier.php
+      user/smallarticlelist.php: fixed errors in coding standard
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * user/frontpage.php: Removed obsolete variables.
+
+2001-10-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/templates/standard/frontpage.tpl: Layout
+
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * admin/help/en_GB/article_articleedit.hlp: Updated tag documentation.
+
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * sql/mysql/ezarticle.sql: Fixed SQL bugs
+    Fixed a percent bug in cart
+
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php: Renderer fix.
+
+2001-10-17  Thomas Hellstroem  <th@ez.no>
+
+    * user/articlelist.php
+      user/templates/standard/articletags.tpl
+      user/templates/standard/articleview.tpl: Layout
+
+2001-10-17  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/frontpage.tpl: Fixed link.
+
+2001-10-17  Christoffer Elo  <ce@ez.no>
+
+    * user/templates/standard/frontpage.tpl: Fixed a template bug
+
+2001-10-17  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/articlelist.php: categorylist now shows images again
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-19  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/unpublishedlist.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/mailtemplate.php.ini
+      admin/intl/no_NO/pendingmail.php.ini: updated no_NO
+
+    * admin/intl/en_GB/articleedit.php.ini
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/pendingmail.php.ini
+      admin/intl/en_GB/searchform.php.ini
+      user/intl/en_GB/articleedit.php.ini
+      user/intl/en_GB/newsgroup.php.ini
+      user/intl/en_GB/searchform.php.ini: newline
+
+    * admin/intl/no_NO/articlelist.php.ini
+      admin/intl/no_NO/articlelog.php.ini
+      admin/intl/no_NO/articlepreview.php.ini
+      admin/intl/no_NO/attribute.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/formlist.php.ini
+      admin/intl/no_NO/imagelist.php.ini
+      admin/intl/no_NO/imagemap.php.ini
+      admin/intl/no_NO/mailtemplate.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/pendingmail.php.ini
+      admin/intl/no_NO/searchform.php.ini
+      admin/intl/no_NO/sitemap.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini
+      admin/intl/no_NO/unpublishedlist.php.ini
+      user/intl/no_NO/articleedit.php.ini
+      user/intl/no_NO/articlelinks.php.ini
+      user/intl/no_NO/articlelist.php.ini
+      user/intl/no_NO/articleview.php.ini
+      user/intl/no_NO/authorlist.php.ini
+      user/intl/no_NO/authorview.php.ini
+      user/intl/no_NO/extendedsearch.php.ini
+      user/intl/no_NO/filelist.php.ini
+      user/intl/no_NO/headlines.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/imagelist.php.ini
+      user/intl/no_NO/index.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/newsgroup.php.ini
+      user/intl/no_NO/search.php.ini
+      user/intl/no_NO/searchform.php.ini
+      user/intl/no_NO/sendmailtofriend.php.ini
+      user/intl/no_NO/sitemap.php.ini
+      user/intl/no_NO/topiclist.php.ini
+      admin/intl/no_NO/articleedit.php.ini: updated no_NO
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-22  Christoffer Elo  <ce@ez.no>
+
+    * user/articleview.php
+      xmlrpc/xmlrpcserver.php: Added mygold design
+
+2001-10-22  Sascha Frinken  <sascha@impetex.de>
+
+    * admin/intl/de_MG/articleedit.php.ini
+      admin/intl/de_MG/articlelist.php.ini
+      user/templates/mygold/articletags.tpl: Added mygold design
+
+2001-10-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezarticlecategory.php: small bugfix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-23  Thomas Hellstroem  <th@ez.no>
+
+    * user/smallarticlelist.php: Fixed "read more" text
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-24  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Workaround: & characters are converted to &amp; when saving, and &amp; are
+    converted to & when loading.
+
+2001-10-24  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php:
+    Fixed not converting \n to <br> inside <html>.
+
+    * classes/ezqdomrenderer.php: Fixed not converting \n to br.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-25  Sascha Frinken  <sascha@impetex.de>
+
+    * admin/intl/de_MG/articleedit.php.ini
+      admin/intl/de_MG/articlelist.php.ini
+      admin/intl/de_MG/imagelist.php.ini
+      admin/templates/standard/articlepreview.tpl
+      user/templates/mygold/articletags.tpl: Added design and language
+
+2001-10-25  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezqdomrenderer.php: Upgraded the qdom rendrer
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-26  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php:
+    Update: Reply sent by catalogue updates is fixed to sent correct info.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-27  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fi_FI/articleedit.php.ini
+      admin/intl/fi_FI/articlelist.php.ini
+      admin/intl/fi_FI/articlelog.php.ini
+      admin/intl/fi_FI/articlepreview.php.ini
+      admin/intl/fi_FI/attribute.php.ini
+      admin/intl/fi_FI/categoryedit.php.ini
+      admin/intl/fi_FI/filelist.php.ini
+      admin/intl/fi_FI/formlist.php.ini
+      admin/intl/fi_FI/imageedit.php.ini
+      admin/intl/fi_FI/imagelist.php.ini
+      admin/intl/fi_FI/imagemap.php.ini
+      admin/intl/fi_FI/mailtemplate.php.ini
+      admin/intl/fi_FI/mediaedit.php.ini
+      admin/intl/fi_FI/medialist.php.ini
+      admin/intl/fi_FI/menubox.php.ini
+      admin/intl/fi_FI/pendinglist.php.ini
+      admin/intl/fi_FI/pendingmail.php.ini
+      admin/intl/fi_FI/searchform.php.ini
+      admin/intl/fi_FI/topiclist.php.ini
+      admin/intl/fi_FI/typeedit.php.ini
+      admin/intl/fi_FI/typelist.php.ini
+      admin/intl/fi_FI/unpublishedlist.php.ini
+      user/intl/fi_FI/articleedit.php.ini
+      user/intl/fi_FI/articlelinks.php.ini
+      user/intl/fi_FI/articlelist.php.ini
+      user/intl/fi_FI/articleview.php.ini
+      user/intl/fi_FI/fileedit.php.ini
+      user/intl/fi_FI/filelist.php.ini
+      user/intl/fi_FI/frontpage.php.ini
+      user/intl/fi_FI/imageedit.php.ini
+      user/intl/fi_FI/imagelist.php.ini
+      user/intl/fi_FI/index.php.ini
+      user/intl/fi_FI/mailtofriend.php.ini
+      user/intl/fi_FI/menubox.php.ini
+      user/intl/fi_FI/newsgroup.php.ini
+      user/intl/fi_FI/search.php.ini
+      user/intl/fi_FI/searchform.php.ini
+      user/intl/fi_FI/sendmailtofriend.php.ini
+      user/intl/fi_FI/sitemap.php.ini
+      user/intl/fi_FI/topiclist.php.ini: updated fi_FI for 2.2 final
+
+2001-10-27  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php: Removed &amp; <=> & fix.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-29  fh  <fh@zev.ez.no>
+
+    * classes/ezarticlecategory.php:
+    Fixed strange bug, calling new on eZAritcleCategory with two parameters.
+
+2001-10-29  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: Removed a / on file links.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-30  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/templates/standard/articlestatic.tpl: topiclist
+
+    * user/frontpage.php: section patch
+
+    * user/frontpage.php
+      user/sitemap.php
+      user/smallarticlelist.php
+      user/mailtofriend.php
+      user/headlines.php
+      user/templates/standard/articlestatic.tpl
+      user/templates/standard/articleview.tpl
+      user/templates/standard/articleprint.tpl
+      user/templates/standard/authorview.tpl
+      user/templates/standard/headlines.tpl
+      user/templates/standard/topiclist.tpl
+      user/templates/standard/mailtofriend.tpl
+      user/templates/standard/sendmailtofriend.tpl
+      user/templates/standard/smallarticlelist.tpl
+      user/templates/standard/sitemap.tpl
+      user/templates/standard/index.tpl: Section patch
+
+2001-10-30  Baard Farstad  <bf@ez.no>
+
+    * user/intl/en_GB/articleview.php.ini
+      user/templates/standard/articleview.tpl
+      admin/datasupplier.php
+      admin/menubox.php
+      classes/ezarticle.php
+      user/articlelist.php
+      user/articleview.php:
+    Added related articles list in article view based on article keywords.
+
+2001-10-30  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/es_MX/articleedit.php.ini
+      admin/intl/es_MX/articlelist.php.ini
+      admin/intl/es_MX/articlelog.php.ini
+      admin/intl/es_MX/articlepreview.php.ini
+      admin/intl/es_MX/attribute.php.ini
+      admin/intl/es_MX/categoryedit.php.ini
+      admin/intl/es_MX/filelist.php.ini
+      admin/intl/es_MX/formlist.php.ini
+      admin/intl/es_MX/imageedit.php.ini
+      admin/intl/es_MX/imagelist.php.ini
+      admin/intl/es_MX/imagemap.php.ini
+      admin/intl/es_MX/mediaedit.php.ini
+      admin/intl/es_MX/medialist.php.ini
+      admin/intl/es_MX/menubox.php.ini
+      admin/intl/es_MX/pendinglist.php.ini
+      admin/intl/es_MX/pendingmail.php.ini
+      admin/intl/es_MX/search.php.ini
+      admin/intl/es_MX/searchform.php.ini
+      admin/intl/es_MX/sitemap.php.ini
+      admin/intl/es_MX/topiclist.php.ini
+      admin/intl/es_MX/typeedit.php.ini
+      admin/intl/es_MX/typelist.php.ini
+      admin/intl/es_MX/unpublishedlist.php.ini
+      user/intl/es_MX/articleedit.php.ini
+      user/intl/es_MX/articleheaderlist.php.ini
+      user/intl/es_MX/articlelinks.php.ini
+      user/intl/es_MX/articlelist.php.ini
+      user/intl/es_MX/articleview.php.ini
+      user/intl/es_MX/authorlist.php.ini
+      user/intl/es_MX/authorview.php.ini
+      user/intl/es_MX/extendedsearch.php.ini
+      user/intl/es_MX/fileedit.php.ini
+      user/intl/es_MX/filelist.php.ini
+      user/intl/es_MX/frontpage.php.ini
+      user/intl/es_MX/headlines.php.ini
+      user/intl/es_MX/imageedit.php.ini
+      user/intl/es_MX/imagelist.php.ini
+      user/intl/es_MX/index.php.ini
+      user/intl/es_MX/mailtofriend.php.ini
+      user/intl/es_MX/menubox.php.ini
+      user/intl/es_MX/newsgroup.php.ini
+      user/intl/es_MX/search.php.ini
+      user/intl/es_MX/searchform.php.ini
+      user/intl/es_MX/sendmailtofriend.php.ini
+      user/intl/es_MX/sitemap.php.ini
+      user/intl/es_MX/topiclist.php.ini
+      user/intl/es_MX/urlsupplier.php.ini:
+    updated es_MX (Mexican Spanish) for 2.2
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-10-31  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/datasupplier.php
+      user/mailtofriend.php
+      user/templates/standard/mailtofriend.tpl: section patch
+
+2001-10-31  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articletags.tpl: Fixed cosmetic HTML bug.
+
+    * user/templates/standard/articletags.tpl: Fixed a template bug.
+
+    * user/datasupplier.php
+      user/intl/en_GB/articlerate.php.ini
+      user/intl/en_GB/articleview.php.ini
+      user/intl/en_GB/ratingmail.php.ini
+      user/templates/standard/articlerate.tpl
+      user/templates/standard/articleview.tpl
+      user/templates/standard/ratingmail.tpl
+      admin/datasupplier.php
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/ratinglist.php.ini
+      admin/menubox.php
+      admin/ratinglist.php
+      admin/templates/standard/ratinglist.tpl
+      classes/ezarticlerate.php
+      user/articlerate.php
+      user/articleview.php: added article ratings.
+
+    * classes/ezarticle.php:
+    Fixed SQL bug when an article does not have any keywords.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * admin/templates/standard/medialist.tpl: Added a missing </form>.
+
+    * admin/templates/standard/medialist.tpl: Added a missing </form>
+
+    * classes/ezqdomrenderer.php:
+    Added possibility to link to originalimage directly.
+
+    * user/articleview.php: Cleanup.
+
+    * admin/articlepreview.php
+      admin/templates/standard/articlepreview.tpl:
+    Added image list of unused images.
+
+    * admin/articlepreview.php
+      admin/templates/standard/articlepreview.tpl:
+    Added image list of unused images in admin.
+
+    * classes/ezarticle.php: Added check for root when publishing article.
+
+    * classes/ezarticle.php: Fixed publishing rights for administrator.
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/datasupplier.php
+      user/articleview.php:
+    changed caching for better diffs between articleview/static/print
+
+2001-11-01  Christoffer Elo  <ce@ez.no>
+
+    * admin/mediaedit.php
+      admin/templates/standard/medialist.tpl: Fix
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php: Stop word frequency setting.
+
+    * classes/ezarticle.php: Fixed user defined stop word frequency.
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/articleedit.php
+      user/articleheaderlist.php
+      user/frontpage.php: sections
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * admin/articlelist.php
+      classes/ezarticlecategory.php:
+    Fixed permission setting when copying article categories.
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/searchform.php
+      user/search.php: sections
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * admin/articlelist.php
+      classes/ezarticlecategory.php:
+    Fixed copy of article category with permission.
+
+2001-11-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/mailtofriend.php
+      user/sitemap.php
+      user/search.php: sections
+
+    * user/frontpage.php: section
+
+    * user/templates/standard/articleheaderlist.tpl
+      user/templates/standard/articlelist.tpl
+      user/templates/standard/articleprint.tpl
+      user/templates/standard/articlestatic.tpl
+      user/templates/standard/articleview.tpl
+      user/templates/standard/frontpage.tpl
+      user/templates/standard/search.tpl
+      user/templates/standard/searchform.tpl: sectionoverride in search forms
+
+2001-11-01  Baard Farstad  <bf@ez.no>
+
+    * user/articlerate.php
+      classes/ezarticlerate.php: Added checking for rate.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-02  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/datasupplier.php: Updated with regards to permission checking.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-05  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/articlelist.php
+      user/articleview.php
+      user/frontpage.php: ezLanguageOverride support for
+
+2001-11-05  Thomas Hellstroem  <th@ez.no>
+
+    * user/smallarticlelist.php
+      user/menumaker.php: Fixes
+
+2001-11-05  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/en_GB/articleedit.php.ini
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/intl/en_GB/menubox.php.ini
+      admin/intl/en_GB/pendingmail.php.ini
+      admin/intl/en_GB/searchform.php.ini
+      user/intl/en_GB/articleedit.php.ini
+      user/intl/en_GB/newsgroup.php.ini
+      user/intl/en_GB/searchform.php.ini
+      user/intl/en_GB/articlerate.php.ini
+      user/intl/en_GB/ratingmail.php.ini
+      admin/intl/en_GB/ratinglist.php.ini: en_GB fixxes
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/de_DE/articleedit.php.ini
+      admin/intl/de_DE/articlelist.php.ini
+      admin/intl/de_DE/articlelog.php.ini
+      admin/intl/de_DE/articlepreview.php.ini
+      admin/intl/de_DE/attribute.php.ini
+      admin/intl/de_DE/categoryedit.php.ini
+      admin/intl/de_DE/fileedit.php.ini
+      admin/intl/de_DE/filelist.php.ini
+      admin/intl/de_DE/formlist.php.ini
+      admin/intl/de_DE/imageedit.php.ini
+      admin/intl/de_DE/imagemap.php.ini
+      admin/intl/de_DE/mediaedit.php.ini
+      admin/intl/de_DE/medialist.php.ini
+      admin/intl/de_DE/menubox.php.ini
+      admin/intl/de_DE/pendinglist.php.ini
+      admin/intl/de_DE/pendingmail.php.ini
+      admin/intl/de_DE/ratinglist.php.ini
+      admin/intl/de_DE/search.php.ini
+      admin/intl/de_DE/searchform.php.ini
+      admin/intl/de_DE/topiclist.php.ini
+      admin/intl/de_DE/typeedit.php.ini
+      admin/intl/de_DE/typelist.php.ini
+      admin/intl/de_DE/unpublishedlist.php.ini
+      user/intl/de_DE/articleedit.php.ini
+      user/intl/de_DE/articleheaderlist.php.ini
+      user/intl/de_DE/articlelinks.php.ini
+      user/intl/de_DE/articlelist.php.ini
+      user/intl/de_DE/articlerate.php.ini
+      user/intl/de_DE/articleview.php.ini
+      user/intl/de_DE/authorlist.php.ini
+      user/intl/de_DE/authorview.php.ini
+      user/intl/de_DE/fileedit.php.ini
+      user/intl/de_DE/filelist.php.ini
+      user/intl/de_DE/frontpage.php.ini
+      user/intl/de_DE/headlines.php.ini
+      user/intl/de_DE/imageedit.php.ini
+      user/intl/de_DE/imagelist.php.ini
+      user/intl/de_DE/mailtofriend.php.ini
+      user/intl/de_DE/menubox.php.ini
+      user/intl/de_DE/newsgroup.php.ini
+      user/intl/de_DE/ratingmail.php.ini
+      user/intl/de_DE/search.php.ini
+      user/intl/de_DE/searchform.php.ini
+      user/intl/de_DE/sendmailtofriend.php.ini
+      user/intl/de_DE/sitemap.php.ini
+      user/intl/de_DE/topiclist.php.ini
+      user/intl/de_DE/urlsupplier.php.ini: de_DE update for 2.2.1
+
+2001-11-06  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/tex.tpl
+      admin/export.php
+      admin/menubox.php: Added LaTeX export.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-07  Baard Farstad  <bf@ez.no>
+
+    * admin/export.php
+      classes/ezqdomrenderer.php
+      user/articleview.php
+      user/templates/standard/articletags.tpl
+      user/templates/standard/articleview.tpl:
+    Fixed article naming problem with related articles.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-08  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/categorylist.php: New updates with regards to version checking.
+
+2001-11-08  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articlestatic.tpl:
+    Fixed encapsulation of article content.
+
+    * user/templates/standard/articlestatic.tpl:
+    Fixed content encapsulation with a table instead of <p>.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-09  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/linmag/articlelist.tpl
+      user/templates/linmag/frontpage.tpl:
+    fixed break after headlines and support for 1 columns product.
+
+2001-11-09  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    Fixed problem when setting categories, category placements are now retained.
+
+    * xmlrpc/article.php
+      xmlrpc/category.php
+      xmlrpc/categorylist.php
+      xmlrpc/datasupplier.php
+      xmlrpc/xmlrpcserver.php: HEAD import.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-11  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php: 2.2.1 import.
+
+    * xmlrpc/category.php:
+    Bugfix: Whenever a category in the root is renamed the update info sends
+    correct information back ie the current category list is no longer empty.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-12  Christoffer Elo  <ce@ez.no>
+
+    * admin/templates/standard/medialist.tpl: Fixed a template bug
+
+    * user/articlelist.php
+      user/templates/standard/articlelist.tpl
+      admin/articleedit.php
+      admin/intl/en_GB/articleedit.php.ini
+      admin/mediaedit.php
+      admin/templates/standard/articleedit.tpl
+      admin/templates/standard/medialist.tpl
+      classes/ezarticle.php: Added linkurl to articles
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-14  Christoffer Elo  <ce@ez.no>
+
+    * admin/help/en_GB/article_articleedit.hlp
+      admin/help/no_NO/article_articleedit.hlp
+      admin/imageedit.php: fix
+
+    * admin/help/en_GB/article_articleedit.hlp
+      admin/help/no_NO/article_articleedit.hlp:
+    Updated the help files for eZ article
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-15  Baard Farstad  <bf@ez.no>
+
+    * admin/intl/no_NO/articleedit.php.ini: Fixed translation..
+
+    * admin/intl/en_GB/medialist.php.ini
+      admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/unpublishedlist.php.ini: Fixed translation.
+
+    * admin/templates/standard/attributelist.tpl: Fixed URL bug.
+
+    * user/intl/no_NO/articleedit.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/newsgroup.php.ini
+      user/intl/no_NO/searchform.php.ini
+      admin/templates/standard/imagelist.tpl: Language fix.
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/articlelog.php.ini
+      admin/intl/no_NO/attributelist.php.ini
+      admin/intl/no_NO/imagemap.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/typeedit.php.ini: Fixed norwegian translation.
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/articlelog.php.ini
+      admin/intl/no_NO/attributelist.php.ini
+      admin/intl/no_NO/imagemap.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/pendingmail.php.ini
+      admin/intl/no_NO/searchform.php.ini
+      admin/intl/no_NO/typeedit.php.ini: Added norwegian translation.
+
+    * admin/intl/no_NO/attributelist.php.ini: New file.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-16  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/fr_FR/articleedit.php.ini
+      admin/intl/fr_FR/articlelist.php.ini
+      admin/intl/fr_FR/articlelog.php.ini
+      admin/intl/fr_FR/articlepreview.php.ini
+      admin/intl/fr_FR/attribute.php.ini
+      admin/intl/fr_FR/attributelist.php.ini
+      admin/intl/fr_FR/categoryedit.php.ini
+      admin/intl/fr_FR/fileedit.php.ini
+      admin/intl/fr_FR/filelist.php.ini
+      admin/intl/fr_FR/imageedit.php.ini
+      admin/intl/fr_FR/imagelist.php.ini
+      admin/intl/fr_FR/imagemap.php.ini
+      admin/intl/fr_FR/mediaedit.php.ini
+      admin/intl/fr_FR/medialist.php.ini
+      admin/intl/fr_FR/menubox.php.ini
+      admin/intl/fr_FR/pendinglist.php.ini
+      admin/intl/fr_FR/pendingmail.php.ini
+      admin/intl/fr_FR/searchform.php.ini
+      admin/intl/fr_FR/topiclist.php.ini
+      admin/intl/fr_FR/typeedit.php.ini
+      admin/intl/fr_FR/typelist.php.ini
+      user/intl/fr_FR/articleedit.php.ini
+      user/intl/fr_FR/articlelinks.php.ini
+      user/intl/fr_FR/articleview.php.ini
+      user/intl/fr_FR/fileedit.php.ini
+      user/intl/fr_FR/filelist.php.ini
+      user/intl/fr_FR/frontpage.php.ini
+      user/intl/fr_FR/imageedit.php.ini
+      user/intl/fr_FR/imagelist.php.ini
+      user/intl/fr_FR/mailtofriend.php.ini
+      user/intl/fr_FR/menubox.php.ini
+      user/intl/fr_FR/menumaker.php.ini
+      user/intl/fr_FR/newsgroup.php.ini
+      user/intl/fr_FR/search.php.ini
+      user/intl/fr_FR/searchform.php.ini
+      user/intl/fr_FR/sendmailtofriend.php.ini
+      user/intl/fr_FR/sitemap.php.ini
+      user/intl/fr_FR/topiclist.php.ini: updated fr_FR for 2.2 final
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-17  Baard Farstad  <bf@ez.no>
+
+    * user/articlelist.php
+      user/articleview.php
+      user/frontpage.php: Added separate date and time values.
+
+    * user/frontpage.php
+      classes/ezqdomrenderer.php
+      user/articlelist.php
+      user/articleview.php
+      classes/ezqdomgenerator.php: Added date and time values.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-19  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php: Fixed form bug with <pre> tag.
+
+    * user/articleedit.php: Fixed XML parsing dependencies.
+
+    * admin/articleedit.php: Removed libxml dependency.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-20  Christoffer Elo  <ce@ez.no>
+
+    * user/articlelist.php
+      user/templates/standard/articlelist.tpl:
+    Added custom link to images and headlines
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-21  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: Added reference to minimize memory usage.
+
+2001-11-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/help/es_AR/article_articleedit.hlp: es_AR 2.2.2
+
+    * admin/intl/es_AR/articleedit.php.ini
+      admin/intl/es_AR/articlelist.php.ini
+      admin/intl/es_AR/articlelog.php.ini
+      admin/intl/es_AR/articlepreview.php.ini
+      admin/intl/es_AR/attribute.php.ini
+      admin/intl/es_AR/attributelist.php.ini
+      admin/intl/es_AR/categoryedit.php.ini
+      admin/intl/es_AR/fileedit.php.ini
+      admin/intl/es_AR/filelist.php.ini
+      admin/intl/es_AR/formlist.php.ini
+      admin/intl/es_AR/imageedit.php.ini
+      admin/intl/es_AR/imagelist.php.ini
+      admin/intl/es_AR/imagemap.php.ini
+      admin/intl/es_AR/mailtemplate.php.ini
+      admin/intl/es_AR/mediaedit.php.ini
+      admin/intl/es_AR/medialist.php.ini
+      admin/intl/es_AR/menubox.php.ini
+      admin/intl/es_AR/pendinglist.php.ini
+      admin/intl/es_AR/pendingmail.php.ini
+      admin/intl/es_AR/search.php.ini
+      admin/intl/es_AR/searchform.php.ini
+      admin/intl/es_AR/sitemap.php.ini
+      admin/intl/es_AR/topiclist.php.ini
+      admin/intl/es_AR/typeedit.php.ini
+      admin/intl/es_AR/typelist.php.ini
+      admin/intl/es_AR/unpublishedlist.php.ini
+      user/intl/es_AR/articleedit.php.ini
+      user/intl/es_AR/articleheaderlist.php.ini
+      user/intl/es_AR/articlelinks.php.ini
+      user/intl/es_AR/articlelist.php.ini
+      user/intl/es_AR/articleview.php.ini
+      user/intl/es_AR/authorlist.php.ini
+      user/intl/es_AR/authorview.php.ini
+      user/intl/es_AR/extendedsearch.php.ini
+      user/intl/es_AR/fileedit.php.ini
+      user/intl/es_AR/filelist.php.ini
+      user/intl/es_AR/frontpage.php.ini
+      user/intl/es_AR/headlines.php.ini
+      user/intl/es_AR/imageedit.php.ini
+      user/intl/es_AR/imagelist.php.ini
+      user/intl/es_AR/index.php.ini
+      user/intl/es_AR/mailtofriend.php.ini
+      user/intl/es_AR/menubox.php.ini
+      user/intl/es_AR/menumaker.php.ini
+      user/intl/es_AR/newsgroup.php.ini
+      user/intl/es_AR/search.php.ini
+      user/intl/es_AR/searchform.php.ini
+      user/intl/es_AR/sendmailtofriend.php.ini
+      user/intl/es_AR/sitemap.php.ini
+      user/intl/es_AR/topiclist.php.ini
+      user/intl/es_AR/urlsupplier.php.ini: updated es_AR for 2.2.2
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-22  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php: Fixed transaction start posistion.
+
+2001-11-22  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/se_SE/articleedit.php.ini
+      admin/intl/se_SE/articlelist.php.ini
+      admin/intl/se_SE/articlelog.php.ini
+      admin/intl/se_SE/articlepreview.php.ini
+      admin/intl/se_SE/attribute.php.ini
+      admin/intl/se_SE/categoryedit.php.ini
+      admin/intl/se_SE/fileedit.php.ini
+      admin/intl/se_SE/filelist.php.ini
+      admin/intl/se_SE/formlist.php.ini
+      admin/intl/se_SE/imageedit.php.ini
+      admin/intl/se_SE/imagelist.php.ini
+      admin/intl/se_SE/imagemap.php.ini
+      admin/intl/se_SE/mailtemplate.php.ini
+      admin/intl/se_SE/mediaedit.php.ini
+      admin/intl/se_SE/medialist.php.ini
+      admin/intl/se_SE/menubox.php.ini
+      admin/intl/se_SE/pendinglist.php.ini
+      admin/intl/se_SE/pendingmail.php.ini
+      admin/intl/se_SE/search.php.ini
+      admin/intl/se_SE/searchform.php.ini
+      admin/intl/se_SE/sitemap.php.ini
+      admin/intl/se_SE/topiclist.php.ini
+      admin/intl/se_SE/typeedit.php.ini
+      admin/intl/se_SE/typelist.php.ini
+      admin/intl/se_SE/unpublishedlist.php.ini
+      user/intl/se_SE/articleedit.php.ini
+      user/intl/se_SE/articleheaderlist.php.ini
+      user/intl/se_SE/articlelinks.php.ini
+      user/intl/se_SE/articlelist.php.ini
+      user/intl/se_SE/articleview.php.ini
+      user/intl/se_SE/authorlist.php.ini
+      user/intl/se_SE/authorview.php.ini
+      user/intl/se_SE/extendedsearch.php.ini
+      user/intl/se_SE/fileedit.php.ini
+      user/intl/se_SE/filelist.php.ini
+      user/intl/se_SE/frontpage.php.ini
+      user/intl/se_SE/headlines.php.ini
+      user/intl/se_SE/imageedit.php.ini
+      user/intl/se_SE/imagelist.php.ini
+      user/intl/se_SE/index.php.ini
+      user/intl/se_SE/mailtofriend.php.ini
+      user/intl/se_SE/menubox.php.ini
+      user/intl/se_SE/newsgroup.php.ini
+      user/intl/se_SE/search.php.ini
+      user/intl/se_SE/searchform.php.ini
+      user/intl/se_SE/sendmailtofriend.php.ini
+      user/intl/se_SE/sitemap.php.ini
+      user/intl/se_SE/topiclist.php.ini
+      user/intl/se_SE/urlsupplier.php.ini: se_SE swedish 2.2.1
+
+    * user/intl/es_MX/articlelist.php.ini
+      admin/intl/es_MX/medialist.php.ini: es_MX update for 2.2.2
+
+2001-11-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezqdomrenderer.php: removed trailing / in file attachments
+
+2001-11-22  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * user/frontpage.php: Fixed the missing variable read.
+
+    * user/frontpage.php:
+    Need to read the correct variable, or else the price will be wrong.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-23  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: Added reference.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-26  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/templates/standard/articleview.tpl:
+    fixed problem with downloading files
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-28  Baard Farstad  <bf@ez.no>
+
+    * user/articleview.php:
+    Fixed correct storing of section id when not passed as a parameter.
+
+    * user/articleview.php:
+    Fixed correct fetching of section id when storing article cache.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-11-30  Kai Duebbert  <kai@duebbert.de>
+
+    * user/templates/standard/articletags.tpl:
+    fixed wrong handling off link_tpl for nVH setup
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-03  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezarticlerenderer.php: small fix.
+
+    * classes/ezarticlecategory.php
+      classes/ezqdomrenderer.php: small fixes.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-05  fh  <fh@zev.ez.no>
+
+    * user/articleview.php: Don't allow empty topics..
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-06  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/hr_HR/articleedit.php.ini
+      admin/intl/hr_HR/articlelist.php.ini
+      admin/intl/hr_HR/articlelog.php.ini
+      admin/intl/hr_HR/articlepreview.php.ini
+      admin/intl/hr_HR/attribute.php.ini
+      admin/intl/hr_HR/categoryedit.php.ini
+      admin/intl/hr_HR/fileedit.php.ini
+      admin/intl/hr_HR/filelist.php.ini
+      admin/intl/hr_HR/formlist.php.ini
+      admin/intl/hr_HR/imageedit.php.ini
+      admin/intl/hr_HR/imagelist.php.ini
+      admin/intl/hr_HR/imagemap.php.ini
+      admin/intl/hr_HR/mailtemplate.php.ini
+      admin/intl/hr_HR/mediaedit.php.ini
+      admin/intl/hr_HR/medialist.php.ini
+      admin/intl/hr_HR/menubox.php.ini
+      admin/intl/hr_HR/pendinglist.php.ini
+      admin/intl/hr_HR/pendingmail.php.ini
+      admin/intl/hr_HR/search.php.ini
+      admin/intl/hr_HR/searchform.php.ini
+      admin/intl/hr_HR/sitemap.php.ini
+      admin/intl/hr_HR/topiclist.php.ini
+      admin/intl/hr_HR/typeedit.php.ini
+      admin/intl/hr_HR/typelist.php.ini
+      admin/intl/hr_HR/unpublishedlist.php.ini
+      user/intl/hr_HR/articleedit.php.ini
+      user/intl/hr_HR/articleheaderlist.php.ini
+      user/intl/hr_HR/articlelinks.php.ini
+      user/intl/hr_HR/articlelist.php.ini
+      user/intl/hr_HR/articleview.php.ini
+      user/intl/hr_HR/authorlist.php.ini
+      user/intl/hr_HR/authorview.php.ini
+      user/intl/hr_HR/extendedsearch.php.ini
+      user/intl/hr_HR/fileedit.php.ini
+      user/intl/hr_HR/filelist.php.ini
+      user/intl/hr_HR/frontpage.php.ini
+      user/intl/hr_HR/headlines.php.ini
+      user/intl/hr_HR/imageedit.php.ini
+      user/intl/hr_HR/imagelist.php.ini
+      user/intl/hr_HR/index.php.ini
+      user/intl/hr_HR/mailtofriend.php.ini
+      user/intl/hr_HR/menubox.php.ini
+      user/intl/hr_HR/newsgroup.php.ini
+      user/intl/hr_HR/search.php.ini
+      user/intl/hr_HR/searchform.php.ini
+      user/intl/hr_HR/sendmailtofriend.php.ini
+      user/intl/hr_HR/sitemap.php.ini
+      user/intl/hr_HR/topiclist.php.ini
+      user/intl/hr_HR/urlsupplier.php.ini: Croatian (hr_HR) for 2.2.2
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/flower/articlelist.tpl
+      admin/templates/standard/typelist.tpl
+      user/templates/standard/articlelist.tpl
+      user/templates/standard/frontpage.tpl:
+    fixed missing {www_dir} in templates
+
+2001-12-07  Bjoern Reiten  <br@ez.no>
+
+    * user/templates/vig/articleedit.tpl
+      user/templates/vig/articleheaderlist.tpl
+      user/templates/vig/articlelinks.tpl
+      user/templates/vig/articlelist.tpl
+      user/templates/vig/articlestatic.tpl
+      user/templates/vig/articleview.tpl
+      user/templates/vig/authorlist.tpl
+      user/templates/vig/authorview.tpl
+      user/templates/vig/extendedsearch.tpl
+      user/templates/vig/headlines.tpl
+      user/templates/vig/menubox.tpl
+      user/templates/vig/search.tpl
+      user/templates/vig/smallarticlelist.tpl: removed files.
+
+2001-12-07  Kai Duebbert  <kai@duebbert.de>
+
+    * admin/templates/flower/articlelist.tpl
+      admin/templates/standard/articlelist.tpl
+      admin/templates/standard/attributelist.tpl
+      admin/templates/standard/filelist.tpl
+      admin/templates/standard/imagelist.tpl
+      admin/templates/standard/pendinglist.tpl
+      admin/templates/standard/search.tpl
+      admin/templates/standard/sitemap.tpl
+      admin/templates/standard/typelist.tpl
+      admin/templates/standard/unpublishedlist.tpl: fixed missing {www_dir}
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-10  Bjoern Reiten  <br@ez.no>
+
+    * user/frontpage.php:
+    unset artice, ad, and productList vaiables, since this bugged when som
+    of this variabels was set before.
+
+    * user/frontpage.php:
+    Fixed bug when the variable $articleList was used before.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-11  Thomas Hellstroem  <th@ez.no>
+
+    * user/articleview.php: Fixed intro in article print
+
+    * user/menubox.php: Fixed menubox
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-12  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezarticle.php: delete forum from eZArticle_ArticleForumLink.
+
+    * user/articlelist.php: Added nl2br on current categories.
+
+    * user/articlelist.php: added nl2br on current category description.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-14  Baard Farstad  <bf@ez.no>
+
+    * classes/eztechgenerator.php
+      user/frontpage.php: Fixed grayscale images on frontpage list.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2001-12-21  Gunnstein Lye  <gl@ez.no>
+
+    * admin/intl/pt_PT/articleedit.php.ini
+      admin/intl/pt_PT/articlelist.php.ini
+      admin/intl/pt_PT/articlelog.php.ini
+      admin/intl/pt_PT/articlepreview.php.ini
+      admin/intl/pt_PT/attribute.php.ini
+      admin/intl/pt_PT/attributelist.php.ini
+      admin/intl/pt_PT/categoryedit.php.ini
+      admin/intl/pt_PT/fileedit.php.ini
+      admin/intl/pt_PT/filelist.php.ini
+      admin/intl/pt_PT/formlist.php.ini
+      admin/intl/pt_PT/imageedit.php.ini
+      admin/intl/pt_PT/imagelist.php.ini
+      admin/intl/pt_PT/imagemap.php.ini
+      admin/intl/pt_PT/mailtemplate.php.ini
+      admin/intl/pt_PT/mediaedit.php.ini
+      admin/intl/pt_PT/medialist.php.ini
+      admin/intl/pt_PT/menubox.php.ini
+      admin/intl/pt_PT/pendinglist.php.ini
+      admin/intl/pt_PT/pendingmail.php.ini
+      admin/intl/pt_PT/search.php.ini
+      admin/intl/pt_PT/searchform.php.ini
+      admin/intl/pt_PT/sitemap.php.ini
+      admin/intl/pt_PT/topiclist.php.ini
+      admin/intl/pt_PT/typeedit.php.ini
+      admin/intl/pt_PT/typelist.php.ini
+      admin/intl/pt_PT/unpublishedlist.php.ini
+      user/intl/pt_PT/articleedit.php.ini
+      user/intl/pt_PT/articleheaderlist.php.ini
+      user/intl/pt_PT/articlelinks.php.ini
+      user/intl/pt_PT/articlelist.php.ini
+      user/intl/pt_PT/articleview.php.ini
+      user/intl/pt_PT/authorview.php.ini
+      user/intl/pt_PT/fileedit.php.ini
+      user/intl/pt_PT/filelist.php.ini
+      user/intl/pt_PT/frontpage.php.ini
+      user/intl/pt_PT/headlines.php.ini
+      user/intl/pt_PT/imageedit.php.ini
+      user/intl/pt_PT/imagelist.php.ini
+      user/intl/pt_PT/index.php.ini
+      user/intl/pt_PT/mailtofriend.php.ini
+      user/intl/pt_PT/menubox.php.ini
+      user/intl/pt_PT/menumaker.php.ini
+      user/intl/pt_PT/newsgroup.php.ini
+      user/intl/pt_PT/search.php.ini
+      user/intl/pt_PT/searchform.php.ini
+      user/intl/pt_PT/sendmailtofriend.php.ini
+      user/intl/pt_PT/sitemap.php.ini
+      user/intl/pt_PT/topiclist.php.ini
+      user/intl/pt_PT/urlsupplier.php.ini: pt_PT (Portuguese) version 2.2.2
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-02  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php: Added import script.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-04  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php:
+    new eztag: <ezarticle id text> links to article with "id" and linktext "text"
+    new eztag: <ezcategory id text> links to category with "id" and linktext "text"
+    new eztag: <ezstatic id text> links to static article with "id" and linktext "text"
+
+2002-01-04  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      user/datasupplier.php
+      user/templates/standard/articletags.tpl:
+    Fixed permission bug with viewing articles.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-07  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php: Fixed permission problem with article view.
+
+    * classes/ezarticle.php: Removed debug.
+
+    * classes/ezarticle.php:
+    Fixed returning correct search result with several same words in an article.
+
+2002-01-07  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezqdomrenderer.php: fixed problem with null instead of array
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-10  Kai Duebbert  <kai@duebbert.de>
+
+    * user/datasupplier.php: small fix
+
+    * user/articleview.php
+      classes/ezqdomrenderer.php: small fixes
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-11  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php
+      user/search.php: Fixed section override in search.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-15  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezqdomgenerator.php:
+    fixed bug in decodeCustom() when using multiple standards tags in custom tag.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-16  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/categorylist.php:
+    Added $wwwDir to returned web urls to make it work with virtualhost-less
+    setups.
+
+2002-01-16  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezqdomrenderer.php: cosmetic fix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-17  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/categorylist.php:
+    Made sure the returned web urls are rewritten for non virtualhost setups.
+
+2002-01-17  Christoffer Elo  <ce@ez.no>
+
+    * admin/datasupplier.php
+      admin/imagelist.php
+      classes/ezarticle.php
+      admin/articleedit.php: fix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-18  ceaker  <ceaker@zev.ez.no>
+
+    * user/templates/standard/Attic/articlelist_override_2.tpl:
+    *** empty log message ***
+
+    * user/templates/standard/Attic/articlelist_override_2.tpl: New file.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-21  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/mailtofriend.tpl:
+    Fixed wrong link when running in nvh setup.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-23  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezqdomrenderer.php: Fixed a whitespace bug
+
+    * classes/ezqdomrenderer.php:
+    Added the filename at the end of the file uri.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-28  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * admin/articleedit.php:
+    url trans
+
+    * admin/intl/en_GB/articleedit.php.ini
+      admin/templates/standard/articleedit.tpl:
+    add fields for fast editing URL translation for the the shortcut = /article/articleview/$articleid/1/$categorydefinitionid
+    that give  ability create shortcut for the article when you create it.
+    feature need to be enabled in site.ini
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-01-30  Christoffer Elo  <ce@ez.no>
+
+    * admin/mediaedit.php
+      admin/medialist.php
+      classes/ezqdomrenderer.php
+      user/articleview.php: Fixes
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-04  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticletool.php
+      user/headlines.php
+      user/menubox.php: Cache fix.
+
+2002-02-04  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/eztechrenderer.php:
+    small bug with empty articles (foreach error)
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-06  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php: Removed debug.
+
+    * classes/ezqdomgenerator.php: Removed libxml dependency.
+
+    * user/templates/standard/articletags.tpl:
+    Fixed problem with external links and nvh setup.
+
+    * classes/eztechrenderer.php: Fixed check for array.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-08  Baard Farstad  <bf@ez.no>
+
+    * admin/cron.php
+      classes/ezarticle.php: Fixed time publishing.
+
+    * classes/ezarticle.php
+      user/articleview.php
+      user/datasupplier.php: Fixed permission bug in author view.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-12  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * admin/templates/standard/articleedit.tpl
+      admin/articleedit.php: URL translation in article edit
+
+    * sql/mysql/ezarticle.sql: UrlLink field
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-13  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php: Fixed removal of comments if permission denied.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-15  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * admin/articleedit.php: urltrans, controlled from site.ini
+
+    * admin/templates/standard/articleedit.tpl: urltrans in article edit
+
+    * admin/intl/en_GB/articleedit.php.ini: new strings for urltrans
+
+    * user/templates/standard/mailtofriend.tpl: back in mail to friend
+
+    * user/intl/en_GB/mailtofriend.php.ini: back in mailtofriend
+
+    * user/frontpage.php: small fix : correct categoryid for the articles
+
+2002-02-15  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php:
+    Fixed bug where <file> tag does not appear inside factbox and bold
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-18  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/headlines.php:
+    LinkMenu changed to HeadlinesMenu, resolving conflict with ezlink
+
+    * admin/categoryedit.php
+      admin/articlelist.php
+      user/articlelist.php: ability to use XML description
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-20  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * admin/articleedit.php
+      classes/ezarticletool.php: fixed bug with bulk mail
+
+    * admin/datasupplier.php: added < before ?php =)
+
+    * classes/ezarticletool.php
+      user/datasupplier.php:
+    small code standard fixes and a small speed improvement
+
+    * admin/articleedit.php
+      admin/datasupplier.php: conding standard fixes
+
+2002-02-20  Christoffer Elo  <ce@ez.no>
+
+    * classes/ezarticle.php: Added a fix for IsPublished
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-21  Bjoern Reiten  <br@ez.no>
+
+    * classes/eztechrenderer.php: fixed bug when render the page.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-22  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php:
+    Fixed search problem with artile search when having unpublished articles in an exclude from search category.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-27  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/frontpage.php: correct processing of frontpage article.categories
+
+    * user/menubox.php
+      user/templates/standard/menubox.tpl:
+    correct frontpage from the sectionID
+
+    * classes/ezarticletool.php: sending in national encoding
+
+    * admin/intl/en_GB/articleedit.php.ini
+      admin/templates/standard/articleedit.tpl
+      admin/articleedit.php: changes in admin URLtranslate
+
+    * admin/articleedit.php: changes in url edit in admin
+
+2002-02-27  Baard Farstad  <bf@ez.no>
+
+    * user/templates/standard/articletags.tpl: Added fixes for nvh setup.
+
+    * classes/ezarticletool.php
+      user/menubox.php: Fixed cache bug.
+
+    * classes/ezqdomrenderer.php:
+    Fixed rendering bug of bullet lists where list items where split
+
+    * user/articlelistrss.php
+      user/menubox.php: Added text/xml header in rss headlines.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-02-28  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/frontpage.php: correct processing section information
+
+    * user/search.php
+      classes/ezarticle.php:
+    SearchWithinSections=possibility to search only in the specific section(s)
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-03-01  Vlad Pavlenko  <vlad@epasaule.lv>
+
+    * user/templates/standard/search.tpl: serach
+
+    * user/search.php
+      classes/ezarticle.php: search
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-03-04  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php
+      user/articleview.php:
+    Added template variables for showing the total number of pages and the current page.
+
+    * classes/eztechgenerator.php: uses now eZ xml instead of libxml.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-03-07  Christoffer Elo  <ce@ez.no>
+
+    * user/datasupplier.php
+      admin/datasupplier.php
+      classes/ezqdomgenerator.php: Added design for akersmic
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-03-25  jhe  <jhe@zev.ez.no>
+
+    * admin/articleedit.php:
+    bulkmail is now sent after the article is published.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-02  bf  <bf@zev.ez.no>
+
+    * classes/ezarticle.php
+      user/articleedit.php
+      user/articlelist.php:
+    Fixed article count bug on article list from all categories.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-03  bf  <bf@zev.ez.no>
+
+    * classes/ezarticle.php: Fixed count error in some cases.
+
+    * user/articleedit.php
+      user/articlelist.php:
+    Fixed problem with notification mails not beeing sent when articles are submitted from the user site.
+    Fixed storing article category position when adding images to articles on user site
+    Fixed premature publishing when submitting articles from user site
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-05  br  <br@zev.ez.no>
+
+    * admin/sitemap.php
+      user/sitemap.php: added fix to not write &nbsp; at the root level.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-10  jhe  <jhe@zev.ez.no>
+
+    * admin/datasupplier.php: fixed coding standard errors
+
+2002-04-10  br  <br@zev.ez.no>
+
+    * user/headlines.php: added include for cache files.
+
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * admin/Attic/categorybrowse.php
+      admin/templates/standard/Attic/categorybrowse.tpl:
+    Major commit from the online akersmic version.
+
+    * admin/Attic/categorybrowse.php
+      admin/templates/standard/Attic/categorybrowse.tpl: New file.
+
+2002-04-10  jhe  <jhe@zev.ez.no>
+
+    * classes/ezarticle.php
+      classes/ezimagemap.php: swapped values when wrong order
+
+2002-04-10  christoffer  <ce@zev.ez.no>
+
+    * user/datasupplier.php
+      admin/datasupplier.php
+      classes/ezqdomgenerator.php:
+    Major commit from the online akersmic version.
+
+2002-04-10  bf  <bf@zev.ez.no>
+
+    * user/templates/standard/articletags.tpl: Added image map templates.
+
+    * classes/ezqdomrenderer.php: Added rendering of image map.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-15  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/articlelist.php.ini
+      admin/intl/no_NO/articlelog.php.ini
+      admin/intl/no_NO/articlepreview.php.ini
+      admin/intl/no_NO/attribute.php.ini
+      admin/intl/no_NO/categoryedit.php.ini
+      admin/intl/no_NO/filelist.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/imagelist.php.ini
+      admin/intl/no_NO/imagemap.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      admin/intl/no_NO/medialist.php.ini
+      admin/intl/no_NO/menubox.php.ini
+      admin/intl/no_NO/pendinglist.php.ini
+      admin/intl/no_NO/searchform.php.ini
+      admin/intl/no_NO/sitemap.php.ini
+      admin/intl/no_NO/topiclist.php.ini
+      admin/intl/no_NO/typeedit.php.ini
+      admin/intl/no_NO/typelist.php.ini
+      user/intl/no_NO/articleedit.php.ini
+      user/intl/no_NO/articlelinks.php.ini
+      user/intl/no_NO/articleview.php.ini
+      user/intl/no_NO/authorlist.php.ini
+      user/intl/no_NO/authorview.php.ini
+      user/intl/no_NO/filelist.php.ini
+      user/intl/no_NO/frontpage.php.ini
+      user/intl/no_NO/imagelist.php.ini
+      user/intl/no_NO/mailtofriend.php.ini
+      user/intl/no_NO/menubox.php.ini
+      user/intl/no_NO/search.php.ini
+      user/intl/no_NO/searchform.php.ini
+      user/intl/no_NO/sitemap.php.ini
+      user/intl/no_NO/topiclist.php.ini: updated no_NO for 2.2.4
+
+2002-04-15  jhe  <jhe@zev.ez.no>
+
+    * classes/ezarticle.php: fixed bug with author article count
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-16  gl  <gl@zev.ez.no>
+
+    * admin/intl/no_NO/articleedit.php.ini
+      admin/intl/no_NO/imageedit.php.ini
+      admin/intl/no_NO/mediaedit.php.ini
+      user/intl/no_NO/articleview.php.ini
+      user/intl/no_NO/authorlist.php.ini
+      user/intl/no_NO/imageedit.php.ini
+      user/intl/no_NO/mailtofriend.php.ini: epost -> e-post
+
+2002-04-16  christoffer  <ce@zev.ez.no>
+
+    * user/intl/de_MG/Attic/mailtofriend.php.ini: Added files
+
+    * user/intl/de_MG/Attic/mailtofriend.php.ini: New file.
+
+    * admin/intl/de_MG/Attic/browse.ini.php: Added files
+
+    * admin/intl/de_MG/Attic/browse.ini.php: New file.
+
+    * user/intl/de_MG/Attic/sendmailtofriend.php.ini: Added files
+
+    * user/intl/de_MG/Attic/sendmailtofriend.php.ini: New file.
+
+    * admin/intl/de_MG/Attic/articlelog.php.ini
+      admin/intl/de_MG/Attic/attribute.php.ini
+      admin/intl/de_MG/Attic/attributelist.php.ini
+      admin/intl/de_MG/Attic/formlist.php.ini
+      admin/intl/de_MG/Attic/imagemap.php.ini
+      admin/intl/de_MG/Attic/mediaedit.php.ini
+      admin/intl/de_MG/Attic/medialist.php.ini
+      admin/intl/de_MG/Attic/pendinglist.php.ini
+      admin/intl/de_MG/Attic/pendingmail.php.ini
+      admin/intl/de_MG/Attic/searchform.php.ini
+      admin/intl/de_MG/Attic/sitemap.php.ini
+      admin/intl/de_MG/Attic/topiclist.php.ini
+      admin/intl/de_MG/Attic/typeedit.php.ini
+      admin/intl/de_MG/Attic/typelist.php.ini: Added files
+
+    * admin/intl/de_MG/Attic/articlelog.php.ini
+      admin/intl/de_MG/Attic/attribute.php.ini
+      admin/intl/de_MG/Attic/attributelist.php.ini
+      admin/intl/de_MG/Attic/formlist.php.ini
+      admin/intl/de_MG/Attic/imagemap.php.ini
+      admin/intl/de_MG/Attic/mediaedit.php.ini
+      admin/intl/de_MG/Attic/medialist.php.ini
+      admin/intl/de_MG/Attic/pendinglist.php.ini
+      admin/intl/de_MG/Attic/pendingmail.php.ini
+      admin/intl/de_MG/Attic/searchform.php.ini
+      admin/intl/de_MG/Attic/sitemap.php.ini
+      admin/intl/de_MG/Attic/topiclist.php.ini
+      admin/intl/de_MG/Attic/typeedit.php.ini
+      admin/intl/de_MG/Attic/typelist.php.ini: New file.
+
+    * user/intl/de_MG/articleview.php.ini: Major commit for the mygold project
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-19  br  <br@zev.ez.no>
+
+    * admin/templates/standard/articlelist.tpl
+      admin/articlelist.php: Fixed bug with "go to a category" in articlelist.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-22  bf  <bf@zev.ez.no>
+
+    * classes/ezarticletool.php
+      classes/ezqdomrenderer.php: Cosmetic code fix.
+
+    * classes/ezarticle.php:
+    Fixed returning to big result in some permission settings.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-23  bf  <bf@zev.ez.no>
+
+    * admin/articleedit.php
+      user/articleedit.php
+      user/datasupplier.php: Fixed permission bug.
+
+    * xmlrpc/article.php:
+    Fixed notification bug when articles got published from eZ publish DE.
+
+2002-04-23  jhe  <jhe@zev.ez.no>
+
+    * admin/datasupplier.php:
+    cancel in category edit now redirects to the category
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-24  jhe  <jhe@zev.ez.no>
+
+    * admin/articlelist.php
+      admin/categoryedit.php: coding standard fixes
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-25  jb  <jb@zev.ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/category.php
+      xmlrpc/datasupplier.php:
+    Added support for fetching the permissions on images, articles and their
+    categories using XMLRPC.
+
+2002-04-25  bf  <bf@zev.ez.no>
+
+    * user/templates/standard/articleprint.tpl: Fixed template block error
+
+    * user/topiclist.php
+      admin/categoryedit.php
+      admin/cron.php
+      classes/ezarticle.php:
+    Fixed permissions in topiclist, fixed cron based timepublishing of
+    articles.
+
+    * classes/eztopic.php: Added permission check for topic list.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-26  jb  <jb@zev.ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/category.php
+      xmlrpc/categorylist.php
+      classes/ezarticlecategory.php:
+    Added support for sending over the section information for articles, images,
+    article categories and image categories with XMLRPC.
+    Article listings now only displays categories and articles which you can read
+    and write in XMLRPC.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-29  bf  <bf@zev.ez.no>
+
+    * user/headlines.php: Added limit variable.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-04-30  br  <br@zev.ez.no>
+
+    * user/searchform.php:
+    fixed permission check. Check on read access instead of write access.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-02  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php: Fixed security bug with printable version.
+
+    * user/search.php: Fixed security bug.
+
+    * admin/articleedit.php: Fixed bug with POST variables and new PHP.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-07  Jan Borsodi  <jb@ez.no>
+
+    * classes/ezarticlecategory.php:
+    Fixed permission bugs with DE listings, now DE will only get categories and articles with read AND write permissions.
+
+2002-05-07  Vidar Langseid  <vl@ez.no>
+
+    * user/templates/standard/articletags.tpl: Added fixes for nvh setup.
+    link_tpl and popuplink_tpl should work again now
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-08  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/category.php
+      xmlrpc/categorylist.php: Removed DE debug output.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-10  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php: Fixed section info for update message.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-14  Chris Mason  <chris@net.ai>
+
+    * user/frontpage.php:
+    Chris: Added code to provide the frontpage description as the meta description tag
+
+2002-05-14  Baard Farstad  <bf@ez.no>
+
+    * admin/articleedit.php: removed debug.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-15  Paul Kenneth Egell-Johnsen  <pkej@ez.no>
+
+    * sql/postgresql/ezarticle.sql
+      admin/articleedit.php
+      admin/articlelist.php
+      admin/categoryedit.php
+      admin/intl/en_GB/articleedit.php.ini
+      admin/intl/en_GB/categoryedit.php.ini
+      admin/templates/standard/articleedit.tpl
+      admin/templates/standard/categoryedit.tpl
+      classes/ezarticle.php
+      classes/ezarticlecategory.php:
+    Added ranking to categories, added extra category and categories to category
+    objects.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-17  fh  <fh@zev.ez.no>
+
+    * user/frontpage.php: fixed product_id set to late bug
+
+    * user/frontpage.php: Bugfix, product id set after a $t->parse...
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-05-22  Baard Farstad  <bf@ez.no>
+
+    * admin/datasupplier.php
+      classes/ezqdomrenderer.php
+      user/articleview.php:
+    Fixed bug when adding image tag to non existant image.
+
+2002-05-22  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/authorlist.php
+      user/topiclist.php: fix with author count
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-06-20  Christoffer Elo  <ce@ez.no>
+
+    * user/templates/standard/sendmailtofriend.tpl: Added non-virtualhost fix
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-06-25  Baard Farstad  <bf@ez.no>
+
+    * user/datasupplier.php:
+    Fixed redirect to 403 page when accessing a restricted article.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-05  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/category.php: delete parent cache on store()
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-06  Kai Duebbert  <kai@duebbert.de>
+
+    * classes/ezqdomrenderer.php:
+    fixed bug in creation of link for embedded files ($file_uri)
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-08  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/article.php:
+    * Articles no longer loose their placement when using the XMLRPC interface
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-10  Baard Farstad  <bf@ez.no>
+
+    * classes/ezarticle.php: Fixed correct escaping of article keywords.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-24  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/category.php: added deletecache for current ID
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-30  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomgenerator.php:
+    Fixed bug when editing a table with rowspan or colspan set.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-07-31  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/article.php: fix for DE bug 1487: Keywords not saved with article
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-01  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/article.php:
+    send over created and modified dates for DE to display them
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-02  Baard Farstad  <bf@ez.no>
+
+    * user/headlines.php:
+    Made it possible to reuse headlines more than one time pr page.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-07  Bjoern Reiten  <br@ez.no>
+
+    * user/sitemap.php:
+    set sitemap to list the articles which belong to the root category except
+    for root category 0.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-12  Gunnstein Lye  <gl@ez.no>
+
+    * user/headlines.php:
+    fix for createHeadlinesMenu() bug: move function to top of file
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-13  Gunnstein Lye  <gl@ez.no>
+
+    * xmlrpc/article.php
+      xmlrpc/datasupplier.php: Fix for bug report 1514: Preview with nVH-setup
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-15  Gunnstein Lye  <gl@ez.no>
+
+    * classes/ezarticle.php
+      classes/ezarticlecategory.php:
+    Added eZTextTool::fixhtmlentities(), which fixes errors made by the
+    over-enthusiastic htmlspecialchars(). Used in eZArticle and
+    eZImageCatalogue.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-08-23  Baard Farstad  <bf@ez.no>
+
+    * user/articleview.php: Removed qdom from meta keywords.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-09-10  Bjoern Reiten  <br@ez.no>
+
+    * user/intl/no_NO/mailtofriend.php.ini: added translation on back link.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2002-11-22  Baard Farstad  <bf@ez.no>
+
+    * user/articleview.php:
+    Made keywords available in articleview.tpl and as a variable which can be used in frame.php
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-01-03  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezqdomgenerator.php
+      classes/ezqdomrenderer.php
+      user/templates/standard/articletags.tpl: added rollover tag.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-01-07  Bjoern Reiten  <br@ez.no>
+
+    * admin/templates/standard/imagelist.tpl
+      classes/ezarticle.php
+      classes/ezqdomrenderer.php
+      admin/imagelist.php: added updates from Kadooz ApS.
+    Fix for mail link.
+    Added up / down arrows for images to an article.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-01-14  Bjoern Reiten  <br@ez.no>
+
+    * admin/attributelist.php
+      admin/templates/standard/attributelist.tpl:
+    fixed bug when loosing attribute data when adding a existing type
+    and some template fixes.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-02-06  Baard Farstad  <bf@ez.no>
+
+    * classes/ezqdomrenderer.php: Fixed rendering of nexted tables.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-02-10  wy  <wy@zev.ez.no>
+
+    * classes/ezqdomrenderer.php:
+    Fixed bug in warning message "\{\{" with mail tag.
+    CV: ----------------------------------------------------------------------
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-02-11  Jan Borsodi  <jb@ez.no>
+
+    * xmlrpc/category.php: - Cache is cleared when a category is deleted.
+
+    * xmlrpc/article.php:
+    - Made sure the article cache is deleted when the article is deleted.
+
+2003-02-11  David Escala  <descala@fonocom.es>
+
+    * classes/ezqdomgenerator.php:
+    handles especial html tags in the url of a link
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-03-24  Bjoern Reiten  <br@ez.no>
+
+    * user/datasupplier.php: Fixed bug with permissions in eZ article.
+
+    * user/articleheaderlist.php:
+    Fixed security bug with the variable $CategoryID.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-04-09  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * classes/ezarticle.php
+      classes/ezarticlecategory.php: speed improvement for 2.2.8
+
+2003-04-09  Bjoern Reiten  <br@ez.no>
+
+    * admin/cron.php
+      classes/ezarticle.php: fixed bug with time publishing of articles.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-04-10  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezarticlecategory.php:
+    fixed bugs with permissions and get it compatible with psql.
+
+    * admin/categoryedit.php:
+    Set category_id default to blank in the template.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-05-07  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezqdomrenderer.php: fixed bug with mail in mail tag.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-05-15  Bjoern Reiten  <br@ez.no>
+
+    * user/articleview.php:
+    fixed security bug in articleview with check of $ArticleID
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-06-02  Jo Henrik Endrerud  <jhe@ez.no>
+
+    * user/headlines.php: fixed cache problems
+
+    * user/articleview.php:
+    fixed bug with section override templates for articleview
+    fixed typo in variable name
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-06-05  Bjoern Reiten  <br@ez.no>
+
+    * user/mailtofriend.php
+      user/templates/standard/mailtofriend.tpl:
+    fixed security bug with mailtofriend
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-06-06  Vidar Langseid  <vl@ez.no>
+
+    * user/frontpage.php:
+    Fixed bug with eZAd view count in frame.php and frontpage
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-07-10  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezarticletool.php: Fixed bug with non-virtualhosts.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-07-22  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezarticle.php: Fixed bug with pending mail in eZ article
+
+2003-07-22  Vidar Langseid  <vl@ez.no>
+
+    * user/articlelistrss.php:
+    - Fixed bug with invalid content type header sendt with RSS article list
+
+2003-07-22  Bjoern Reiten  <br@ez.no>
+
+    * classes/ezqdomgenerator.php: fixed bug with customtag in table.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-07-24  Bjoern Reiten  <br@ez.no>
+
+    * user/articlelist.php: fixed bug with templateoverride.
+
+    * user/articleview.php:
+    Fixed bug with section overrride in articleview.php
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2003-09-04  Bjoern Reiten  <br@ez.no>
+
+    * user/datasupplier.php
+      user/search.php: - Fixed bug with escape of strings in search.
+
+
+Module : ezarticle
+Repository path : /home/cvsroot/projects/php/ezarticle
+Maintainer(s) : bf@ez.no
+2004-07-08  Bjoern Reiten  <br@ez.no>
+
+    * user/frontpage.php:
+    - Fixed bug with price and vat on singlepoduct on the frontpage.
+
